@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://sic4riodragon.uk/assets/SicarioDragon.png" />
+  <link rel="apple-touch-icon" href="https://sic4riodragon.uk/assets/SicarioDragon.png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sic4rio ARC Trading</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body>
+  <div class="page-bg"></div>
+  <div class="page-overlay"></div>
+
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">ARC Raiders</p>
+        <h1>Trading</h1>
+        <p class="subtext">Things I am looking for, things I have, and stuff I am not trading for now.</p>
+      </div>
+
+      <div class="top-actions">
+        <a class="btn" href="https://stash.arcraiders.sic4riodragon.uk/" target="_blank" rel="noreferrer">Open stash</a>
+        <a class="btn primary" id="discordProfileBtn" href="#" target="_blank" rel="noreferrer">Discord profile</a>
+        <button class="btn" id="copyDiscordBtn" type="button">Copy @sic4rio_</button>
+      </div>
+    </header>
+
+    <section class="trade-contact card">
+      <div>
+        <p class="small-label">Contact</p>
+        <h2 id="discordName">@sic4rio_</h2>
+        <p class="subtext">Message me on Discord for ARC Raiders trades.</p>
+      </div>
+    </section>
+
+    <section class="trade-layout">
+      <aside class="card sidebar trade-sidebar">
+        <p class="small-label">Filters</p>
+
+        <label class="filter-label" for="searchInput">Search</label>
+        <input id="searchInput" class="text-input" type="search" placeholder="Search items..." />
+
+        <label class="filter-label" for="categoryFilter">Category</label>
+        <select id="categoryFilter" class="text-input">
+          <option value="all">All categories</option>
+        </select>
+
+        <label class="filter-label" for="statusFilter">Status</label>
+        <select id="statusFilter" class="text-input">
+          <option value="all">All statuses</option>
+          <option value="looking">Looking for</option>
+          <option value="available">Available</option>
+          <option value="reserved">Not trading</option>
+        </select>
+
+        <div class="trade-stats">
+          <div>
+            <strong id="totalLooking">0</strong>
+            <span>looking for</span>
+          </div>
+          <div>
+            <strong id="totalHave">0</strong>
+            <span>stash items</span>
+          </div>
+        </div>
+      </aside>
+
+      <section class="trade-main">
+        <section class="card section-card" id="lookingSection">
+          <div class="section-head">
+            <div>
+              <p class="small-label">Tracked resources</p>
+              <h2>Looking for</h2>
+            </div>
+          </div>
+
+          <div id="lookingList" class="tracked-list"></div>
+        </section>
+
+        <section class="card section-card" id="manualHaveSection">
+          <div class="section-head">
+            <div>
+              <p class="small-label">Manual notes</p>
+              <h2>Have / not trading</h2>
+            </div>
+          </div>
+
+          <div id="manualHaveGrid" class="inventory-grid"></div>
+        </section>
+
+        <section class="card section-card" id="stashSection">
+          <div class="section-head">
+            <div>
+              <p class="small-label">Imported from ARCTracker stash HTML</p>
+              <h2>Current stash</h2>
+            </div>
+            <p class="subtext" id="stashUpdated">No imported stash yet.</p>
+          </div>
+
+          <div id="stashGrid" class="inventory-grid"></div>
+          <p id="emptyState" class="empty-state" hidden>No items found.</p>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <template id="itemCardTemplate">
+    <article class="item-card">
+      <div class="item-art">
+        <img alt="" />
+        <span class="item-fallback"></span>
+      </div>
+      <div class="item-info">
+        <div class="item-topline">
+          <h3></h3>
+          <span class="pill"></span>
+        </div>
+        <p class="item-meta"></p>
+        <p class="item-note"></p>
+      </div>
+    </article>
+  </template>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
