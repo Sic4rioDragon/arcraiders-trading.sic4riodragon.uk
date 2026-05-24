@@ -1,7 +1,6 @@
 const state = {
   core: null,
   trading: null,
-  stash: null,
   search: "",
   category: "all",
   status: "all",
@@ -21,20 +20,8 @@ const els = {
 
   lookingList: document.querySelector("#lookingList"),
   manualHaveGrid: document.querySelector("#manualHaveGrid"),
-  stashGrid: document.querySelector("#stashGrid"),
-  stashUpdated: document.querySelector("#stashUpdated"),
-  emptyState: document.querySelector("#emptyState"),
 
   itemCardTemplate: document.querySelector("#itemCardTemplate"),
-};
-
-const RARITY_ORDER = {
-  Legendary: 0,
-  Epic: 1,
-  Rare: 2,
-  Uncommon: 3,
-  Common: 4,
-  Unknown: 9,
 };
 
 async function fetchJson(file, fallback = null) {
@@ -85,47 +72,6 @@ function imageFromId(id) {
   return `https://cdn.arctracker.io/items/v2/${id}.png`;
 }
 
-function normalizeStash(input) {
-  if (!input?.items) {
-    return {
-      version: 2,
-      profile: "imported",
-      displayName: "Imported stash",
-      updatedAt: "",
-      summary: {},
-      items: {},
-      order: [],
-      extractedCoreItems: {}
-    };
-  }
-
-  return {
-    version: input.version || 2,
-    profile: input.profile || "imported",
-    displayName: input.displayName || "Imported stash",
-    updatedAt: input.updatedAt || "",
-    summary: input.summary || {},
-    items: input.items || {},
-    order: Array.isArray(input.order) ? input.order : [],
-    extractedCoreItems: input.extractedCoreItems || {}
-  };
-}
-
-function getMeta(id, fallback = {}) {
-  const coreItem = state.core?.items?.[id] || {};
-  const importedItem = state.stash?.extractedCoreItems?.[id] || {};
-
-  const name = fallback.name || coreItem.name || importedItem.name || id;
-
-  return {
-    id,
-    name,
-    rarity: fallback.rarity || coreItem.rarity || importedItem.rarity || "Unknown",
-    category: fallback.category || coreItem.category || importedItem.category || inferCategoryFromName(name),
-    image: fallback.image || coreItem.image || importedItem.image || imageFromId(id)
-  };
-}
-
 function inferCategoryFromName(name) {
   const text = String(name || "").toLowerCase();
 
@@ -139,17 +85,17 @@ function inferCategoryFromName(name) {
   return "Other";
 }
 
-function isReserved(item) {
-  const reservedIds = state.trading?.reservedIds || [];
-  const reservedNames = state.trading?.reservedNames || [];
+function getMeta(id, fallback = {}) {
+  const coreItem = state.core?.items?.[id] || {};
+  const name = fallback.name || coreItem.name || id;
 
-  return reservedIds.includes(item.id) || reservedNames.includes(item.name);
-}
-
-function itemStatus(item) {
-  if (item.status) return item.status;
-  if (isReserved(item)) return "reserved";
-  return "available";
+  return {
+    id,
+    name,
+    rarity: fallback.rarity || coreItem.rarity || "Unknown",
+    category: fallback.category || coreItem.category || inferCategoryFromName(name),
+    image: fallback.image || coreItem.image || imageFromId(id)
+  };
 }
 
 function statusLabel(status) {
@@ -180,48 +126,8 @@ function getManualItems() {
   });
 }
 
-function getStashItems() {
-  const stash = state.stash;
-
-  if (!stash?.items) return [];
-
-  const ids = Object.keys(stash.items);
-  const order = stash.order || [];
-
-  return ids
-    .map((id) => {
-      const meta = getMeta(id);
-
-      return {
-        id,
-        name: meta.name || id,
-        quantity: Number(stash.items[id] || 0),
-        rarity: meta.rarity || "Unknown",
-        category: meta.category || "Other",
-        image: meta.image || "",
-        status: "",
-        note: "",
-      };
-    })
-    .filter((item) => item.quantity > 0)
-    .sort((a, b) => {
-      const ra = RARITY_ORDER[a.rarity] ?? RARITY_ORDER.Unknown;
-      const rb = RARITY_ORDER[b.rarity] ?? RARITY_ORDER.Unknown;
-
-      if (ra !== rb) return ra - rb;
-
-      const ia = order.includes(a.id) ? order.indexOf(a.id) : Number.MAX_SAFE_INTEGER;
-      const ib = order.includes(b.id) ? order.indexOf(b.id) : Number.MAX_SAFE_INTEGER;
-
-      if (ia !== ib) return ia - ib;
-
-      return a.name.localeCompare(b.name);
-    });
-}
-
 function itemMatchesFilters(item) {
   const term = state.search.trim().toLowerCase();
-  const status = itemStatus(item);
 
   if (term) {
     const haystack = [
@@ -230,20 +136,19 @@ function itemMatchesFilters(item) {
       item.category,
       item.rarity,
       item.note,
-      statusLabel(status),
+      statusLabel(item.status),
     ].join(" ").toLowerCase();
 
     if (!haystack.includes(term)) return false;
   }
 
   if (state.category !== "all" && item.category !== state.category) return false;
-  if (state.status !== "all" && status !== state.status) return false;
+  if (state.status !== "all" && item.status !== state.status) return false;
 
   return true;
 }
 
-function renderItemCard(item, forcedStatus = "") {
-  const status = forcedStatus || itemStatus(item);
+function renderItemCard(item) {
   const template = els.itemCardTemplate.content.cloneNode(true);
   const card = template.querySelector(".item-card");
   const img = template.querySelector("img");
@@ -253,10 +158,10 @@ function renderItemCard(item, forcedStatus = "") {
   const meta = template.querySelector(".item-meta");
   const note = template.querySelector(".item-note");
 
-  card.classList.add(rarityClass(item.rarity), statusClass(status));
+  card.classList.add(rarityClass(item.rarity), statusClass(item.status));
 
   title.textContent = item.name;
-  pill.textContent = statusLabel(status);
+  pill.textContent = statusLabel(item.status);
 
   meta.textContent = `${item.category || "Other"} · ${item.rarity || "Unknown"} · x${item.quantity ?? "?"}`;
 
@@ -269,11 +174,11 @@ function renderItemCard(item, forcedStatus = "") {
   if (item.image) {
     img.src = item.image;
     img.alt = item.name;
-    fallback.remove();
-
     img.addEventListener("error", () => {
-    img.remove();
-  });
+      img.remove();
+      fallback.textContent = firstLetters(item.name);
+    });
+    fallback.remove();
   } else {
     img.remove();
     fallback.textContent = firstLetters(item.name);
@@ -343,36 +248,23 @@ function updateCategoryOptions(items) {
 function render() {
   const looking = state.trading?.lookingFor || [];
   const manualItems = getManualItems();
-  const stashItems = getStashItems();
-  const allFilterItems = [...manualItems, ...stashItems];
+  const filteredManual = manualItems.filter(itemMatchesFilters);
 
   els.totalLooking.textContent = looking.reduce((sum, group) => sum + (group.items || []).length, 0);
-  els.totalHave.textContent = stashItems.length;
+  els.totalHave.textContent = manualItems.length;
 
-  updateCategoryOptions(allFilterItems);
+  updateCategoryOptions(manualItems);
 
   els.lookingList.innerHTML = looking.map(renderLookingGroup).join("");
 
-  const filteredManual = manualItems.filter(itemMatchesFilters);
-  const filteredStash = stashItems.filter(itemMatchesFilters);
-
   els.manualHaveGrid.innerHTML = "";
+
   for (const item of filteredManual) {
-    els.manualHaveGrid.appendChild(renderItemCard(item, item.status));
+    els.manualHaveGrid.appendChild(renderItemCard(item));
   }
 
-  els.stashGrid.innerHTML = "";
-  for (const item of filteredStash) {
-    els.stashGrid.appendChild(renderItemCard(item));
-  }
-
-  els.emptyState.hidden = filteredStash.length > 0;
-
-  if (state.stash?.updatedAt) {
-    const date = new Date(state.stash.updatedAt);
-    els.stashUpdated.textContent = `Imported ${Number.isNaN(date.getTime()) ? state.stash.updatedAt : date.toLocaleString()}`;
-  } else {
-    els.stashUpdated.textContent = "No imported stash yet.";
+  if (!filteredManual.length) {
+    els.manualHaveGrid.innerHTML = `<p class="empty-state">No listed items found.</p>`;
   }
 }
 
@@ -385,15 +277,13 @@ async function copyText(text, button, normalText) {
 }
 
 async function init() {
-  const [core, trading, stash] = await Promise.all([
+  const [core, trading] = await Promise.all([
     fetchJson("/data/stash.core.json", { items: {} }),
     fetchJson("/data/trading.json", {}),
-    fetchJson("/data/stash.current.json", null),
   ]);
 
   state.core = normalizeCore(core);
   state.trading = trading || {};
-  state.stash = normalizeStash(stash);
 
   const contact = state.trading.contact || {};
   const discordUsername = contact.discordUsername || "@sic4rio_";
@@ -401,6 +291,7 @@ async function init() {
 
   els.discordName.textContent = discordUsername;
   els.discordProfileBtn.href = discordProfileUrl;
+  els.copyDiscordBtn.textContent = `Copy ${discordUsername}`;
 
   els.copyDiscordBtn.addEventListener("click", () => {
     copyText(discordUsername, els.copyDiscordBtn, `Copy ${discordUsername}`);
