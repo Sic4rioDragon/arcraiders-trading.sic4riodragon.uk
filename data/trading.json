@@ -4,217 +4,510 @@
     "discordUserId": "422423016849408017",
     "discordProfileUrl": "https://discord.com/users/422423016849408017"
   },
+  "accounts": [
+    {
+      "id": "main",
+      "name": "Sic4rioDragon",
+      "role": "Main"
+    },
+    {
+      "id": "crafting",
+      "name": "DragonGRaf",
+      "role": "Crafting account"
+    },
+    {
+      "id": "stash_old",
+      "name": "oldSic4rioDragon",
+      "role": "Stash account"
+    },
+    {
+      "id": "stash_smokey",
+      "name": "SmokeyDragon",
+      "role": "New stash account"
+    }
+  ],
   "lookingFor": [
     {
-      "group": "Main - Medical Lab III",
-      "items": [
-        {
-          "id": "rusted_shut_medical_kit",
-          "name": "Rusted Shut Medical Kit",
-          "current": 2,
-          "needed": 3
-        },
-        {
-          "id": "antiseptic",
-          "name": "Antiseptic",
-          "current": 17,
-          "needed": 8
-        },
-        {
-          "id": "surveyor_vault",
-          "name": "Surveyor Vault",
-          "current": 5,
-          "needed": 5
-        }
-      ]
-    },
-    {
-      "group": "Main - Avian Alarm",
-      "items": [
-        {
-          "id": "rusted_tools",
-          "name": "Rusted Tools",
-          "current": 0,
-          "needed": 2
-        }
-      ]
-    },
-    {
-      "group": "Main - Trophy Display",
+      "account": "main",
+      "group": "Sic4rioDragon - Trophy Display",
       "items": [
         {
           "id": "expired_respirator",
           "name": "Expired Respirator",
           "current": 0,
-          "needed": 2
+          "needed": 2,
+          "priority": "normal"
         }
       ]
     },
     {
-      "group": "Alt - Explosives Station III",
+      "account": "main",
+      "group": "Sic4rioDragon - Trophy Display: Soaring Menaces",
       "items": [
         {
-          "id": "laboratory_reagents",
-          "name": "Laboratory Reagents",
-          "current": 0,
-          "needed": 3
+          "id": "spotter_relay",
+          "name": "Spotter Relay",
+          "current": 10,
+          "needed": 10,
+          "priority": "normal"
         },
         {
-          "id": "explosive_compound",
-          "name": "Explosive Compound",
-          "current": 24,
-          "needed": 5
+          "id": "expired_respirator",
+          "name": "Expired Respirator",
+          "current": 1,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "wasp_driver",
+          "name": "Wasp Driver",
+          "current": 20,
+          "needed": 20,
+          "priority": "normal"
+        },
+        {
+          "id": "hornet_driver",
+          "name": "Hornet Driver",
+          "current": 15,
+          "needed": 15,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "main",
+      "group": "Sic4rioDragon - Trophy Display: Ferocious Foes",
+      "items": [
+        {
+          "id": "arc_performance_steel",
+          "name": "ARC Performance Steel",
+          "current": 0,
+          "needed": 10,
+          "priority": "normal"
+        },
+        {
+          "id": "shredder_gyro",
+          "name": "Shredder Gyro",
+          "current": 0,
+          "needed": 5,
+          "priority": "normal"
+        },
+        {
+          "id": "leaper_pulse_unit",
+          "name": "Leaper Pulse Unit",
+          "current": 0,
+          "needed": 10,
+          "priority": "normal"
+        },
+        {
+          "id": "bastion_cell",
+          "name": "Bastion Cell",
+          "current": 0,
+          "needed": 5,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "main",
+      "group": "Sic4rioDragon - Trophy Display: Dominant Dangers",
+      "items": [
+        {
+          "id": "arc_synthetic_resin",
+          "name": "ARC Synthetic Resin",
+          "current": 0,
+          "needed": 10,
+          "priority": "normal"
+        },
+        {
+          "id": "magnetic_accelerator",
+          "name": "Magnetic Accelerator",
+          "current": 0,
+          "needed": 10,
+          "priority": "high"
         },
         {
           "id": "rocketeer_driver",
           "name": "Rocketeer Driver",
           "current": 0,
-          "needed": 3
+          "needed": 8,
+          "priority": "high"
+        },
+        {
+          "id": "queen_reactor",
+          "name": "Queen Reactor",
+          "current": 0,
+          "needed": 3,
+          "priority": "normal"
         }
       ]
     },
     {
-      "group": "Alt - Gear Bench II",
+      "account": "main",
+      "group": "Sic4rioDragon - Trophy Display: Imposing Behemoths",
       "items": [
         {
-          "id": "power_cable",
-          "name": "Power Cable",
-          "current": 7,
-          "needed": 3
-        },
-        {
-          "id": "electrical_components",
-          "name": "Electrical Components",
-          "current": 5,
-          "needed": 5
-        },
-        {
-          "id": "hornet_driver",
-          "name": "Hornet Driver",
-          "current": 1,
-          "needed": 5
-        }
-      ]
-    },
-    {
-      "group": "Alt - Medical Lab II",
-      "items": [
-        {
-          "id": "cracked_bioscanner",
-          "name": "Cracked Bioscanner",
-          "current": 2,
-          "needed": 2
-        },
-        {
-          "id": "durable_cloth",
-          "name": "Durable Cloth",
-          "current": 7,
-          "needed": 5
-        },
-        {
-          "id": "tick_pod",
-          "name": "Tick Pod",
-          "current": 1,
-          "needed": 8
-        }
-      ]
-    },
-    {
-      "group": "Alt - Gunsmith III",
-      "items": [
-        {
-          "id": "rusted_gear",
-          "name": "Rusted Gear",
+          "id": "exodus_modules",
+          "name": "Exodus Modules",
           "current": 0,
-          "needed": 3
+          "needed": 5,
+          "priority": "high"
         },
         {
-          "id": "advanced_mechanical_components",
-          "name": "Advanced Mechanical Components",
-          "current": 20,
-          "needed": 5
-        },
-        {
-          "id": "sentinel_firing_core",
-          "name": "Sentinel Firing Core",
+          "id": "geiger_counter",
+          "name": "Geiger Counter",
           "current": 0,
-          "needed": 4
-        }
-      ]
-    },
-    {
-      "group": "Alt - Refiner III",
-      "items": [
-        {
-          "id": "motor",
-          "name": "Motor",
-          "current": 0,
-          "needed": 3
-        },
-        {
-          "id": "arc_circuitry",
-          "name": "ARC Circuitry",
-          "current": 0,
-          "needed": 10
+          "needed": 3,
+          "priority": "normal"
         },
         {
           "id": "bombardier_cell",
           "name": "Bombardier Cell",
           "current": 0,
-          "needed": 6
+          "needed": 8,
+          "priority": "high"
+        },
+        {
+          "id": "matriarch_reactor",
+          "name": "Matriarch Reactor",
+          "current": 0,
+          "needed": 3,
+          "priority": "normal"
         }
       ]
     },
     {
-      "group": "Alt - Utility Station II",
+      "account": "crafting",
+      "group": "DragonGRaf - Gunsmith III",
       "items": [
         {
-          "id": "damaged_heat_sink",
-          "name": "Damaged Heat Sink",
-          "current": 1,
-          "needed": 2
+          "id": "rusted_gear",
+          "name": "Rusted Gear",
+          "current": 0,
+          "needed": 3,
+          "priority": "normal"
         },
         {
-          "id": "electrical_components",
-          "name": "Electrical Components",
+          "id": "advanced_mechanical_components",
+          "name": "Advanced Mechanical Components",
+          "current": 1,
+          "needed": 5,
+          "priority": "normal"
+        },
+        {
+          "id": "sentinel_firing_core",
+          "name": "Sentinel Firing Core",
+          "current": 3,
+          "needed": 4,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Gear Bench III",
+      "items": [
+        {
+          "id": "industrial_battery",
+          "name": "Industrial Battery",
+          "current": 2,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "advanced_electrical_components",
+          "name": "Advanced Electrical Components",
+          "current": 26,
+          "needed": 5,
+          "priority": "normal"
+        },
+        {
+          "id": "bastion_cell",
+          "name": "Bastion Cell",
+          "current": 21,
+          "needed": 6,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Medical Lab III",
+      "items": [
+        {
+          "id": "rusted_shut_medical_kit",
+          "name": "Rusted Shut Medical Kit",
+          "current": 3,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "antiseptic",
+          "name": "Antiseptic",
+          "current": 16,
+          "needed": 8,
+          "priority": "normal"
+        },
+        {
+          "id": "surveyor_vault",
+          "name": "Surveyor Vault",
+          "current": 4,
+          "needed": 5,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Utility Station III",
+      "items": [
+        {
+          "id": "fried_motherboard",
+          "name": "Fried Motherboard",
+          "current": 1,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "advanced_electrical_components",
+          "name": "Advanced Electrical Components",
+          "current": 26,
+          "needed": 5,
+          "priority": "normal"
+        },
+        {
+          "id": "leaper_pulse_unit",
+          "name": "Leaper Pulse Unit",
+          "current": 19,
+          "needed": 4,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Hullcracker I",
+      "items": [
+        {
+          "id": "heavy_gun_parts",
+          "name": "Heavy Gun Parts",
+          "current": 52,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "exodus_modules",
+          "name": "Exodus Modules",
+          "current": 3,
+          "needed": 1,
+          "priority": "high"
+        },
+        {
+          "id": "magnetic_accelerator",
+          "name": "Magnetic Accelerator",
+          "current": 40,
+          "needed": 1,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Seeker Grenade",
+      "items": [
+        {
+          "id": "arc_alloy",
+          "name": "ARC Alloy",
+          "current": 0,
+          "needed": 2,
+          "priority": "normal"
+        },
+        {
+          "id": "crude_explosives",
+          "name": "Crude Explosives",
+          "current": 104,
+          "needed": 1,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Magnetic Accelerator",
+      "items": [
+        {
+          "id": "advanced_mechanical_components",
+          "name": "Advanced Mechanical Components",
+          "current": 1,
+          "needed": 2,
+          "priority": "normal"
+        },
+        {
+          "id": "arc_motion_core",
+          "name": "ARC Motion Core",
+          "current": 1,
+          "needed": 2,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "crafting",
+      "group": "DragonGRaf - Wolfpack",
+      "items": [
+        {
+          "id": "arc_motion_core",
+          "name": "ARC Motion Core",
+          "current": 1,
+          "needed": 2,
+          "priority": "normal"
+        },
+        {
+          "id": "explosive_compound",
+          "name": "Explosive Compound",
+          "current": 67,
+          "needed": 1,
+          "priority": "normal"
+        },
+        {
+          "id": "rocketeer_driver",
+          "name": "Rocketeer Driver",
+          "current": 9,
+          "needed": 1,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "account": "stash_old",
+      "group": "oldSic4rioDragon - Refiner II",
+      "items": [
+        {
+          "id": "toaster",
+          "name": "Toaster",
+          "current": 1,
+          "needed": 3,
+          "priority": "high"
+        },
+        {
+          "id": "arc_motion_core",
+          "name": "ARC Motion Core",
+          "current": 6,
+          "needed": 5,
+          "priority": "high"
+        },
+        {
+          "id": "fireball_burner",
+          "name": "Fireball Burner",
+          "current": 0,
+          "needed": 8,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "account": "stash_smokey",
+      "group": "SmokeyDragon - Scrappy III",
+      "items": [
+        {
+          "id": "lemon",
+          "name": "Lemon",
+          "current": 0,
+          "needed": 3,
+          "priority": "normal"
+        },
+        {
+          "id": "apricot",
+          "name": "Apricot",
+          "current": 0,
+          "needed": 3,
+          "priority": "normal"
+        }
+      ]
+    },
+    {
+      "account": "stash_smokey",
+      "group": "SmokeyDragon - Refiner II",
+      "items": [
+        {
+          "id": "toaster",
+          "name": "Toaster",
+          "current": 2,
+          "needed": 3,
+          "priority": "high"
+        },
+        {
+          "id": "arc_motion_core",
+          "name": "ARC Motion Core",
           "current": 5,
-          "needed": 5
+          "needed": 5,
+          "priority": "high"
         },
         {
-          "id": "snitch_scanner",
-          "name": "Snitch Scanner",
-          "current": 1,
-          "needed": 6
+          "id": "fireball_burner",
+          "name": "Fireball Burner",
+          "current": 3,
+          "needed": 8,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "account": "stash_smokey",
+      "group": "SmokeyDragon - Refiner full upgrade",
+      "items": [
+        {
+          "id": "motor",
+          "name": "Motor",
+          "current": 0,
+          "needed": 3,
+          "priority": "high"
+        },
+        {
+          "id": "arc_circuitry",
+          "name": "ARC Circuitry",
+          "current": 0,
+          "needed": 10,
+          "priority": "high"
+        },
+        {
+          "id": "bombardier_cell",
+          "name": "Bombardier Cell",
+          "current": 0,
+          "needed": 6,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "account": "general",
+      "group": "General high priority",
+      "items": [
+        {
+          "id": "rocketeer_driver",
+          "name": "Rocketeer Driver",
+          "current": 0,
+          "needed": "?",
+          "priority": "high"
+        },
+        {
+          "id": "magnetic_accelerator",
+          "name": "Magnetic Accelerator",
+          "current": 0,
+          "needed": "?",
+          "priority": "high"
+        },
+        {
+          "id": "exodus_modules",
+          "name": "Exodus Modules",
+          "current": 0,
+          "needed": "?",
+          "priority": "high"
         }
       ]
     }
   ],
-  "manualHave": [
-    {
-      "id": "hullcracker_i",
-      "name": "Hullcracker I",
-      "category": "Weapon",
-      "quantity": 1,
-      "status": "reserved",
-      "note": "Not trading for now"
-    },
-    {
-      "id": "hullcracker_blueprint",
-      "name": "Hullcracker Blueprint",
-      "category": "Blueprint",
-      "quantity": 1,
-      "status": "reserved",
-      "note": "Not trading for now"
-    },
-    {
-      "id": "snap_hook",
-      "name": "Snap Hook",
-      "category": "Item",
-      "quantity": "?",
-      "status": "reserved",
-      "note": "Probably not trading"
-    }
-  ],
+  "manualHave": [],
   "reservedIds": [
     "hullcracker_i",
     "hullcracker_blueprint",
