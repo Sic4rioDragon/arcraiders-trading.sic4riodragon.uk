@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://sic4riodragon.uk/assets/SicarioDragon.png" />
+  <link rel="apple-touch-icon" href="https://sic4riodragon.uk/assets/SicarioDragon.png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ARC Accounts | Sic4rio Trading</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body>
+  <div class="page-bg"></div>
+  <div class="page-overlay"></div>
+
+  <main class="app-shell alt-page">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">ARC Raiders</p>
+        <h1>Accounts</h1>
+        <p class="subtext">Quick overview of my ARC accounts and what they are used for.</p>
+      </div>
+
+      <div class="top-actions">
+        <a class="btn" href="/">Back to trading</a>
+        <a class="btn" href="https://stash.arcraiders.sic4riodragon.uk/" target="_blank" rel="noreferrer">Open stash</a>
+      </div>
+    </header>
+
+    <section class="account-grid">
+      <article class="card account-card main-account">
+        <p class="small-label">Main</p>
+        <h2>Sic4rioDragon#0021</h2>
+        <p class="subtext">Main account. Use this for anything, especially trading.</p>
+        <button class="btn copy-account" type="button" data-copy="Sic4rioDragon#0021">Copy username</button>
+      </article>
+
+      <article class="card account-card">
+        <p class="small-label">Crafting alt</p>
+        <h2>DragonGRaf#8559</h2>
+        <p class="subtext">Crafting account. Used for blueprints, crafting, and station progress.</p>
+        <button class="btn copy-account" type="button" data-copy="DragonGRaf#8559">Copy username</button>
+      </article>
+
+      <article class="card account-card">
+        <p class="small-label">Stash account nr1</p>
+        <h2>oldSic4rioDragon#0048</h2>
+        <p class="subtext">Older stash account for holding extra items.</p>
+        <button class="btn copy-account" type="button" data-copy="oldSic4rioDragon#0048">Copy username</button>
+      </article>
+
+      <article class="card account-card">
+        <p class="small-label">Stash account nr2</p>
+        <h2>SmokeyDragon#3731</h2>
+        <p class="subtext">New stash account. Still leveling up.</p>
+        <button class="btn copy-account" type="button" data-copy="SmokeyDragon#3731">Copy username</button>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    for (const button of document.querySelectorAll(".copy-account")) {
+      const normalText = button.textContent;
+
+      button.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(button.dataset.copy);
+        button.textContent = "Copied!";
+        setTimeout(() => {
+          button.textContent = normalText;
+        }, 1400);
+      });
+    }
+  </script>
+</body>
+</html>

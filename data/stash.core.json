@@ -591,8 +591,7 @@
       "name": "Light Ammo",
       "rarity": "Common",
       "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/light_ammo.png",
-      "stackSize": 100
+      "image": "https://cdn.arctracker.io/items/v2/light_ammo.png"
     },
     "light_bulb": {
       "id": "light_bulb",
@@ -1585,6 +1584,216 @@
       "rarity": "Uncommon",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/tick_pod.png"
+    },
+    "anvil_splitter": {
+      "id": "anvil_splitter",
+      "name": "Anvil Splitter",
+      "rarity": "Legendary",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_splitter.png"
+    },
+    "aphelion": {
+      "id": "aphelion",
+      "name": "Aphelion",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/aphelion.png"
+    },
+    "dolabra": {
+      "id": "dolabra",
+      "name": "Dolabra",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/dolabra.png"
+    },
+    "equalizer": {
+      "id": "equalizer",
+      "name": "Equalizer",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/equalizer.png"
+    },
+    "jupiter": {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/jupiter.png"
+    },
+    "matriarch_reactor": {
+      "id": "matriarch_reactor",
+      "name": "Matriarch Reactor",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/matriarch_reactor.png"
+    },
+    "queen_reactor": {
+      "id": "queen_reactor",
+      "name": "Queen Reactor",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/queen_reactor.png"
+    },
+    "bobcat_iv": {
+      "id": "bobcat_iv",
+      "name": "Bobcat IV",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bobcat_iv.png"
+    },
+    "bombardier_cell": {
+      "id": "bombardier_cell",
+      "name": "Bombardier Cell",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bombardier_cell.png"
+    },
+    "powered_descender": {
+      "id": "powered_descender",
+      "name": "Powered Descender",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/powered_descender.png"
+    },
+    "silencer_iii": {
+      "id": "silencer_iii",
+      "name": "Silencer III",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/silencer_iii.png"
+    },
+    "tempest_iv": {
+      "id": "tempest_iv",
+      "name": "Tempest IV",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/tempest_iv.png"
+    },
+    "blue_gate_communication_tower_key": {
+      "id": "blue_gate_communication_tower_key",
+      "name": "Blue Gate Communication Tower Key",
+      "rarity": "Rare",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/blue_gate_communication_tower_key.png"
+    },
+    "cooling_fan": {
+      "id": "cooling_fan",
+      "name": "Cooling Fan",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/cooling_fan.png"
+    },
+    "energy_clip": {
+      "id": "energy_clip",
+      "name": "Energy Clip",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/energy_clip.png"
+    },
+    "osprey_ii": {
+      "id": "osprey_ii",
+      "name": "Osprey II",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/osprey_ii.png"
+    },
+    "osprey_iii": {
+      "id": "osprey_iii",
+      "name": "Osprey III",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/osprey_iii.png"
+    },
+    "power_bank": {
+      "id": "power_bank",
+      "name": "Power Bank",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/power_bank.png"
+    },
+    "spaceport_control_tower_key": {
+      "id": "spaceport_control_tower_key",
+      "name": "Spaceport Control Tower Key",
+      "rarity": "Rare",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/spaceport_control_tower_key.png"
+    },
+    "stella_montis_security_checkpoint_key": {
+      "id": "stella_montis_security_checkpoint_key",
+      "name": "Stella Montis Security Checkpoint Key",
+      "rarity": "Rare",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/stella_montis_security_checkpoint_key.png"
+    },
+    "torn_blanket": {
+      "id": "torn_blanket",
+      "name": "Torn Blanket",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/torn_blanket.png"
+    },
+    "torrente_ii": {
+      "id": "torrente_ii",
+      "name": "Torrente II",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/torrente_ii.png"
+    },
+    "trailblazer": {
+      "id": "trailblazer",
+      "name": "Trailblazer",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/trailblazer.png"
+    },
+    "anvil_iv": {
+      "id": "anvil_iv",
+      "name": "Anvil IV",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_iv.png"
+    },
+    "dam_staff_room_key": {
+      "id": "dam_staff_room_key",
+      "name": "Dam Staff Room Key",
+      "rarity": "Uncommon",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/dam_staff_room_key.png"
+    },
+    "white_flag": {
+      "id": "white_flag",
+      "name": "White Flag",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/white_flag.png"
+    },
+    "heavy_gun_parts_blueprint": {
+      "id": "heavy_gun_parts_blueprint",
+      "name": "Heavy Gun Parts Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/heavy_gun_parts_blueprint.png"
+    },
+    "turbine_compressor": {
+      "id": "turbine_compressor",
+      "name": "Turbine Compressor",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/turbine_compressor.png"
+    },
+    "vaporizer_regulator": {
+      "id": "vaporizer_regulator",
+      "name": "Vaporizer Regulator",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/vaporizer_regulator.png"
+    },
+    "motor": {
+      "id": "motor",
+      "name": "Motor",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/motor.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"
