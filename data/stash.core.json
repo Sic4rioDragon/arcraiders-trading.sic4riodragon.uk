@@ -2,7 +2,7 @@
   "version": 1,
   "source": {
     "kind": "merged_arc_tracker_stash_html",
-    "note": "Updated by tools/extract-arctracker-stash.mjs"
+    "note": "Only adds new items and fills missing/Unknown fields. Existing items are not removed."
   },
   "items": {
     "twilight_compass_ship_model": {
@@ -1860,6 +1860,76 @@
       "rarity": "Unknown",
       "category": "Blueprint",
       "image": "https://cdn.arctracker.io/items/v2/aphelion_blueprint.png"
+    },
+    "anvil_blueprint": {
+      "id": "anvil_blueprint",
+      "name": "Anvil Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_blueprint.png"
+    },
+    "remote_raider_flare_blueprint": {
+      "id": "remote_raider_flare_blueprint",
+      "name": "Remote Raider Flare Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/remote_raider_flare_blueprint.png"
+    },
+    "stable_stock_i": {
+      "id": "stable_stock_i",
+      "name": "Stable Stock I",
+      "rarity": "Common",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/stable_stock_i.png"
+    },
+    "industrial_charger": {
+      "id": "industrial_charger",
+      "name": "Industrial Charger",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/industrial_charger.png"
+    },
+    "osprey_i": {
+      "id": "osprey_i",
+      "name": "Osprey I",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/osprey_i.png"
+    },
+    "trigger_nade": {
+      "id": "trigger_nade",
+      "name": "Trigger 'Nade",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/trigger_nade.png"
+    },
+    "apricot": {
+      "id": "apricot",
+      "name": "Apricot",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/apricot.png"
+    },
+    "olives": {
+      "id": "olives",
+      "name": "Olives",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/olives.png"
+    },
+    "ruined_baton": {
+      "id": "ruined_baton",
+      "name": "Ruined Baton",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ruined_baton.png"
+    },
+    "extended_shotgun_mag_i": {
+      "id": "extended_shotgun_mag_i",
+      "name": "Extended Shotgun Mag I",
+      "rarity": "Common",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_shotgun_mag_i.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"
