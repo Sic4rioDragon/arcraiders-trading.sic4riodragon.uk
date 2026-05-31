@@ -221,10 +221,7 @@ h3 {
 }
 
 .stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 18px 0;
+  display: none;
 }
 
 .stats div {
@@ -764,4 +761,34 @@ td {
     flex-direction: column;
     align-items: stretch;
   }
+}
+.table-item-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 220px;
+}
+
+.table-item-icon,
+.table-item-fallback {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.table-item-icon {
+  object-fit: contain;
+  padding: 3px;
+}
+
+.table-item-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 900;
 }

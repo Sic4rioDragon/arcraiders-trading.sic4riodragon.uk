@@ -238,7 +238,48 @@
       "category": "Misc"
     }
   ],
-  "manualHave": [],
+  "manualHave": [
+    {
+      "id": "familiar_ducks",
+      "name": "Familiar Ducks",
+      "category": "Trade currency",
+      "quantity": "?",
+      "status": "available",
+      "note": "Usually open to trade these."
+    },
+    {
+      "id": "bobcat_weapons",
+      "name": "Bobcats",
+      "category": "Weapons",
+      "quantity": "?",
+      "status": "available",
+      "note": "I trade all Bobcats."
+    },
+    {
+      "id": "duplicate_epic_legendary_weapons",
+      "name": "Duplicate epic/legendary weapons",
+      "category": "Weapons",
+      "quantity": "?",
+      "status": "available",
+      "note": "If I have more than 2 of an epic or legendary weapon, I can usually trade extras."
+    },
+    {
+      "id": "lower_tier_weapons",
+      "name": "Lower tier weapons",
+      "category": "Weapons",
+      "quantity": "?",
+      "status": "available",
+      "note": "Anything under epic I generally trade."
+    },
+    {
+      "id": "open_offers",
+      "name": "Open to offers",
+      "category": "Offers",
+      "quantity": "?",
+      "status": "available",
+      "note": "Ducks, weapons, keys, or whatever makes sense."
+    }
+  ],
   "reservedIds": [
     "hullcracker_i",
     "hullcracker_blueprint",

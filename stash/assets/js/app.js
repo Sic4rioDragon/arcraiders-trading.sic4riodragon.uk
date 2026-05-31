@@ -397,8 +397,13 @@ function renderStats(items) {
   const allItems = getAllItems();
   const totalQuantity = allItems.reduce((sum, item) => sum + item.quantity, 0);
 
-  els.totalItems.textContent = allItems.length.toLocaleString();
-  els.totalQuantity.textContent = totalQuantity.toLocaleString();
+  if (els.totalItems) {
+    els.totalItems.textContent = allItems.length.toLocaleString();
+  }
+
+  if (els.totalQuantity) {
+    els.totalQuantity.textContent = totalQuantity.toLocaleString();
+  }
 
   els.profileTitle.textContent = state.stash?.displayName || config.pageTitle || "Main";
 
@@ -411,11 +416,7 @@ function renderStats(items) {
     ? ` • Inventory value: ${state.stash.summary.inventoryValue}`
     : "";
 
-  const mode = state.view === "stacks"
-    ? ` • Showing ${items.length} game stacks`
-    : ` • Showing ${items.length} item types`;
-
-  els.lastUpdated.textContent = `${dateText}${mode}${value}`;
+  els.lastUpdated.textContent = `${dateText}${value}`;
 }
 
 function createItemCard(item, compact = false) {
@@ -489,9 +490,17 @@ function renderTable(items) {
 
   for (const item of items) {
     const tr = document.createElement("tr");
+    const iconHtml = item.image
+      ? `<img class="table-item-icon" src="${escapeHtml(item.image)}" alt="">`
+      : `<span class="table-item-fallback">${escapeHtml(firstLetters(item.name))}</span>`;
 
     tr.innerHTML = `
-      <td>${escapeHtml(item.name)}</td>
+      <td>
+        <div class="table-item-name">
+          ${iconHtml}
+          <span>${escapeHtml(item.name)}</span>
+        </div>
+      </td>
       <td>${Number(item.quantity || 0).toLocaleString()}</td>
       <td>${escapeHtml(item.rarity)}</td>
       <td>${escapeHtml(item.category)}</td>
