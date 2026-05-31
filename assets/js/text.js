@@ -1,12 +1,35 @@
 const lfText = document.querySelector("#lfText");
 const copyAllBtn = document.querySelector("#copyAllBtn");
 
+function siteRoot() {
+  const scriptSrc = document.currentScript?.src || "";
+  const marker = "/assets/js/";
+
+  const index = scriptSrc.indexOf(marker);
+
+  if (index !== -1) {
+    return scriptSrc.slice(0, index + 1);
+  }
+
+  return `${location.origin}/`;
+}
+
+const SITE_ROOT = siteRoot();
+
 async function fetchJson(file, fallback = null) {
   try {
-    const res = await fetch(`${file}?v=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) throw new Error(`Could not load ${file}`);
+    const cleanFile = String(file).replace(/^\/+/, "");
+    const url = new URL(cleanFile, SITE_ROOT);
+
+    url.searchParams.set("v", Date.now());
+
+    const res = await fetch(url, { cache: "no-store" });
+
+    if (!res.ok) throw new Error(`Could not load ${url.pathname}`);
+
     return await res.json();
-  } catch {
+  } catch (err) {
+    console.warn(err.message);
     return fallback;
   }
 }
