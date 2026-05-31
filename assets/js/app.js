@@ -79,7 +79,7 @@ function inferCategoryFromName(name) {
   if (text.includes("key")) return "Key";
   if (text.includes("ammo")) return "Ammunition";
   if (text.includes("grenade") || text.includes("wolfpack") || text.includes("firecracker")) return "Throwable";
-  if (text.includes("hullcracker") || text.includes("vulcano") || text.includes("anvil") || text.includes("burletta")) return "Weapon";
+  if (text.includes("hullcracker") || text.includes("vulcano") || text.includes("anvil") || text.includes("burletta") || text.includes("jupiter")) return "Weapon";
   if (text.includes("grip") || text.includes("stock") || text.includes("mag") || text.includes("silencer") || text.includes("choke") || text.includes("compensator")) return "Weapon Mod";
 
   return "Other";
@@ -96,6 +96,60 @@ function getMeta(id, fallback = {}) {
     category: fallback.category || coreItem.category || inferCategoryFromName(name),
     image: fallback.image || coreItem.image || imageFromId(id)
   };
+}
+
+function priorityLabel(priority) {
+  if (priority === "high") return "high";
+  return "lf";
+}
+
+function priorityClass(priority) {
+  if (priority === "high") return "high";
+  return "normal";
+}
+
+function getLookingItems() {
+  const flat = state.trading?.lookingForItems;
+
+  if (Array.isArray(flat)) {
+    return flat.map((item) => {
+      const meta = getMeta(item.id, item);
+
+      return {
+        id: item.id,
+        name: item.name || meta.name,
+        rarity: item.rarity || meta.rarity,
+        category: item.category || meta.category,
+        image: item.image || meta.image,
+        priority: item.priority || "normal"
+      };
+    });
+  }
+
+  const seen = new Map();
+
+  for (const group of state.trading?.lookingFor || []) {
+    for (const item of group.items || []) {
+      if (seen.has(item.id)) continue;
+
+      const current = Number(item.current || 0);
+
+      if (current > 200) continue;
+
+      const meta = getMeta(item.id, item);
+
+      seen.set(item.id, {
+        id: item.id,
+        name: item.name || meta.name,
+        rarity: item.rarity || meta.rarity,
+        category: item.category || meta.category,
+        image: item.image || meta.image,
+        priority: item.priority || "normal"
+      });
+    }
+  }
+
+  return [...seen.values()];
 }
 
 function statusLabel(status) {
@@ -136,6 +190,7 @@ function itemMatchesFilters(item) {
       item.category,
       item.rarity,
       item.note,
+      item.priority,
       statusLabel(item.status),
     ].join(" ").toLowerCase();
 
@@ -143,7 +198,11 @@ function itemMatchesFilters(item) {
   }
 
   if (state.category !== "all" && item.category !== state.category) return false;
-  if (state.status !== "all" && item.status !== state.status) return false;
+
+  if (state.status === "high" && item.priority !== "high") return false;
+  if (state.status === "normal" && item.priority === "high") return false;
+  if (state.status === "available" && item.status !== "available") return false;
+  if (state.status === "reserved" && item.status !== "reserved") return false;
 
   return true;
 }
@@ -158,12 +217,16 @@ function renderItemCard(item) {
   const meta = template.querySelector(".item-meta");
   const note = template.querySelector(".item-note");
 
-  card.classList.add(rarityClass(item.rarity), statusClass(item.status));
+  card.classList.add(rarityClass(item.rarity), statusClass(item.status || item.priority || "looking"));
 
   title.textContent = item.name;
-  pill.textContent = statusLabel(item.status);
+  pill.textContent = item.status ? statusLabel(item.status) : priorityLabel(item.priority);
 
-  meta.textContent = `${item.category || "Other"} · ${item.rarity || "Unknown"} · x${item.quantity ?? "?"}`;
+  if (item.status) {
+    meta.textContent = `${item.category || "Other"} · ${item.rarity || "Unknown"} · x${item.quantity ?? "?"}`;
+  } else {
+    meta.textContent = `${item.category || "Other"} · ${item.rarity || "Unknown"}`;
+  }
 
   if (item.note) {
     note.textContent = item.note;
@@ -187,41 +250,18 @@ function renderItemCard(item) {
   return card;
 }
 
-function countClass(item) {
-  const current = Number(item.current || 0);
-  const needed = Number(item.needed || 0);
+function renderLookingCard(item) {
+  const meta = getMeta(item.id, item);
+  const icon = meta.image ? `<img class="small-icon" src="${escapeHtml(meta.image)}" alt="">` : "";
+  const high = item.priority === "high" ? `<span class="lf-pill high">high</span>` : `<span class="lf-pill">lf</span>`;
 
-  if (current >= needed) return "good";
-  if (current <= 0) return "bad";
-  return "warn";
-}
-
-function renderLookingGroup(group) {
   return `
-    <article class="tracked-card">
-      <div class="tracked-head">
-        <div>
-          <span class="chev">⌄</span>
-          <strong>${escapeHtml(group.group)}</strong>
-        </div>
+    <article class="lf-card ${priorityClass(item.priority)}">
+      <div class="resource-name">
+        ${icon}
+        <strong>LF ${escapeHtml(item.name || meta.name)}</strong>
       </div>
-
-      <div class="tracked-body">
-        ${(group.items || []).map((item) => {
-          const meta = getMeta(item.id, item);
-          const icon = meta.image ? `<img class="small-icon" src="${escapeHtml(meta.image)}" alt="">` : "";
-
-          return `
-            <div class="resource-row">
-              <div class="resource-name">
-                ${icon}
-                <strong>${escapeHtml(item.name || meta.name)}</strong>
-              </div>
-              <span class="count ${countClass(item)}">${item.current}/${item.needed}</span>
-            </div>
-          `;
-        }).join("")}
-      </div>
+      ${high}
     </article>
   `;
 }
@@ -246,16 +286,22 @@ function updateCategoryOptions(items) {
 }
 
 function render() {
-  const looking = state.trading?.lookingFor || [];
+  const lookingItems = getLookingItems();
   const manualItems = getManualItems();
+
+  const filteredLooking = lookingItems.filter(itemMatchesFilters);
   const filteredManual = manualItems.filter(itemMatchesFilters);
 
-  els.totalLooking.textContent = looking.reduce((sum, group) => sum + (group.items || []).length, 0);
+  els.totalLooking.textContent = lookingItems.length;
   els.totalHave.textContent = manualItems.length;
 
-  updateCategoryOptions(manualItems);
+  updateCategoryOptions([...lookingItems, ...manualItems]);
 
-  els.lookingList.innerHTML = looking.map(renderLookingGroup).join("");
+  els.lookingList.innerHTML = filteredLooking.map(renderLookingCard).join("");
+
+  if (!filteredLooking.length) {
+    els.lookingList.innerHTML = `<p class="empty-state">No LF items found.</p>`;
+  }
 
   els.manualHaveGrid.innerHTML = "";
 
@@ -264,7 +310,7 @@ function render() {
   }
 
   if (!filteredManual.length) {
-    els.manualHaveGrid.innerHTML = `<p class="empty-state">No listed items found.</p>`;
+    els.manualHaveGrid.innerHTML = `<p class="empty-state">No listed trade items yet.</p>`;
   }
 }
 
@@ -306,6 +352,14 @@ async function init() {
     state.category = els.categoryFilter.value;
     render();
   });
+
+  els.statusFilter.innerHTML = `
+    <option value="all">All priorities</option>
+    <option value="high">High priority</option>
+    <option value="normal">Normal</option>
+    <option value="available">Available trade items</option>
+    <option value="reserved">Not trading</option>
+  `;
 
   els.statusFilter.addEventListener("change", () => {
     state.status = els.statusFilter.value;

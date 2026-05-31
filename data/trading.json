@@ -26,442 +26,216 @@
       "role": "Stash 2"
     }
   ],
-  "lookingFor": [
+  "lookingForItems": [
     {
-      "account": "main",
-      "group": "main - Trophy Display",
-      "items": [
-        {
-          "id": "arc_performance_steel",
-          "name": "ARC Performance Steel",
-          "current": 0,
-          "needed": 10,
-          "priority": "normal"
-        },
-        {
-          "id": "leaper_pulse_unit",
-          "name": "Leaper Pulse Unit",
-          "current": 0,
-          "needed": 10,
-          "priority": "normal"
-        },
-        {
-          "id": "bastion_cell",
-          "name": "Bastion Cell",
-          "current": 0,
-          "needed": 4,
-          "priority": "normal"
-        }
-      ]
+      "id": "exodus_modules",
+      "name": "Exodus Modules",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Hullcracker I",
-      "items": [
-        {
-          "id": "heavy_gun_parts",
-          "name": "Heavy Gun Parts",
-          "current": 43,
-          "needed": 3,
-          "priority": "normal"
-        },
-        {
-          "id": "exodus_modules",
-          "name": "Exodus Modules",
-          "current": 0,
-          "needed": 1,
-          "priority": "high"
-        },
-        {
-          "id": "magnetic_accelerator",
-          "name": "Magnetic Accelerator",
-          "current": 30,
-          "needed": 1,
-          "priority": "high"
-        }
-      ]
+      "id": "rocketeer_driver",
+      "name": "Rocketeer Driver",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Jupiter",
-      "items": [
-        {
-          "id": "queen_reactor",
-          "name": "Queen Reactor",
-          "current": 0,
-          "needed": 1,
-          "priority": "normal"
-        },
-        {
-          "id": "magnetic_accelerator",
-          "name": "Magnetic Accelerator",
-          "current": 30,
-          "needed": 3,
-          "priority": "high"
-        },
-        {
-          "id": "complex_gun_parts",
-          "name": "Complex Gun Parts",
-          "current": 1,
-          "needed": 3,
-          "priority": "normal"
-        }
-      ]
+      "id": "magnetic_accelerator",
+      "name": "Magnetic Accelerator",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Zipline",
-      "items": [
-        {
-          "id": "rope",
-          "name": "Rope",
-          "current": 0,
-          "needed": 1,
-          "priority": "normal"
-        },
-        {
-          "id": "mechanical_components",
-          "name": "Mechanical Components",
-          "current": 14,
-          "needed": 1,
-          "priority": "normal"
-        }
-      ]
+      "id": "queen_reactor",
+      "name": "Queen Reactor",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Raider Hatch Key",
-      "items": [
-        {
-          "id": "advanced_electrical_components",
-          "name": "Advanced Electrical Components",
-          "current": 22,
-          "needed": 1,
-          "priority": "normal"
-        },
-        {
-          "id": "sensors",
-          "name": "Sensors",
-          "current": 0,
-          "needed": 3,
-          "priority": "normal"
-        }
-      ]
+      "id": "arc_performance_steel",
+      "name": "ARC Performance Steel",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - ARC Motion Core",
-      "items": [
-        {
-          "id": "arc_alloy",
-          "name": "ARC Alloy",
-          "current": 1,
-          "needed": 8,
-          "priority": "normal"
-        }
-      ]
+      "id": "leaper_pulse_unit",
+      "name": "Leaper Pulse Unit",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Snap Hook",
-      "items": [
-        {
-          "id": "exodus_modules",
-          "name": "Exodus Modules",
-          "current": 0,
-          "needed": 1,
-          "priority": "high"
-        },
-        {
-          "id": "rope",
-          "name": "Rope",
-          "current": 0,
-          "needed": 3,
-          "priority": "normal"
-        },
-        {
-          "id": "power_rod",
-          "name": "Power Rod",
-          "current": 0,
-          "needed": 2,
-          "priority": "normal"
-        }
-      ]
+      "id": "bastion_cell",
+      "name": "Bastion Cell",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Powered Descender",
-      "items": [
-        {
-          "id": "power_rod",
-          "name": "Power Rod",
-          "current": 0,
-          "needed": 1,
-          "priority": "normal"
-        },
-        {
-          "id": "turbine_compressor",
-          "name": "Turbine Compressor",
-          "current": 1,
-          "needed": 1,
-          "priority": "normal"
-        }
-      ]
+      "id": "arc_motion_core",
+      "name": "ARC Motion Core",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Photoelectric Cloak",
-      "items": [
-        {
-          "id": "speaker_component",
-          "name": "Speaker Component",
-          "current": 0,
-          "needed": 4,
-          "priority": "normal"
-        },
-        {
-          "id": "advanced_electrical_components",
-          "name": "Advanced Electrical Components",
-          "current": 22,
-          "needed": 2,
-          "priority": "normal"
-        }
-      ]
+      "id": "arc_circuitry",
+      "name": "ARC Circuitry",
+      "priority": "high",
+      "category": "Rare ARC / high value"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Wolfpack",
-      "items": [
-        {
-          "id": "arc_motion_core",
-          "name": "ARC Motion Core",
-          "current": 0,
-          "needed": 2,
-          "priority": "normal"
-        },
-        {
-          "id": "explosive_compound",
-          "name": "Explosive Compound",
-          "current": 63,
-          "needed": 1,
-          "priority": "normal"
-        },
-        {
-          "id": "rocketeer_driver",
-          "name": "Rocketeer Driver",
-          "current": 4,
-          "needed": 1,
-          "priority": "high"
-        }
-      ]
+      "id": "turbine_compressor",
+      "name": "Turbine Compressor",
+      "priority": "high",
+      "category": "Rare parts"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Seeker Grenade",
-      "items": [
-        {
-          "id": "arc_alloy",
-          "name": "ARC Alloy",
-          "current": 1,
-          "needed": 2,
-          "priority": "normal"
-        },
-        {
-          "id": "crude_explosives",
-          "name": "Crude Explosives",
-          "current": 81,
-          "needed": 1,
-          "priority": "normal"
-        }
-      ]
+      "id": "fireball_burner",
+      "name": "Fireball Burner",
+      "priority": "high",
+      "category": "Rare parts"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Magnetic Accelerator",
-      "items": [
-        {
-          "id": "advanced_mechanical_components",
-          "name": "Advanced Mechanical Components",
-          "current": 2,
-          "needed": 2,
-          "priority": "normal"
-        },
-        {
-          "id": "arc_motion_core",
-          "name": "ARC Motion Core",
-          "current": 0,
-          "needed": 2,
-          "priority": "normal"
-        }
-      ]
+      "id": "comet_igniter",
+      "name": "Comet Igniter",
+      "priority": "high",
+      "category": "Rare parts"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Advanced Electrical Components",
-      "items": [
-        {
-          "id": "electrical_components",
-          "name": "Electrical Components",
-          "current": 6,
-          "needed": 2,
-          "priority": "normal"
-        },
-        {
-          "id": "wires",
-          "name": "Wires",
-          "current": 4,
-          "needed": 3,
-          "priority": "normal"
-        }
-      ]
+      "id": "advanced_mechanical_components",
+      "name": "Advanced Mechanical Components",
+      "priority": "normal",
+      "category": "Advanced materials"
     },
     {
-      "account": "crafting",
-      "group": "crafting alt - Advanced Mechanical Components",
-      "items": [
-        {
-          "id": "steel_spring",
-          "name": "Steel Spring",
-          "current": 0,
-          "needed": 2,
-          "priority": "normal"
-        },
-        {
-          "id": "mechanical_components",
-          "name": "Mechanical Components",
-          "current": 14,
-          "needed": 2,
-          "priority": "normal"
-        }
-      ]
+      "id": "advanced_electrical_components",
+      "name": "Advanced Electrical Components",
+      "priority": "normal",
+      "category": "Advanced materials"
     },
     {
-      "account": "stash1",
-      "group": "stash 1 - Refiner II",
-      "items": [
-        {
-          "id": "toaster",
-          "name": "Toaster",
-          "current": 1,
-          "needed": 3,
-          "priority": "high"
-        },
-        {
-          "id": "arc_motion_core",
-          "name": "ARC Motion Core",
-          "current": 6,
-          "needed": 5,
-          "priority": "high"
-        },
-        {
-          "id": "fireball_burner",
-          "name": "Fireball Burner",
-          "current": 0,
-          "needed": 8,
-          "priority": "high"
-        }
-      ]
+      "id": "complex_gun_parts",
+      "name": "Complex Gun Parts",
+      "priority": "normal",
+      "category": "Gun parts"
     },
     {
-      "account": "stash2",
-      "group": "stash 2 - Scrappy III",
-      "items": [
-        {
-          "id": "lemon",
-          "name": "Lemon",
-          "current": 0,
-          "needed": 3,
-          "priority": "normal"
-        },
-        {
-          "id": "apricot",
-          "name": "Apricot",
-          "current": 0,
-          "needed": 3,
-          "priority": "normal"
-        }
-      ]
+      "id": "heavy_gun_parts",
+      "name": "Heavy Gun Parts",
+      "priority": "normal",
+      "category": "Gun parts"
     },
     {
-      "account": "stash2",
-      "group": "stash 2 - Refiner II",
-      "items": [
-        {
-          "id": "toaster",
-          "name": "Toaster",
-          "current": 2,
-          "needed": 3,
-          "priority": "high"
-        },
-        {
-          "id": "arc_motion_core",
-          "name": "ARC Motion Core",
-          "current": 5,
-          "needed": 5,
-          "priority": "high"
-        },
-        {
-          "id": "fireball_burner",
-          "name": "Fireball Burner",
-          "current": 3,
-          "needed": 8,
-          "priority": "high"
-        }
-      ]
+      "id": "medium_gun_parts",
+      "name": "Medium Gun Parts",
+      "priority": "normal",
+      "category": "Gun parts"
     },
     {
-      "account": "stash2",
-      "group": "stash 2 - Refiner full upgrade",
-      "items": [
-        {
-          "id": "motor",
-          "name": "Motor",
-          "current": 0,
-          "needed": 3,
-          "priority": "high"
-        },
-        {
-          "id": "arc_circuitry",
-          "name": "ARC Circuitry",
-          "current": 0,
-          "needed": 10,
-          "priority": "high"
-        },
-        {
-          "id": "bombardier_cell",
-          "name": "Bombardier Cell",
-          "current": 0,
-          "needed": 6,
-          "priority": "high"
-        }
-      ]
+      "id": "light_gun_parts",
+      "name": "Light Gun Parts",
+      "priority": "normal",
+      "category": "Gun parts"
     },
     {
-      "account": "general",
-      "group": "general high priority",
-      "items": [
-        {
-          "id": "rocketeer_driver",
-          "name": "Rocketeer Driver",
-          "current": 0,
-          "needed": "?",
-          "priority": "high"
-        },
-        {
-          "id": "magnetic_accelerator",
-          "name": "Magnetic Accelerator",
-          "current": 0,
-          "needed": "?",
-          "priority": "high"
-        },
-        {
-          "id": "exodus_modules",
-          "name": "Exodus Modules",
-          "current": 0,
-          "needed": "?",
-          "priority": "high"
-        }
-      ]
+      "id": "simple_gun_parts",
+      "name": "Simple Gun Parts",
+      "priority": "normal",
+      "category": "Gun parts"
+    },
+    {
+      "id": "speaker_component",
+      "name": "Speaker Component",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
+      "id": "power_rod",
+      "name": "Power Rod",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
+      "id": "arc_alloy",
+      "name": "ARC Alloy",
+      "priority": "normal",
+      "category": "Materials"
+    },
+    {
+      "id": "explosive_compound",
+      "name": "Explosive Compound",
+      "priority": "normal",
+      "category": "Explosives"
+    },
+    {
+      "id": "crude_explosives",
+      "name": "Crude Explosives",
+      "priority": "normal",
+      "category": "Explosives"
+    },
+    {
+      "id": "electrical_components",
+      "name": "Electrical Components",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "mechanical_components",
+      "name": "Mechanical Components",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "metal_parts",
+      "name": "Metal Parts",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "plastic_parts",
+      "name": "Plastic Parts",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "wires",
+      "name": "Wires",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "oil",
+      "name": "Oil",
+      "priority": "normal",
+      "category": "Basic materials"
+    },
+    {
+      "id": "toaster",
+      "name": "Toaster",
+      "priority": "normal",
+      "category": "Misc"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "priority": "normal",
+      "category": "Misc"
+    },
+    {
+      "id": "apricot",
+      "name": "Apricot",
+      "priority": "normal",
+      "category": "Misc"
     }
   ],
   "manualHave": [],
@@ -470,11 +244,5 @@
     "hullcracker_blueprint",
     "snap_hook"
   ],
-  "reservedNames": [
-    "Hullcracker",
-    "Hullcracker I",
-    "Hullcracker Blueprint",
-    "Snap Hook",
-    "Snaphook"
-  ]
+  "reservedNames": []
 }

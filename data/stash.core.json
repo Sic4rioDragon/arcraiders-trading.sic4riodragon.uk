@@ -833,11 +833,7 @@
       "name": "Rattler II",
       "rarity": "Common",
       "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/rattler_ii.png",
-      "ammoType": "Medium Ammo",
-      "ammoSource": "weapon_ammo_rule",
-      "stackSize": 1,
-      "stackSource": "weapon_single_item_rule"
+      "image": "https://cdn.arctracker.io/items/v2/rattler_ii.png"
     },
     "remote_raider_flare": {
       "id": "remote_raider_flare",
@@ -1794,6 +1790,76 @@
       "rarity": "Rare",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/motor.png"
+    },
+    "turbo_pump": {
+      "id": "turbo_pump",
+      "name": "Turbo Pump",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/turbo_pump.png"
+    },
+    "voltage_converter": {
+      "id": "voltage_converter",
+      "name": "Voltage Converter",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/voltage_converter.png"
+    },
+    "acoustic_guitar": {
+      "id": "acoustic_guitar",
+      "name": "Acoustic Guitar",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/acoustic_guitar.png"
+    },
+    "kinetic_converter": {
+      "id": "kinetic_converter",
+      "name": "Kinetic Converter",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/kinetic_converter.png"
+    },
+    "extended_barrel": {
+      "id": "extended_barrel",
+      "name": "Extended Barrel III",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/extended_barrel.png"
+    },
+    "horizontal_grip": {
+      "id": "horizontal_grip",
+      "name": "Horizontal Grip",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/horizontal_grip.png"
+    },
+    "padded_stock": {
+      "id": "padded_stock",
+      "name": "Padded Stock",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/padded_stock.png"
+    },
+    "vertical_grip_iii": {
+      "id": "vertical_grip_iii",
+      "name": "Vertical Grip III",
+      "rarity": "Rare",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/vertical_grip_iii.png"
+    },
+    "silencer_i": {
+      "id": "silencer_i",
+      "name": "Silencer I",
+      "rarity": "Uncommon",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/silencer_i.png"
+    },
+    "aphelion_blueprint": {
+      "id": "aphelion_blueprint",
+      "name": "Aphelion Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/aphelion_blueprint.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"

@@ -968,3 +968,61 @@ td {
 .main-account {
   border-color: rgba(138, 208, 255, 0.45);
 }
+.lf-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 13px 14px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.lf-card.high {
+  border-color: rgba(255, 203, 64, 0.45);
+  background: rgba(255, 203, 64, 0.06);
+}
+
+.lf-card strong {
+  font-size: 1rem;
+}
+
+.lf-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 9px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.lf-pill.high {
+  color: #111;
+  background: #ffcb40;
+  border-color: #ffcb40;
+}
+.text-page {
+  max-width: 980px;
+}
+
+.text-output-card {
+  margin-top: 22px;
+  padding: 18px;
+}
+
+.copy-textarea {
+  width: 100%;
+  min-height: 520px;
+  resize: vertical;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  color: var(--text);
+  background: rgba(0, 0, 0, 0.36);
+  font: 600 1rem/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
