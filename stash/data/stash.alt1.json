@@ -2,37 +2,27 @@
   "version": 2,
   "profile": "alt1",
   "displayName": "Stash alt 1",
-  "updatedAt": "2026-05-31T20:42:56.250Z",
+  "updatedAt": "2026-06-02T05:50:30.360Z",
   "summary": {
-    "uniqueItems": 65,
-    "totalQuantity": 1524,
+    "uniqueItems": 49,
+    "totalQuantity": 1393,
     "sourceFiles": 1
   },
   "items": {
-    "familiar_duck": 750,
+    "familiar_duck": 660,
+    "hullcracker_i": 1,
     "velocity_ship_model": 2,
-    "advanced_arc_powercell": 8,
     "antiseptic": 2,
-    "arc_circuitry": 1,
-    "arc_coolant": 3,
-    "arc_motion_core": 1,
-    "arc_synthetic_resin": 2,
-    "arc_thermo_lining": 6,
+    "arc_motion_core": 6,
     "bicycle_pump": 2,
     "blaze_grenade": 3,
     "canto_i": 2,
     "defibrillator": 7,
     "dog_collar": 1,
     "extended_medium_mag_iii": 1,
-    "firefly_burner": 3,
-    "headphones": 2,
-    "industrial_charger": 1,
-    "light_gun_parts": 1,
+    "launcher_ammo": 18,
     "looting_mk2": 2,
-    "medium_gun_parts": 2,
     "osprey_i": 1,
-    "power_cable": 4,
-    "rubber_pad": 2,
     "smoke_grenade": 6,
     "sterilized_bandage": 6,
     "trigger_nade": 2,
@@ -40,10 +30,7 @@
     "water_filter": 1,
     "twilight_compass_ship_model": 11,
     "anvil_iii": 1,
-    "apricot": 10,
-    "arc_alloy": 27,
-    "crude_explosives": 32,
-    "deflated_football": 1,
+    "crude_explosives": 12,
     "dockmasters_detector": 2,
     "durable_cloth": 16,
     "herbal_bandage": 5,
@@ -56,50 +43,37 @@
     "ruined_baton": 1,
     "rusted_bolts": 2,
     "shield_recharger": 21,
-    "simple_gun_parts": 11,
     "snap_blast_grenade": 3,
-    "wires": 9,
     "adrenaline_shot": 11,
-    "arc_powercell": 20,
-    "assorted_seeds": 3,
+    "assorted_seeds": 18,
     "bandage": 14,
-    "chemicals": 22,
+    "chemicals": 35,
     "extended_shotgun_mag_i": 1,
-    "fabric": 40,
+    "fabric": 10,
     "ferro_iv": 2,
     "heavy_ammo": 115,
     "medium_ammo": 262,
-    "metal_parts": 4,
-    "plastic_parts": 1,
+    "metal_parts": 24,
+    "plastic_parts": 20,
     "rattler_iii": 1,
-    "rubber_parts": 14,
+    "rubber_parts": 45,
     "shotgun_ammo": 20
   },
   "order": [
     "familiar_duck",
+    "hullcracker_i",
     "velocity_ship_model",
-    "advanced_arc_powercell",
     "antiseptic",
-    "arc_circuitry",
-    "arc_coolant",
     "arc_motion_core",
-    "arc_synthetic_resin",
-    "arc_thermo_lining",
     "bicycle_pump",
     "blaze_grenade",
     "canto_i",
     "defibrillator",
     "dog_collar",
     "extended_medium_mag_iii",
-    "firefly_burner",
-    "headphones",
-    "industrial_charger",
-    "light_gun_parts",
+    "launcher_ammo",
     "looting_mk2",
-    "medium_gun_parts",
     "osprey_i",
-    "power_cable",
-    "rubber_pad",
     "smoke_grenade",
     "sterilized_bandage",
     "trigger_nade",
@@ -107,10 +81,7 @@
     "water_filter",
     "twilight_compass_ship_model",
     "anvil_iii",
-    "apricot",
-    "arc_alloy",
     "crude_explosives",
-    "deflated_football",
     "dockmasters_detector",
     "durable_cloth",
     "herbal_bandage",
@@ -123,11 +94,8 @@
     "ruined_baton",
     "rusted_bolts",
     "shield_recharger",
-    "simple_gun_parts",
     "snap_blast_grenade",
-    "wires",
     "adrenaline_shot",
-    "arc_powercell",
     "assorted_seeds",
     "bandage",
     "chemicals",
@@ -187,40 +155,21 @@
       15,
       15,
       15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
       15
+    ],
+    "hullcracker_i": [
+      1
     ],
     "velocity_ship_model": [
       1,
       1
     ],
-    "advanced_arc_powercell": [
-      5,
-      3
-    ],
     "antiseptic": [
       2
     ],
-    "arc_circuitry": [
-      1
-    ],
-    "arc_coolant": [
-      3
-    ],
     "arc_motion_core": [
+      5,
       1
-    ],
-    "arc_synthetic_resin": [
-      2
-    ],
-    "arc_thermo_lining": [
-      3,
-      3
     ],
     "bicycle_pump": [
       2
@@ -243,34 +192,15 @@
     "extended_medium_mag_iii": [
       1
     ],
-    "firefly_burner": [
-      3
-    ],
-    "headphones": [
-      2
-    ],
-    "industrial_charger": [
-      1
-    ],
-    "light_gun_parts": [
-      1
+    "launcher_ammo": [
+      18
     ],
     "looting_mk2": [
       1,
       1
     ],
-    "medium_gun_parts": [
-      2
-    ],
     "osprey_i": [
       1
-    ],
-    "power_cable": [
-      3,
-      1
-    ],
-    "rubber_pad": [
-      2
     ],
     "smoke_grenade": [
       5,
@@ -305,21 +235,9 @@
     "anvil_iii": [
       1
     ],
-    "apricot": [
-      10
-    ],
-    "arc_alloy": [
-      15,
-      12
-    ],
     "crude_explosives": [
       10,
-      10,
-      10,
       2
-    ],
-    "deflated_football": [
-      1
     ],
     "dockmasters_detector": [
       1,
@@ -366,29 +284,16 @@
       5,
       1
     ],
-    "simple_gun_parts": [
-      10,
-      1
-    ],
     "snap_blast_grenade": [
       3
-    ],
-    "wires": [
-      9
     ],
     "adrenaline_shot": [
       5,
       5,
       1
     ],
-    "arc_powercell": [
-      5,
-      5,
-      5,
-      5
-    ],
     "assorted_seeds": [
-      3
+      18
     ],
     "bandage": [
       5,
@@ -396,13 +301,13 @@
       4
     ],
     "chemicals": [
-      22
+      35
     ],
     "extended_shotgun_mag_i": [
       1
     ],
     "fabric": [
-      40
+      10
     ],
     "ferro_iv": [
       1,
@@ -419,16 +324,16 @@
       22
     ],
     "metal_parts": [
-      4
+      24
     ],
     "plastic_parts": [
-      1
+      20
     ],
     "rattler_iii": [
       1
     ],
     "rubber_parts": [
-      14
+      45
     ],
     "shotgun_ammo": [
       20
@@ -442,19 +347,19 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/familiar_duck.png"
     },
+    "hullcracker_i": {
+      "id": "hullcracker_i",
+      "name": "Hullcracker I",
+      "rarity": "Epic",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/hullcracker_i.png"
+    },
     "velocity_ship_model": {
       "id": "velocity_ship_model",
       "name": "\"Velocity\" Ship Model",
       "rarity": "Rare",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/velocity_ship_model.png"
-    },
-    "advanced_arc_powercell": {
-      "id": "advanced_arc_powercell",
-      "name": "Advanced ARC Powercell",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/advanced_arc_powercell.png"
     },
     "antiseptic": {
       "id": "antiseptic",
@@ -463,40 +368,12 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/antiseptic.png"
     },
-    "arc_circuitry": {
-      "id": "arc_circuitry",
-      "name": "ARC Circuitry",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_circuitry.png"
-    },
-    "arc_coolant": {
-      "id": "arc_coolant",
-      "name": "ARC Coolant",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_coolant.png"
-    },
     "arc_motion_core": {
       "id": "arc_motion_core",
       "name": "ARC Motion Core",
       "rarity": "Rare",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/arc_motion_core.png"
-    },
-    "arc_synthetic_resin": {
-      "id": "arc_synthetic_resin",
-      "name": "ARC Synthetic Resin",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_synthetic_resin.png"
-    },
-    "arc_thermo_lining": {
-      "id": "arc_thermo_lining",
-      "name": "ARC Thermo Lining",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_thermo_lining.png"
     },
     "bicycle_pump": {
       "id": "bicycle_pump",
@@ -540,33 +417,12 @@
       "category": "Weapon Mod",
       "image": "https://cdn.arctracker.io/items/v2/extended_medium_mag_iii.png"
     },
-    "firefly_burner": {
-      "id": "firefly_burner",
-      "name": "Firefly Burner",
+    "launcher_ammo": {
+      "id": "launcher_ammo",
+      "name": "Launcher Ammo",
       "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/firefly_burner.png"
-    },
-    "headphones": {
-      "id": "headphones",
-      "name": "Headphones",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/headphones.png"
-    },
-    "industrial_charger": {
-      "id": "industrial_charger",
-      "name": "Industrial Charger",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/industrial_charger.png"
-    },
-    "light_gun_parts": {
-      "id": "light_gun_parts",
-      "name": "Light Gun Parts",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/light_gun_parts.png"
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/launcher_ammo.png"
     },
     "looting_mk2": {
       "id": "looting_mk2",
@@ -575,33 +431,12 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/looting_mk2.png"
     },
-    "medium_gun_parts": {
-      "id": "medium_gun_parts",
-      "name": "Medium Gun Parts",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/medium_gun_parts.png"
-    },
     "osprey_i": {
       "id": "osprey_i",
       "name": "Osprey I",
       "rarity": "Rare",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/osprey_i.png"
-    },
-    "power_cable": {
-      "id": "power_cable",
-      "name": "Power Cable",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/power_cable.png"
-    },
-    "rubber_pad": {
-      "id": "rubber_pad",
-      "name": "Rubber Pad",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rubber_pad.png"
     },
     "smoke_grenade": {
       "id": "smoke_grenade",
@@ -652,33 +487,12 @@
       "category": "Weapon",
       "image": "https://cdn.arctracker.io/items/v2/anvil_iii.png"
     },
-    "apricot": {
-      "id": "apricot",
-      "name": "Apricot",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/apricot.png"
-    },
-    "arc_alloy": {
-      "id": "arc_alloy",
-      "name": "ARC Alloy",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_alloy.png"
-    },
     "crude_explosives": {
       "id": "crude_explosives",
       "name": "Crude Explosives",
       "rarity": "Uncommon",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/crude_explosives.png"
-    },
-    "deflated_football": {
-      "id": "deflated_football",
-      "name": "Deflated Football",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/deflated_football.png"
     },
     "dockmasters_detector": {
       "id": "dockmasters_detector",
@@ -764,13 +578,6 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/shield_recharger.png"
     },
-    "simple_gun_parts": {
-      "id": "simple_gun_parts",
-      "name": "Simple Gun Parts",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/simple_gun_parts.png"
-    },
     "snap_blast_grenade": {
       "id": "snap_blast_grenade",
       "name": "Snap Blast Grenade",
@@ -778,26 +585,12 @@
       "category": "Throwable",
       "image": "https://cdn.arctracker.io/items/v2/snap_blast_grenade.png"
     },
-    "wires": {
-      "id": "wires",
-      "name": "Wires",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/wires.png"
-    },
     "adrenaline_shot": {
       "id": "adrenaline_shot",
       "name": "Adrenaline Shot",
       "rarity": "Common",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png"
-    },
-    "arc_powercell": {
-      "id": "arc_powercell",
-      "name": "ARC Powercell",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_powercell.png"
     },
     "assorted_seeds": {
       "id": "assorted_seeds",

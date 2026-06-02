@@ -1930,6 +1930,153 @@
       "rarity": "Common",
       "category": "Weapon Mod",
       "image": "https://cdn.arctracker.io/items/v2/extended_shotgun_mag_i.png"
+    },
+    "anvil_i": {
+      "id": "anvil_i",
+      "name": "Anvil I",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_i.png"
+    },
+    "barricade_kit_blueprint": {
+      "id": "barricade_kit_blueprint",
+      "name": "Barricade Kit Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/barricade_kit_blueprint.png"
+    },
+    "complex_gun_parts_blueprint": {
+      "id": "complex_gun_parts_blueprint",
+      "name": "Complex Gun Parts Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts_blueprint.png"
+    },
+    "deadline_blueprint": {
+      "id": "deadline_blueprint",
+      "name": "Deadline Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/deadline_blueprint.png"
+    },
+    "jolt_mine_blueprint": {
+      "id": "jolt_mine_blueprint",
+      "name": "Jolt Mine Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/jolt_mine_blueprint.png"
+    },
+    "red_light_stick": {
+      "id": "red_light_stick",
+      "name": "Red Light Stick",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/red_light_stick.png"
+    },
+    "stitcher_iv": {
+      "id": "stitcher_iv",
+      "name": "Stitcher IV",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/stitcher_iv.png"
+    },
+    "looting_mk3_safekeeper": {
+      "id": "looting_mk3_safekeeper",
+      "name": "Looting Mk. 3 (Safekeeper)",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper.png"
+    },
+    "diving_goggles": {
+      "id": "diving_goggles",
+      "name": "Diving Goggles",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/diving_goggles.png"
+    },
+    "industrial_battery": {
+      "id": "industrial_battery",
+      "name": "Industrial Battery",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/industrial_battery.png"
+    },
+    "burned_arc_circuitry": {
+      "id": "burned_arc_circuitry",
+      "name": "Burned Arc Circuitry",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/burned_arc_circuitry.png"
+    },
+    "shotgun_silencer_blueprint": {
+      "id": "shotgun_silencer_blueprint",
+      "name": "Shotgun Silencer Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/shotgun_silencer_blueprint.png"
+    },
+    "bettina_iv": {
+      "id": "bettina_iv",
+      "name": "Bettina IV",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bettina_iv.png"
+    },
+    "breathtaking_snow_globe": {
+      "id": "breathtaking_snow_globe",
+      "name": "Breathtaking Snow Globe",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/breathtaking_snow_globe.png"
+    },
+    "magnetron": {
+      "id": "magnetron",
+      "name": "Magnetron",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/magnetron.png"
+    },
+    "vulcano_iv": {
+      "id": "vulcano_iv",
+      "name": "Vulcano IV",
+      "rarity": "Epic",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/vulcano_iv.png"
+    },
+    "osprey_iv": {
+      "id": "osprey_iv",
+      "name": "Osprey IV",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/osprey_iv.png"
+    },
+    "renegade_iv": {
+      "id": "renegade_iv",
+      "name": "Renegade IV",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/renegade_iv.png"
+    },
+    "burletta_ii": {
+      "id": "burletta_ii",
+      "name": "Burletta II",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/burletta_ii.png"
+    },
+    "shaker": {
+      "id": "shaker",
+      "name": "Shaker",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/shaker.png"
+    },
+    "torrente_blueprint": {
+      "id": "torrente_blueprint",
+      "name": "Torrente Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/torrente_blueprint.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"

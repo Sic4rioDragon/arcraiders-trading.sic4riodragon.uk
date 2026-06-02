@@ -1,260 +1,1012 @@
 {
   "version": 2,
-  "profile": "crafting-alt",
-  "displayName": "Crafting Alt",
-  "sourceProfile": "DragonGRaf",
-  "updatedAt": "2026-05-24T00:00:00Z",
+  "profile": "crafting",
+  "displayName": "Crafting alt stash",
+  "updatedAt": "2026-06-02T05:50:30.365Z",
   "summary": {
-    "slotsUsed": 151,
-    "slotsMax": 280,
-    "inventoryValue": "314.4K",
-    "rawStacksParsed": 97,
-    "uniqueItems": 86,
-    "totalQuantity": 669
+    "uniqueItems": 69,
+    "totalQuantity": 1945,
+    "sourceFiles": 1
   },
   "items": {
-    "dam_control_tower_key": 1,
-    "exodus_modules": 2,
-    "leaper_pulse_unit": 5,
-    "magnetic_accelerator": 1,
-    "advanced_arc_powercell": 3,
-    "advanced_mechanical_components": 5,
-    "arc_flex_rubber": 2,
-    "arc_motion_core": 2,
-    "arc_performance_steel": 1,
-    "arc_thermo_lining": 2,
-    "blaze_grenade": 1,
-    "coolant": 1,
-    "cracked_bioscanner": 2,
-    "damaged_heat_sink": 1,
-    "dog_collar": 1,
-    "explosive_compound": 9,
-    "headphones": 1,
-    "heavy_gun_parts": 8,
-    "hornet_driver": 1,
-    "light_gun_parts": 2,
-    "medium_gun_parts": 3,
-    "mod_components": 1,
-    "moss": 2,
-    "polluted_air_filter": 2,
-    "portable_tv": 1,
-    "power_cable": 4,
-    "processor": 2,
-    "projector": 2,
-    "radio": 2,
-    "rope": 1,
-    "rubber_pad": 2,
-    "ruined_accordion": 1,
-    "sensors": 5,
-    "speaker_component": 3,
-    "sterilized_bandage": 1,
-    "synthesized_fuel": 6,
-    "syringe": 2,
-    "toaster": 4,
-    "wasp_driver": 3,
-    "water_filter": 2,
-    "water_pump": 1,
-    "arc_alloy": 1,
-    "battery": 7,
-    "camera_lens": 3,
-    "canister": 7,
-    "crude_explosives": 15,
-    "crumpled_plastic_bottle": 2,
-    "dam_surveillance_key": 1,
-    "deflated_football": 2,
-    "degraded_arc_rubber": 1,
-    "dried_out_arc_resin": 1,
-    "duct_tape": 1,
-    "durable_cloth": 7,
-    "electrical_components": 5,
-    "garlic_press": 1,
-    "impure_arc_coolant": 1,
-    "light_shield": 1,
-    "looting_mk1": 1,
-    "metal_brackets": 1,
-    "muzzle_brake_ii": 1,
-    "oil": 1,
-    "patrol_car_key": 1,
-    "recorder": 1,
-    "rusted_bolts": 2,
-    "rusty_arc_steel": 1,
-    "shield_recharger": 9,
-    "shotgun_choke_ii": 1,
-    "simple_gun_parts": 7,
-    "snitch_scanner": 1,
-    "steel_spring": 2,
-    "tattered_arc_lining": 1,
-    "tick_pod": 1,
-    "wires": 7,
-    "adrenaline_shot": 5,
-    "arc_powercell": 5,
-    "bandage": 5,
-    "chemicals": 25,
-    "fabric": 72,
-    "heavy_ammo": 109,
-    "lil_smoke_grenade": 1,
-    "light_impact_grenade": 4,
-    "medium_ammo": 80,
-    "metal_parts": 39,
-    "plastic_parts": 49,
-    "riven_tides_hotel_keycard_no_107": 1,
-    "rubber_parts": 79
+    "matriarch_reactor": 5,
+    "queen_reactor": 1,
+    "bastion_cell": 16,
+    "bombardier_cell": 7,
+    "complex_gun_parts": 4,
+    "exodus_modules": 6,
+    "familiar_duck": 150,
+    "leaper_pulse_unit": 8,
+    "looting_mk3_safekeeper": 1,
+    "magnetic_accelerator": 46,
+    "power_rod": 17,
+    "advanced_arc_powercell": 72,
+    "advanced_electrical_components": 30,
+    "antiseptic": 8,
+    "arc_circuitry": 22,
+    "arc_flex_rubber": 4,
+    "arc_motion_core": 17,
+    "arc_performance_steel": 10,
+    "arc_thermo_lining": 3,
+    "cooling_fan": 3,
+    "cracked_bioscanner": 3,
+    "damaged_heat_sink": 3,
+    "diving_goggles": 1,
+    "explosive_compound": 75,
+    "heavy_gun_parts": 25,
+    "hornet_driver": 3,
+    "humidifier": 1,
+    "industrial_battery": 2,
+    "launcher_ammo": 22,
+    "light_gun_parts": 1,
+    "looting_mk2": 2,
+    "medium_gun_parts": 13,
+    "power_cable": 3,
+    "processor": 48,
+    "raider_hatch_key": 3,
+    "sterilized_bandage": 5,
+    "toaster": 3,
+    "turbo_pump": 1,
+    "wasp_driver": 4,
+    "water_filter": 3,
+    "arc_alloy": 71,
+    "burned_arc_circuitry": 1,
+    "crude_explosives": 59,
+    "duct_tape": 3,
+    "durable_cloth": 2,
+    "electrical_components": 1,
+    "fireball_burner": 1,
+    "great_mullein": 2,
+    "light_shield": 2,
+    "looting_mk1": 5,
+    "magnet": 4,
+    "mechanical_components": 50,
+    "pop_trigger": 1,
+    "ruined_baton": 1,
+    "rusted_bolts": 6,
+    "seeker_grenade": 5,
+    "shield_recharger": 34,
+    "simple_gun_parts": 3,
+    "wires": 5,
+    "adrenaline_shot": 8,
+    "arc_powercell": 29,
+    "assorted_seeds": 279,
+    "bandage": 35,
+    "chemicals": 15,
+    "fabric": 271,
+    "metal_parts": 129,
+    "plastic_parts": 18,
+    "rubber_parts": 253,
+    "shotgun_silencer_blueprint": 1
   },
   "order": [
-    "dam_control_tower_key",
+    "matriarch_reactor",
+    "queen_reactor",
+    "bastion_cell",
+    "bombardier_cell",
+    "complex_gun_parts",
     "exodus_modules",
+    "familiar_duck",
     "leaper_pulse_unit",
+    "looting_mk3_safekeeper",
     "magnetic_accelerator",
+    "power_rod",
     "advanced_arc_powercell",
-    "advanced_mechanical_components",
+    "advanced_electrical_components",
+    "antiseptic",
+    "arc_circuitry",
     "arc_flex_rubber",
     "arc_motion_core",
     "arc_performance_steel",
     "arc_thermo_lining",
-    "blaze_grenade",
-    "coolant",
+    "cooling_fan",
     "cracked_bioscanner",
     "damaged_heat_sink",
-    "dog_collar",
+    "diving_goggles",
     "explosive_compound",
-    "headphones",
     "heavy_gun_parts",
     "hornet_driver",
+    "humidifier",
+    "industrial_battery",
+    "launcher_ammo",
     "light_gun_parts",
+    "looting_mk2",
     "medium_gun_parts",
-    "mod_components",
-    "moss",
-    "polluted_air_filter",
-    "portable_tv",
     "power_cable",
     "processor",
-    "projector",
-    "radio",
-    "rope",
-    "rubber_pad",
-    "ruined_accordion",
-    "sensors",
-    "speaker_component",
+    "raider_hatch_key",
     "sterilized_bandage",
-    "synthesized_fuel",
-    "syringe",
     "toaster",
+    "turbo_pump",
     "wasp_driver",
     "water_filter",
-    "water_pump",
     "arc_alloy",
-    "battery",
-    "camera_lens",
-    "canister",
+    "burned_arc_circuitry",
     "crude_explosives",
-    "crumpled_plastic_bottle",
-    "dam_surveillance_key",
-    "deflated_football",
-    "degraded_arc_rubber",
-    "dried_out_arc_resin",
     "duct_tape",
     "durable_cloth",
     "electrical_components",
-    "garlic_press",
-    "impure_arc_coolant",
+    "fireball_burner",
+    "great_mullein",
     "light_shield",
     "looting_mk1",
-    "metal_brackets",
-    "muzzle_brake_ii",
-    "oil",
-    "patrol_car_key",
-    "recorder",
+    "magnet",
+    "mechanical_components",
+    "pop_trigger",
+    "ruined_baton",
     "rusted_bolts",
-    "rusty_arc_steel",
+    "seeker_grenade",
     "shield_recharger",
-    "shotgun_choke_ii",
     "simple_gun_parts",
-    "snitch_scanner",
-    "steel_spring",
-    "tattered_arc_lining",
-    "tick_pod",
     "wires",
     "adrenaline_shot",
     "arc_powercell",
+    "assorted_seeds",
     "bandage",
     "chemicals",
     "fabric",
-    "heavy_ammo",
-    "lil_smoke_grenade",
-    "light_impact_grenade",
-    "medium_ammo",
     "metal_parts",
     "plastic_parts",
-    "riven_tides_hotel_keycard_no_107",
-    "rubber_parts"
+    "rubber_parts",
+    "shotgun_silencer_blueprint"
   ],
   "stacks": {
+    "matriarch_reactor": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "queen_reactor": [
+      1
+    ],
+    "bastion_cell": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "bombardier_cell": [
+      3,
+      3,
+      1
+    ],
+    "complex_gun_parts": [
+      3,
+      1
+    ],
+    "exodus_modules": [
+      3,
+      3
+    ],
+    "familiar_duck": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
     "leaper_pulse_unit": [
+      3,
       3,
       2
     ],
+    "looting_mk3_safekeeper": [
+      1
+    ],
+    "magnetic_accelerator": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "power_rod": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "advanced_arc_powercell": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "advanced_electrical_components": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      1
+    ],
+    "antiseptic": [
+      5,
+      3
+    ],
+    "arc_circuitry": [
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "arc_flex_rubber": [
+      3,
+      1
+    ],
+    "arc_motion_core": [
+      5,
+      5,
+      5,
+      2
+    ],
+    "arc_performance_steel": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "arc_thermo_lining": [
+      3
+    ],
+    "cooling_fan": [
+      3
+    ],
+    "cracked_bioscanner": [
+      3
+    ],
+    "damaged_heat_sink": [
+      3
+    ],
+    "diving_goggles": [
+      1
+    ],
     "explosive_compound": [
       5,
-      4
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      2
     ],
     "heavy_gun_parts": [
+      5,
+      5,
+      5,
+      5,
+      3,
+      2
+    ],
+    "hornet_driver": [
+      3
+    ],
+    "humidifier": [
+      1
+    ],
+    "industrial_battery": [
+      2
+    ],
+    "launcher_ammo": [
+      22
+    ],
+    "light_gun_parts": [
+      1
+    ],
+    "looting_mk2": [
+      1,
+      1
+    ],
+    "medium_gun_parts": [
+      5,
       5,
       3
     ],
     "power_cable": [
-      3,
+      3
+    ],
+    "processor": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3
+    ],
+    "raider_hatch_key": [
+      1,
+      1,
       1
     ],
-    "synthesized_fuel": [
-      5,
-      1
+    "sterilized_bandage": [
+      3,
+      2
     ],
     "toaster": [
+      3
+    ],
+    "turbo_pump": [
+      1
+    ],
+    "wasp_driver": [
       3,
+      1
+    ],
+    "water_filter": [
+      3
+    ],
+    "arc_alloy": [
+      15,
+      15,
+      15,
+      15,
+      6,
+      5
+    ],
+    "burned_arc_circuitry": [
       1
     ],
     "crude_explosives": [
       10,
+      10,
+      10,
+      10,
+      8,
+      6,
+      5
+    ],
+    "duct_tape": [
+      3
+    ],
+    "durable_cloth": [
+      2
+    ],
+    "electrical_components": [
+      1
+    ],
+    "fireball_burner": [
+      1
+    ],
+    "great_mullein": [
+      2
+    ],
+    "light_shield": [
+      1,
+      1
+    ],
+    "looting_mk1": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "magnet": [
+      4
+    ],
+    "mechanical_components": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "pop_trigger": [
+      1
+    ],
+    "ruined_baton": [
+      1
+    ],
+    "rusted_bolts": [
+      3,
+      3
+    ],
+    "seeker_grenade": [
       5
     ],
     "shield_recharger": [
       5,
+      5,
+      5,
+      5,
+      5,
+      5,
       4
+    ],
+    "simple_gun_parts": [
+      3
+    ],
+    "wires": [
+      5
+    ],
+    "adrenaline_shot": [
+      5,
+      3
+    ],
+    "arc_powercell": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      4
+    ],
+    "assorted_seeds": [
+      100,
+      100,
+      79
+    ],
+    "bandage": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "chemicals": [
+      15
     ],
     "fabric": [
       50,
-      22
+      50,
+      50,
+      50,
+      50,
+      21
     ],
-    "heavy_ammo": [
-      60,
-      49
+    "metal_parts": [
+      50,
+      50,
+      29
+    ],
+    "plastic_parts": [
+      18
     ],
     "rubber_parts": [
       50,
-      29
+      50,
+      50,
+      50,
+      50,
+      3
+    ],
+    "shotgun_silencer_blueprint": [
+      1
     ]
   },
-  "loadout": {
-    "augment": {
+  "extractedCoreItems": {
+    "matriarch_reactor": {
+      "id": "matriarch_reactor",
+      "name": "Matriarch Reactor",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/matriarch_reactor.png"
+    },
+    "queen_reactor": {
+      "id": "queen_reactor",
+      "name": "Queen Reactor",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/queen_reactor.png"
+    },
+    "bastion_cell": {
+      "id": "bastion_cell",
+      "name": "Bastion Cell",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bastion_cell.png"
+    },
+    "bombardier_cell": {
+      "id": "bombardier_cell",
+      "name": "Bombardier Cell",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bombardier_cell.png"
+    },
+    "complex_gun_parts": {
+      "id": "complex_gun_parts",
+      "name": "Complex Gun Parts",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts.png"
+    },
+    "exodus_modules": {
+      "id": "exodus_modules",
+      "name": "Exodus Modules",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/exodus_modules.png"
+    },
+    "familiar_duck": {
+      "id": "familiar_duck",
+      "name": "Familiar Duck",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/familiar_duck.png"
+    },
+    "leaper_pulse_unit": {
+      "id": "leaper_pulse_unit",
+      "name": "Leaper Pulse Unit",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/leaper_pulse_unit.png"
+    },
+    "looting_mk3_safekeeper": {
+      "id": "looting_mk3_safekeeper",
+      "name": "Looting Mk. 3 (Safekeeper)",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper.png"
+    },
+    "magnetic_accelerator": {
+      "id": "magnetic_accelerator",
+      "name": "Magnetic Accelerator",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/magnetic_accelerator.png"
+    },
+    "power_rod": {
+      "id": "power_rod",
+      "name": "Power Rod",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/power_rod.png"
+    },
+    "advanced_arc_powercell": {
+      "id": "advanced_arc_powercell",
+      "name": "Advanced ARC Powercell",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/advanced_arc_powercell.png"
+    },
+    "advanced_electrical_components": {
+      "id": "advanced_electrical_components",
+      "name": "Advanced Electrical Components",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/advanced_electrical_components.png"
+    },
+    "antiseptic": {
+      "id": "antiseptic",
+      "name": "Antiseptic",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/antiseptic.png"
+    },
+    "arc_circuitry": {
+      "id": "arc_circuitry",
+      "name": "ARC Circuitry",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_circuitry.png"
+    },
+    "arc_flex_rubber": {
+      "id": "arc_flex_rubber",
+      "name": "ARC Flex Rubber",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_flex_rubber.png"
+    },
+    "arc_motion_core": {
+      "id": "arc_motion_core",
+      "name": "ARC Motion Core",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_motion_core.png"
+    },
+    "arc_performance_steel": {
+      "id": "arc_performance_steel",
+      "name": "ARC Performance Steel",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_performance_steel.png"
+    },
+    "arc_thermo_lining": {
+      "id": "arc_thermo_lining",
+      "name": "ARC Thermo Lining",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_thermo_lining.png"
+    },
+    "cooling_fan": {
+      "id": "cooling_fan",
+      "name": "Cooling Fan",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/cooling_fan.png"
+    },
+    "cracked_bioscanner": {
+      "id": "cracked_bioscanner",
+      "name": "Cracked Bioscanner",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/cracked_bioscanner.png"
+    },
+    "damaged_heat_sink": {
+      "id": "damaged_heat_sink",
+      "name": "Damaged Heat Sink",
+      "rarity": "Rare",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/damaged_heat_sink.png"
+    },
+    "diving_goggles": {
+      "id": "diving_goggles",
+      "name": "Diving Goggles",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/diving_goggles.png"
+    },
+    "explosive_compound": {
+      "id": "explosive_compound",
+      "name": "Explosive Compound",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/explosive_compound.png"
+    },
+    "heavy_gun_parts": {
+      "id": "heavy_gun_parts",
+      "name": "Heavy Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/heavy_gun_parts.png"
+    },
+    "hornet_driver": {
+      "id": "hornet_driver",
+      "name": "Hornet Driver",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/hornet_driver.png"
+    },
+    "humidifier": {
+      "id": "humidifier",
+      "name": "Humidifier",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/humidifier.png"
+    },
+    "industrial_battery": {
+      "id": "industrial_battery",
+      "name": "Industrial Battery",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/industrial_battery.png"
+    },
+    "launcher_ammo": {
+      "id": "launcher_ammo",
+      "name": "Launcher Ammo",
+      "rarity": "Rare",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/launcher_ammo.png"
+    },
+    "light_gun_parts": {
+      "id": "light_gun_parts",
+      "name": "Light Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/light_gun_parts.png"
+    },
+    "looting_mk2": {
       "id": "looting_mk2",
-      "quantity": 1
+      "name": "Looting Mk. 2",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk2.png"
     },
-    "shield": {
+    "medium_gun_parts": {
+      "id": "medium_gun_parts",
+      "name": "Medium Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/medium_gun_parts.png"
+    },
+    "power_cable": {
+      "id": "power_cable",
+      "name": "Power Cable",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/power_cable.png"
+    },
+    "processor": {
+      "id": "processor",
+      "name": "Processor",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/processor.png"
+    },
+    "raider_hatch_key": {
+      "id": "raider_hatch_key",
+      "name": "Raider Hatch Key",
+      "rarity": "Rare",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/raider_hatch_key.png"
+    },
+    "sterilized_bandage": {
+      "id": "sterilized_bandage",
+      "name": "Sterilized Bandage",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/sterilized_bandage.png"
+    },
+    "toaster": {
+      "id": "toaster",
+      "name": "Toaster",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/toaster.png"
+    },
+    "turbo_pump": {
+      "id": "turbo_pump",
+      "name": "Turbo Pump",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/turbo_pump.png"
+    },
+    "wasp_driver": {
+      "id": "wasp_driver",
+      "name": "Wasp Driver",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/wasp_driver.png"
+    },
+    "water_filter": {
+      "id": "water_filter",
+      "name": "Water Filter",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/water_filter.png"
+    },
+    "arc_alloy": {
+      "id": "arc_alloy",
+      "name": "ARC Alloy",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_alloy.png"
+    },
+    "burned_arc_circuitry": {
+      "id": "burned_arc_circuitry",
+      "name": "Burned Arc Circuitry",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/burned_arc_circuitry.png"
+    },
+    "crude_explosives": {
+      "id": "crude_explosives",
+      "name": "Crude Explosives",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/crude_explosives.png"
+    },
+    "duct_tape": {
+      "id": "duct_tape",
+      "name": "Duct Tape",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/duct_tape.png"
+    },
+    "durable_cloth": {
+      "id": "durable_cloth",
+      "name": "Durable Cloth",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/durable_cloth.png"
+    },
+    "electrical_components": {
+      "id": "electrical_components",
+      "name": "Electrical Components",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/electrical_components.png"
+    },
+    "fireball_burner": {
+      "id": "fireball_burner",
+      "name": "Fireball Burner",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/fireball_burner.png"
+    },
+    "great_mullein": {
+      "id": "great_mullein",
+      "name": "Great Mullein",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/great_mullein.png"
+    },
+    "light_shield": {
       "id": "light_shield",
-      "quantity": 1
+      "name": "Light Shield",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/light_shield.png"
     },
-    "weapons": [],
-    "quickUse": [
-      {
-        "id": "bandage",
-        "quantity": 3
-      },
-      {
-        "id": "adrenaline_shot",
-        "quantity": 3
-      }
-    ],
-    "safePocket": [],
-    "backpack": []
+    "looting_mk1": {
+      "id": "looting_mk1",
+      "name": "Looting Mk. 1",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk1.png"
+    },
+    "magnet": {
+      "id": "magnet",
+      "name": "Magnet",
+      "rarity": "Uncommon",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/magnet.png"
+    },
+    "mechanical_components": {
+      "id": "mechanical_components",
+      "name": "Mechanical Components",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/mechanical_components.png"
+    },
+    "pop_trigger": {
+      "id": "pop_trigger",
+      "name": "Pop Trigger",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/pop_trigger.png"
+    },
+    "ruined_baton": {
+      "id": "ruined_baton",
+      "name": "Ruined Baton",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ruined_baton.png"
+    },
+    "rusted_bolts": {
+      "id": "rusted_bolts",
+      "name": "Rusted Bolts",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rusted_bolts.png"
+    },
+    "seeker_grenade": {
+      "id": "seeker_grenade",
+      "name": "Seeker Grenade",
+      "rarity": "Uncommon",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/seeker_grenade.png"
+    },
+    "shield_recharger": {
+      "id": "shield_recharger",
+      "name": "Shield Recharger",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/shield_recharger.png"
+    },
+    "simple_gun_parts": {
+      "id": "simple_gun_parts",
+      "name": "Simple Gun Parts",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/simple_gun_parts.png"
+    },
+    "wires": {
+      "id": "wires",
+      "name": "Wires",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/wires.png"
+    },
+    "adrenaline_shot": {
+      "id": "adrenaline_shot",
+      "name": "Adrenaline Shot",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png"
+    },
+    "arc_powercell": {
+      "id": "arc_powercell",
+      "name": "ARC Powercell",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_powercell.png"
+    },
+    "assorted_seeds": {
+      "id": "assorted_seeds",
+      "name": "Assorted Seeds",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/assorted_seeds.png"
+    },
+    "bandage": {
+      "id": "bandage",
+      "name": "Bandage",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bandage.png"
+    },
+    "chemicals": {
+      "id": "chemicals",
+      "name": "Chemicals",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/chemicals.png"
+    },
+    "fabric": {
+      "id": "fabric",
+      "name": "Fabric",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/fabric.png"
+    },
+    "metal_parts": {
+      "id": "metal_parts",
+      "name": "Metal Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/metal_parts.png"
+    },
+    "plastic_parts": {
+      "id": "plastic_parts",
+      "name": "Plastic Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/plastic_parts.png"
+    },
+    "rubber_parts": {
+      "id": "rubber_parts",
+      "name": "Rubber Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rubber_parts.png"
+    },
+    "shotgun_silencer_blueprint": {
+      "id": "shotgun_silencer_blueprint",
+      "name": "Shotgun Silencer Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/shotgun_silencer_blueprint.png"
+    }
   }
 }
