@@ -46,12 +46,6 @@
       "category": "Rare ARC / high value"
     },
     {
-      "id": "arc_performance_steel",
-      "name": "ARC Performance Steel",
-      "priority": "high",
-      "category": "Rare ARC / high value"
-    },
-    {
       "id": "arc_circuitry",
       "name": "ARC Circuitry",
       "priority": "high",

@@ -275,7 +275,6 @@ function renderItemCard(item) {
 function renderLookingCard(item) {
   const meta = getMeta(item.id, item);
   const icon = meta.image ? `<img class="small-icon" src="${escapeHtml(meta.image)}" alt="">` : "";
-  const high = item.priority === "high" ? `<span class="lf-pill high">high</span>` : `<span class="lf-pill">lf</span>`;
 
   return `
     <article class="lf-card ${priorityClass(item.priority)}">
@@ -283,7 +282,6 @@ function renderLookingCard(item) {
         ${icon}
         <strong>${escapeHtml(item.name || meta.name)}</strong>
       </div>
-      ${high}
     </article>
   `;
 }
