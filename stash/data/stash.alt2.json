@@ -2,10 +2,10 @@
   "version": 2,
   "profile": "alt2",
   "displayName": "Stash alt 2",
-  "updatedAt": "2026-06-02T05:50:30.355Z",
+  "updatedAt": "2026-06-04T06:28:53.467Z",
   "summary": {
-    "uniqueItems": 97,
-    "totalQuantity": 2364,
+    "uniqueItems": 96,
+    "totalQuantity": 2783,
     "sourceFiles": 1
   },
   "items": {
@@ -36,7 +36,7 @@
     "heavy_gun_parts": 4,
     "hornet_driver": 1,
     "launcher_ammo": 241,
-    "looting_mk2": 1,
+    "looting_mk2": 2,
     "medium_gun_parts": 2,
     "medium_shield": 1,
     "moss": 1,
@@ -45,6 +45,7 @@
     "raider_hatch_key": 1,
     "rusted_tools": 1,
     "shredder_gyro": 4,
+    "smoke_grenade": 1,
     "sterilized_bandage": 6,
     "surge_shield_recharger": 3,
     "synthesized_fuel": 2,
@@ -52,13 +53,13 @@
     "wasp_driver": 2,
     "water_filter": 3,
     "zipline": 1,
-    "anvil_i": 2,
+    "anvil_i": 3,
     "anvil_iv": 1,
     "apricot": 5,
     "arc_alloy": 137,
     "barricade_kit": 3,
     "battery": 1,
-    "burletta_i": 1,
+    "burletta_i": 2,
     "canister": 1,
     "cat_bed": 1,
     "crude_explosives": 93,
@@ -69,43 +70,41 @@
     "great_mullein": 3,
     "herbal_bandage": 21,
     "lemon": 8,
-    "light_shield": 3,
+    "light_shield": 4,
     "looting_mk1": 2,
     "mechanical_components": 7,
+    "muzzle_brake_ii": 1,
     "oil": 2,
     "olives": 6,
-    "seeker_grenade": 1,
-    "shield_recharger": 22,
+    "seeker_grenade": 11,
+    "shield_recharger": 31,
     "shrapnel_grenade": 3,
+    "silencer_i": 1,
     "simple_gun_parts": 2,
     "spotter_relay": 2,
     "steel_spring": 2,
     "wires": 16,
-    "adrenaline_shot": 20,
-    "aphelion_blueprint": 1,
+    "adrenaline_shot": 34,
     "arc_powercell": 41,
     "assorted_seeds": 314,
-    "bandage": 2,
-    "barricade_kit_blueprint": 1,
+    "bandage": 10,
     "chemicals": 53,
-    "complex_gun_parts_blueprint": 1,
-    "deadline_blueprint": 1,
+    "extended_light_mag_i": 1,
     "fabric": 46,
     "ferro_i": 1,
     "ferro_iv": 1,
     "firecracker": 2,
-    "heavy_ammo": 70,
-    "jolt_mine_blueprint": 1,
+    "heavy_ammo": 132,
     "lil_smoke_grenade": 5,
-    "light_ammo": 288,
+    "light_ammo": 600,
     "medium_ammo": 184,
     "metal_parts": 116,
     "plastic_parts": 144,
+    "prickly_pear": 2,
     "rattler_iii": 1,
     "red_light_stick": 5,
     "rubber_parts": 87,
-    "stitcher_iv": 1,
-    "trigger_nade_blueprint": 1
+    "stitcher_iv": 1
   },
   "order": [
     "bastion_cell",
@@ -144,6 +143,7 @@
     "raider_hatch_key",
     "rusted_tools",
     "shredder_gyro",
+    "smoke_grenade",
     "sterilized_bandage",
     "surge_shield_recharger",
     "synthesized_fuel",
@@ -171,40 +171,38 @@
     "light_shield",
     "looting_mk1",
     "mechanical_components",
+    "muzzle_brake_ii",
     "oil",
     "olives",
     "seeker_grenade",
     "shield_recharger",
     "shrapnel_grenade",
+    "silencer_i",
     "simple_gun_parts",
     "spotter_relay",
     "steel_spring",
     "wires",
     "adrenaline_shot",
-    "aphelion_blueprint",
     "arc_powercell",
     "assorted_seeds",
     "bandage",
-    "barricade_kit_blueprint",
     "chemicals",
-    "complex_gun_parts_blueprint",
-    "deadline_blueprint",
+    "extended_light_mag_i",
     "fabric",
     "ferro_i",
     "ferro_iv",
     "firecracker",
     "heavy_ammo",
-    "jolt_mine_blueprint",
     "lil_smoke_grenade",
     "light_ammo",
     "medium_ammo",
     "metal_parts",
     "plastic_parts",
+    "prickly_pear",
     "rattler_iii",
     "red_light_stick",
     "rubber_parts",
-    "stitcher_iv",
-    "trigger_nade_blueprint"
+    "stitcher_iv"
   ],
   "stacks": {
     "bastion_cell": [
@@ -325,6 +323,7 @@
       1
     ],
     "looting_mk2": [
+      1,
       1
     ],
     "medium_gun_parts": [
@@ -352,6 +351,9 @@
       3,
       1
     ],
+    "smoke_grenade": [
+      1
+    ],
     "sterilized_bandage": [
       3,
       3
@@ -375,6 +377,7 @@
       1
     ],
     "anvil_i": [
+      1,
       1,
       1
     ],
@@ -403,6 +406,7 @@
       1
     ],
     "burletta_i": [
+      1,
       1
     ],
     "canister": [
@@ -458,6 +462,7 @@
     "light_shield": [
       1,
       1,
+      1,
       1
     ],
     "looting_mk1": [
@@ -467,6 +472,9 @@
     "mechanical_components": [
       7
     ],
+    "muzzle_brake_ii": [
+      1
+    ],
     "oil": [
       2
     ],
@@ -474,6 +482,8 @@
       6
     ],
     "seeker_grenade": [
+      5,
+      5,
       1
     ],
     "shield_recharger": [
@@ -481,10 +491,15 @@
       5,
       5,
       5,
-      2
+      5,
+      5,
+      1
     ],
     "shrapnel_grenade": [
       3
+    ],
+    "silencer_i": [
+      1
     ],
     "simple_gun_parts": [
       2
@@ -503,10 +518,10 @@
       5,
       5,
       5,
-      5
-    ],
-    "aphelion_blueprint": [
-      1
+      5,
+      5,
+      5,
+      4
     ],
     "arc_powercell": [
       5,
@@ -526,19 +541,14 @@
       14
     ],
     "bandage": [
-      2
-    ],
-    "barricade_kit_blueprint": [
-      1
+      5,
+      5
     ],
     "chemicals": [
       50,
       3
     ],
-    "complex_gun_parts_blueprint": [
-      1
-    ],
-    "deadline_blueprint": [
+    "extended_light_mag_i": [
       1
     ],
     "fabric": [
@@ -555,10 +565,8 @@
     ],
     "heavy_ammo": [
       60,
-      10
-    ],
-    "jolt_mine_blueprint": [
-      1
+      60,
+      12
     ],
     "lil_smoke_grenade": [
       5
@@ -566,7 +574,10 @@
     "light_ammo": [
       100,
       100,
-      88
+      100,
+      100,
+      100,
+      100
     ],
     "medium_ammo": [
       80,
@@ -583,6 +594,9 @@
       50,
       44
     ],
+    "prickly_pear": [
+      2
+    ],
     "rattler_iii": [
       1
     ],
@@ -594,9 +608,6 @@
       37
     ],
     "stitcher_iv": [
-      1
-    ],
-    "trigger_nade_blueprint": [
       1
     ]
   },
@@ -853,6 +864,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/shredder_gyro.png"
     },
+    "smoke_grenade": {
+      "id": "smoke_grenade",
+      "name": "Smoke Grenade",
+      "rarity": "Rare",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/smoke_grenade.png"
+    },
     "sterilized_bandage": {
       "id": "sterilized_bandage",
       "name": "Sterilized Bandage",
@@ -1042,6 +1060,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/mechanical_components.png"
     },
+    "muzzle_brake_ii": {
+      "id": "muzzle_brake_ii",
+      "name": "Muzzle Brake II",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/muzzle_brake_ii.png"
+    },
     "oil": {
       "id": "oil",
       "name": "Oil",
@@ -1076,6 +1101,13 @@
       "rarity": "Uncommon",
       "category": "Throwable",
       "image": "https://cdn.arctracker.io/items/v2/shrapnel_grenade.png"
+    },
+    "silencer_i": {
+      "id": "silencer_i",
+      "name": "Silencer I",
+      "rarity": "Uncommon",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/silencer_i.png"
     },
     "simple_gun_parts": {
       "id": "simple_gun_parts",
@@ -1112,13 +1144,6 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png"
     },
-    "aphelion_blueprint": {
-      "id": "aphelion_blueprint",
-      "name": "Aphelion Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/aphelion_blueprint.png"
-    },
     "arc_powercell": {
       "id": "arc_powercell",
       "name": "ARC Powercell",
@@ -1140,13 +1165,6 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/bandage.png"
     },
-    "barricade_kit_blueprint": {
-      "id": "barricade_kit_blueprint",
-      "name": "Barricade Kit Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/barricade_kit_blueprint.png"
-    },
     "chemicals": {
       "id": "chemicals",
       "name": "Chemicals",
@@ -1154,19 +1172,12 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/chemicals.png"
     },
-    "complex_gun_parts_blueprint": {
-      "id": "complex_gun_parts_blueprint",
-      "name": "Complex Gun Parts Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts_blueprint.png"
-    },
-    "deadline_blueprint": {
-      "id": "deadline_blueprint",
-      "name": "Deadline Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/deadline_blueprint.png"
+    "extended_light_mag_i": {
+      "id": "extended_light_mag_i",
+      "name": "Extended Light Mag I",
+      "rarity": "Common",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_light_mag_i.png"
     },
     "fabric": {
       "id": "fabric",
@@ -1203,13 +1214,6 @@
       "category": "Ammunition",
       "image": "https://cdn.arctracker.io/items/v2/heavy_ammo.png"
     },
-    "jolt_mine_blueprint": {
-      "id": "jolt_mine_blueprint",
-      "name": "Jolt Mine Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/jolt_mine_blueprint.png"
-    },
     "lil_smoke_grenade": {
       "id": "lil_smoke_grenade",
       "name": "Li'l Smoke Grenade",
@@ -1245,6 +1249,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/plastic_parts.png"
     },
+    "prickly_pear": {
+      "id": "prickly_pear",
+      "name": "Prickly Pear",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/prickly_pear.png"
+    },
     "rattler_iii": {
       "id": "rattler_iii",
       "name": "Rattler III",
@@ -1272,13 +1283,6 @@
       "rarity": "Common",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/stitcher_iv.png"
-    },
-    "trigger_nade_blueprint": {
-      "id": "trigger_nade_blueprint",
-      "name": "Trigger Nade Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/trigger_nade_blueprint.png"
     }
   }
 }

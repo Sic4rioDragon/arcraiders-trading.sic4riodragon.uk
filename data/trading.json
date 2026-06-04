@@ -40,12 +40,6 @@
       "category": "Rare ARC / high value"
     },
     {
-      "id": "magnetic_accelerator",
-      "name": "Magnetic Accelerator",
-      "priority": "high",
-      "category": "Rare ARC / high value"
-    },
-    {
       "id": "queen_reactor",
       "name": "Queen Reactor",
       "priority": "high",
@@ -54,24 +48,6 @@
     {
       "id": "arc_performance_steel",
       "name": "ARC Performance Steel",
-      "priority": "high",
-      "category": "Rare ARC / high value"
-    },
-    {
-      "id": "leaper_pulse_unit",
-      "name": "Leaper Pulse Unit",
-      "priority": "high",
-      "category": "Rare ARC / high value"
-    },
-    {
-      "id": "bastion_cell",
-      "name": "Bastion Cell",
-      "priority": "high",
-      "category": "Rare ARC / high value"
-    },
-    {
-      "id": "arc_motion_core",
-      "name": "ARC Motion Core",
       "priority": "high",
       "category": "Rare ARC / high value"
     },
@@ -88,18 +64,6 @@
       "category": "Rare parts"
     },
     {
-      "id": "fireball_burner",
-      "name": "Fireball Burner",
-      "priority": "high",
-      "category": "Rare parts"
-    },
-    {
-      "id": "comet_igniter",
-      "name": "Comet Igniter",
-      "priority": "high",
-      "category": "Rare parts"
-    },
-    {
       "id": "advanced_mechanical_components",
       "name": "Advanced Mechanical Components",
       "priority": "normal",
@@ -112,26 +76,8 @@
       "category": "Advanced materials"
     },
     {
-      "id": "complex_gun_parts",
-      "name": "Complex Gun Parts",
-      "priority": "normal",
-      "category": "Gun parts"
-    },
-    {
       "id": "heavy_gun_parts",
       "name": "Heavy Gun Parts",
-      "priority": "normal",
-      "category": "Gun parts"
-    },
-    {
-      "id": "medium_gun_parts",
-      "name": "Medium Gun Parts",
-      "priority": "normal",
-      "category": "Gun parts"
-    },
-    {
-      "id": "light_gun_parts",
-      "name": "Light Gun Parts",
       "priority": "normal",
       "category": "Gun parts"
     },
@@ -154,12 +100,6 @@
       "category": "Components"
     },
     {
-      "id": "power_rod",
-      "name": "Power Rod",
-      "priority": "normal",
-      "category": "Components"
-    },
-    {
       "id": "rope",
       "name": "Rope",
       "priority": "normal",
@@ -178,64 +118,10 @@
       "category": "Explosives"
     },
     {
-      "id": "crude_explosives",
-      "name": "Crude Explosives",
-      "priority": "normal",
-      "category": "Explosives"
-    },
-    {
       "id": "electrical_components",
       "name": "Electrical Components",
       "priority": "normal",
       "category": "Basic materials"
-    },
-    {
-      "id": "mechanical_components",
-      "name": "Mechanical Components",
-      "priority": "normal",
-      "category": "Basic materials"
-    },
-    {
-      "id": "metal_parts",
-      "name": "Metal Parts",
-      "priority": "normal",
-      "category": "Basic materials"
-    },
-    {
-      "id": "plastic_parts",
-      "name": "Plastic Parts",
-      "priority": "normal",
-      "category": "Basic materials"
-    },
-    {
-      "id": "wires",
-      "name": "Wires",
-      "priority": "normal",
-      "category": "Basic materials"
-    },
-    {
-      "id": "oil",
-      "name": "Oil",
-      "priority": "normal",
-      "category": "Basic materials"
-    },
-    {
-      "id": "toaster",
-      "name": "Toaster",
-      "priority": "normal",
-      "category": "Misc"
-    },
-    {
-      "id": "lemon",
-      "name": "Lemon",
-      "priority": "normal",
-      "category": "Misc"
-    },
-    {
-      "id": "apricot",
-      "name": "Apricot",
-      "priority": "normal",
-      "category": "Misc"
     }
   ],
   "manualHave": [
@@ -243,17 +129,9 @@
       "id": "familiar_ducks",
       "name": "Familiar Ducks",
       "category": "Trade currency",
-      "quantity": "?",
+      "quantity": "90",
       "status": "available",
       "note": "Usually open to trade these."
-    },
-    {
-      "id": "bobcat_weapons",
-      "name": "Bobcats",
-      "category": "Weapons",
-      "quantity": "?",
-      "status": "available",
-      "note": "I trade all Bobcats."
     },
     {
       "id": "duplicate_epic_legendary_weapons",
@@ -277,7 +155,7 @@
       "category": "Offers",
       "quantity": "?",
       "status": "available",
-      "note": "Ducks, weapons, keys, or whatever makes sense."
+      "note": "Seeds, weapons, keys, or whatever makes sense."
     }
   ],
   "reservedIds": [

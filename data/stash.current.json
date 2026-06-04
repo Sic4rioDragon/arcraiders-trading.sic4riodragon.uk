@@ -2,339 +2,192 @@
   "version": 2,
   "profile": "imported",
   "displayName": "Imported ARCTracker stash",
-  "updatedAt": "2026-06-02T05:50:30.335Z",
+  "updatedAt": "2026-06-04T06:28:53.437Z",
   "summary": {
-    "uniqueItems": 186,
-    "totalQuantity": 8493,
+    "uniqueItems": 177,
+    "totalQuantity": 7656,
     "sourceFiles": 4
   },
   "items": {
-    "bastion_cell": 18,
-    "complex_gun_parts": 5,
-    "dam_control_tower_key": 3,
-    "familiar_duck": 1335,
-    "hullcracker_i": 17,
-    "hullcracker_iv": 6,
-    "lightweight_stock": 1,
-    "magnetic_accelerator": 47,
-    "power_rod": 18,
+    "acoustic_guitar": 3,
+    "anvil_splitter": 2,
+    "aphelion": 2,
+    "dolabra": 1,
+    "equalizer": 2,
+    "jupiter": 7,
+    "snap_hook": 6,
+    "bastion_cell": 29,
+    "bettina_iv": 1,
+    "bobcat_iv": 1,
+    "breathtaking_snow_globe": 1,
+    "dam_control_tower_key": 2,
+    "deadline": 5,
+    "familiar_duck": 1242,
+    "hullcracker_i": 13,
+    "hullcracker_iii": 1,
+    "hullcracker_iv": 4,
+    "ion_sputter": 1,
+    "leaper_pulse_unit": 15,
+    "magnetic_accelerator": 33,
+    "magnetron": 1,
+    "photoelectric_cloak": 5,
+    "power_rod": 26,
     "powered_descender": 3,
-    "rocketeer_driver": 5,
+    "tempest_iv": 2,
+    "vaporizer_regulator": 3,
+    "vita_spray": 2,
+    "wolfpack": 25,
+    "advanced_mechanical_components": 8,
+    "antiseptic": 18,
+    "arc_circuitry": 33,
+    "arc_flex_rubber": 20,
+    "arc_motion_core": 38,
+    "blue_gate_communication_tower_key": 1,
+    "buried_city_hospital_key": 1,
+    "dam_testing_annex_key": 1,
+    "defibrillator": 31,
+    "explosive_compound": 73,
+    "fireworks_box": 3,
+    "heavy_gun_parts": 44,
+    "launcher_ammo": 305,
+    "light_gun_parts": 22,
+    "looting_mk2": 11,
+    "medium_gun_parts": 8,
+    "medium_shield": 5,
+    "osprey_ii": 1,
+    "osprey_iii": 1,
+    "osprey_iv": 1,
+    "processor": 54,
+    "raider_hatch_key": 13,
+    "renegade_i": 1,
+    "renegade_iv": 1,
+    "rope": 5,
+    "rotary_encoder": 1,
+    "rusted_shut_medical_kit": 2,
+    "sensors": 7,
+    "sentinel_firing_core": 2,
+    "smoke_grenade": 10,
+    "stable_stock_iii": 1,
+    "sterilized_bandage": 20,
+    "surveyor_vault": 1,
+    "torrente_ii": 1,
+    "torrente_iii": 1,
+    "trailblazer": 6,
+    "zipline": 10,
+    "anvil_iii": 2,
+    "anvil_iv": 2,
+    "arc_alloy": 304,
+    "battery": 20,
+    "burletta_ii": 1,
+    "crude_explosives": 134,
+    "dam_staff_room_key": 1,
+    "dam_surveillance_key": 1,
+    "dockmasters_detector": 6,
+    "durable_cloth": 89,
+    "electrical_components": 30,
+    "fireball_burner": 7,
+    "light_shield": 10,
+    "looting_mk1": 13,
+    "magnet": 7,
+    "mechanical_components": 112,
+    "oil": 7,
+    "patrol_car_key": 2,
+    "recorder": 2,
+    "seeker_grenade": 52,
+    "shaker": 2,
+    "shield_recharger": 92,
+    "silencer_i": 2,
+    "simple_gun_parts": 10,
+    "stable_stock_ii": 1,
+    "white_flag": 1,
+    "wires": 42,
+    "adrenaline_shot": 63,
+    "aphelion_blueprint": 1,
+    "assorted_seeds": 996,
+    "chemicals": 168,
+    "deadline_blueprint": 2,
+    "equalizer_blueprint": 1,
+    "fabric": 490,
+    "ferro_iv": 7,
+    "metal_parts": 254,
+    "plastic_parts": 317,
+    "rattler_i": 1,
+    "riven_tides_hotel_keycard_no_107": 1,
+    "rubber_parts": 446,
+    "trigger_nade_blueprint": 1,
+    "complex_gun_parts": 3,
+    "lightweight_stock": 1,
+    "rocketeer_driver": 3,
     "turbine_compressor": 1,
-    "vaporizer_regulator": 2,
     "velocity_ship_model": 5,
     "advanced_arc_powercell": 86,
-    "advanced_electrical_components": 31,
-    "arc_circuitry": 29,
-    "arc_flex_rubber": 15,
-    "arc_motion_core": 27,
+    "advanced_electrical_components": 27,
     "arc_synthetic_resin": 6,
-    "arc_thermo_lining": 6,
-    "defibrillator": 25,
-    "explosive_compound": 77,
+    "arc_thermo_lining": 3,
     "extended_medium_mag_iii": 2,
-    "heavy_gun_parts": 34,
     "hornet_driver": 4,
-    "launcher_ammo": 364,
-    "looting_mk2": 10,
-    "medium_gun_parts": 15,
-    "medium_shield": 5,
     "moss": 1,
     "motor": 1,
-    "processor": 53,
-    "raider_hatch_key": 5,
     "rusted_tools": 1,
     "shredder_gyro": 4,
-    "sterilized_bandage": 22,
     "surge_shield_recharger": 3,
     "synthesized_fuel": 2,
     "syringe": 1,
     "wasp_driver": 6,
     "water_filter": 7,
-    "zipline": 19,
-    "anvil_i": 2,
-    "anvil_iv": 2,
+    "anvil_i": 3,
     "apricot": 5,
-    "arc_alloy": 236,
     "barricade_kit": 3,
-    "battery": 1,
-    "burletta_i": 1,
-    "canister": 1,
+    "burletta_i": 2,
+    "canister": 3,
     "cat_bed": 1,
-    "crude_explosives": 178,
-    "dockmasters_detector": 6,
-    "duct_tape": 4,
-    "durable_cloth": 85,
-    "electrical_components": 13,
-    "great_mullein": 5,
-    "herbal_bandage": 36,
+    "duct_tape": 1,
+    "great_mullein": 3,
+    "herbal_bandage": 26,
     "lemon": 8,
-    "light_shield": 9,
-    "looting_mk1": 13,
-    "mechanical_components": 62,
-    "oil": 2,
+    "muzzle_brake_ii": 1,
     "olives": 14,
-    "seeker_grenade": 61,
-    "shield_recharger": 111,
     "shrapnel_grenade": 3,
-    "simple_gun_parts": 25,
     "spotter_relay": 2,
-    "steel_spring": 6,
-    "wires": 31,
-    "adrenaline_shot": 54,
-    "aphelion_blueprint": 1,
-    "arc_powercell": 80,
-    "assorted_seeds": 1613,
+    "steel_spring": 2,
+    "arc_powercell": 55,
     "bandage": 59,
-    "barricade_kit_blueprint": 1,
-    "chemicals": 265,
-    "complex_gun_parts_blueprint": 1,
-    "deadline_blueprint": 1,
-    "fabric": 423,
+    "extended_light_mag_i": 1,
     "ferro_i": 1,
-    "ferro_iv": 8,
     "firecracker": 2,
-    "heavy_ammo": 204,
-    "jolt_mine_blueprint": 1,
+    "heavy_ammo": 247,
     "lil_smoke_grenade": 5,
-    "light_ammo": 478,
-    "medium_ammo": 566,
-    "metal_parts": 335,
-    "plastic_parts": 303,
+    "light_ammo": 600,
+    "medium_ammo": 446,
+    "prickly_pear": 2,
     "rattler_iii": 2,
     "red_light_stick": 5,
-    "rubber_parts": 549,
     "stitcher_iv": 1,
-    "trigger_nade_blueprint": 1,
-    "antiseptic": 10,
     "bicycle_pump": 2,
     "blaze_grenade": 3,
     "canto_i": 2,
     "dog_collar": 1,
     "osprey_i": 1,
-    "smoke_grenade": 7,
     "trigger_nade": 2,
     "vita_shot": 1,
     "twilight_compass_ship_model": 11,
-    "anvil_iii": 2,
-    "il_toro_i": 2,
+    "il_toro_i": 1,
     "light_bulb": 2,
-    "recorder": 4,
     "ruined_baton": 2,
-    "rusted_bolts": 8,
+    "rusted_bolts": 5,
     "snap_blast_grenade": 3,
     "extended_shotgun_mag_i": 1,
     "shotgun_ammo": 20,
-    "matriarch_reactor": 5,
-    "queen_reactor": 1,
-    "bombardier_cell": 7,
-    "exodus_modules": 6,
-    "leaper_pulse_unit": 8,
+    "queen_reactor": 2,
+    "bombardier_cell": 1,
+    "exodus_modules": 2,
     "looting_mk3_safekeeper": 1,
-    "arc_performance_steel": 11,
-    "cooling_fan": 5,
-    "cracked_bioscanner": 3,
-    "damaged_heat_sink": 3,
-    "diving_goggles": 1,
-    "humidifier": 1,
+    "arc_performance_steel": 9,
     "industrial_battery": 2,
-    "light_gun_parts": 6,
-    "power_cable": 4,
-    "toaster": 3,
-    "turbo_pump": 1,
-    "burned_arc_circuitry": 1,
-    "fireball_burner": 6,
-    "magnet": 4,
-    "pop_trigger": 1,
-    "shotgun_silencer_blueprint": 1,
-    "acoustic_guitar": 1,
-    "anvil_splitter": 1,
-    "aphelion": 4,
-    "dolabra": 1,
-    "equalizer": 1,
-    "jupiter": 4,
-    "snap_hook": 3,
-    "bettina_iv": 1,
-    "bobcat_iv": 1,
-    "breathtaking_snow_globe": 1,
-    "deadline": 7,
-    "hullcracker_iii": 1,
-    "magnetron": 1,
-    "photoelectric_cloak": 5,
-    "tempest_iv": 2,
-    "vita_spray": 5,
-    "vulcano_iv": 1,
-    "wolfpack": 28,
-    "blue_gate_communication_tower_key": 2,
-    "buried_city_hospital_key": 1,
-    "dam_testing_annex_key": 1,
-    "osprey_ii": 1,
-    "osprey_iii": 1,
-    "osprey_iv": 1,
-    "renegade_iv": 1,
-    "silencer_ii": 1,
-    "spaceport_container_storage_key": 1,
-    "spaceport_control_tower_key": 1,
-    "stella_montis_security_checkpoint_key": 1,
-    "surveyor_vault": 1,
-    "torrente_ii": 1,
-    "trailblazer": 9,
-    "burletta_ii": 1,
-    "dam_staff_room_key": 1,
-    "dam_surveillance_key": 4,
-    "flame_spray": 3,
-    "patrol_car_key": 2,
-    "shaker": 2,
-    "spaceport_trench_tower_key": 1,
-    "stella_montis_assembly_admin_key": 2,
-    "white_flag": 1,
-    "heavy_gun_parts_blueprint": 1,
-    "prickly_pear": 2,
-    "rattler_i": 1,
-    "rattler_ii": 1,
-    "riven_tides_hotel_keycard_no_107": 1,
-    "seeker_grenade_blueprint": 1,
-    "torrente_blueprint": 1
+    "mod_components": 10,
+    "toaster": 3
   },
   "order": [
-    "bastion_cell",
-    "complex_gun_parts",
-    "dam_control_tower_key",
-    "familiar_duck",
-    "hullcracker_i",
-    "hullcracker_iv",
-    "lightweight_stock",
-    "magnetic_accelerator",
-    "power_rod",
-    "powered_descender",
-    "rocketeer_driver",
-    "turbine_compressor",
-    "vaporizer_regulator",
-    "velocity_ship_model",
-    "advanced_arc_powercell",
-    "advanced_electrical_components",
-    "arc_circuitry",
-    "arc_flex_rubber",
-    "arc_motion_core",
-    "arc_synthetic_resin",
-    "arc_thermo_lining",
-    "defibrillator",
-    "explosive_compound",
-    "extended_medium_mag_iii",
-    "heavy_gun_parts",
-    "hornet_driver",
-    "launcher_ammo",
-    "looting_mk2",
-    "medium_gun_parts",
-    "medium_shield",
-    "moss",
-    "motor",
-    "processor",
-    "raider_hatch_key",
-    "rusted_tools",
-    "shredder_gyro",
-    "sterilized_bandage",
-    "surge_shield_recharger",
-    "synthesized_fuel",
-    "syringe",
-    "wasp_driver",
-    "water_filter",
-    "zipline",
-    "anvil_i",
-    "anvil_iv",
-    "apricot",
-    "arc_alloy",
-    "barricade_kit",
-    "battery",
-    "burletta_i",
-    "canister",
-    "cat_bed",
-    "crude_explosives",
-    "dockmasters_detector",
-    "duct_tape",
-    "durable_cloth",
-    "electrical_components",
-    "great_mullein",
-    "herbal_bandage",
-    "lemon",
-    "light_shield",
-    "looting_mk1",
-    "mechanical_components",
-    "oil",
-    "olives",
-    "seeker_grenade",
-    "shield_recharger",
-    "shrapnel_grenade",
-    "simple_gun_parts",
-    "spotter_relay",
-    "steel_spring",
-    "wires",
-    "adrenaline_shot",
-    "aphelion_blueprint",
-    "arc_powercell",
-    "assorted_seeds",
-    "bandage",
-    "barricade_kit_blueprint",
-    "chemicals",
-    "complex_gun_parts_blueprint",
-    "deadline_blueprint",
-    "fabric",
-    "ferro_i",
-    "ferro_iv",
-    "firecracker",
-    "heavy_ammo",
-    "jolt_mine_blueprint",
-    "lil_smoke_grenade",
-    "light_ammo",
-    "medium_ammo",
-    "metal_parts",
-    "plastic_parts",
-    "rattler_iii",
-    "red_light_stick",
-    "rubber_parts",
-    "stitcher_iv",
-    "trigger_nade_blueprint",
-    "antiseptic",
-    "bicycle_pump",
-    "blaze_grenade",
-    "canto_i",
-    "dog_collar",
-    "osprey_i",
-    "smoke_grenade",
-    "trigger_nade",
-    "vita_shot",
-    "twilight_compass_ship_model",
-    "anvil_iii",
-    "il_toro_i",
-    "light_bulb",
-    "recorder",
-    "ruined_baton",
-    "rusted_bolts",
-    "snap_blast_grenade",
-    "extended_shotgun_mag_i",
-    "shotgun_ammo",
-    "matriarch_reactor",
-    "queen_reactor",
-    "bombardier_cell",
-    "exodus_modules",
-    "leaper_pulse_unit",
-    "looting_mk3_safekeeper",
-    "arc_performance_steel",
-    "cooling_fan",
-    "cracked_bioscanner",
-    "damaged_heat_sink",
-    "diving_goggles",
-    "humidifier",
-    "industrial_battery",
-    "light_gun_parts",
-    "power_cable",
-    "toaster",
-    "turbo_pump",
-    "burned_arc_circuitry",
-    "fireball_burner",
-    "magnet",
-    "pop_trigger",
-    "shotgun_silencer_blueprint",
     "acoustic_guitar",
     "anvil_splitter",
     "aphelion",
@@ -342,64 +195,244 @@
     "equalizer",
     "jupiter",
     "snap_hook",
+    "bastion_cell",
     "bettina_iv",
     "bobcat_iv",
     "breathtaking_snow_globe",
+    "dam_control_tower_key",
     "deadline",
+    "familiar_duck",
+    "hullcracker_i",
     "hullcracker_iii",
+    "hullcracker_iv",
+    "ion_sputter",
+    "leaper_pulse_unit",
+    "magnetic_accelerator",
     "magnetron",
     "photoelectric_cloak",
+    "power_rod",
+    "powered_descender",
     "tempest_iv",
+    "vaporizer_regulator",
     "vita_spray",
-    "vulcano_iv",
     "wolfpack",
+    "advanced_mechanical_components",
+    "antiseptic",
+    "arc_circuitry",
+    "arc_flex_rubber",
+    "arc_motion_core",
     "blue_gate_communication_tower_key",
     "buried_city_hospital_key",
     "dam_testing_annex_key",
+    "defibrillator",
+    "explosive_compound",
+    "fireworks_box",
+    "heavy_gun_parts",
+    "launcher_ammo",
+    "light_gun_parts",
+    "looting_mk2",
+    "medium_gun_parts",
+    "medium_shield",
     "osprey_ii",
     "osprey_iii",
     "osprey_iv",
+    "processor",
+    "raider_hatch_key",
+    "renegade_i",
     "renegade_iv",
-    "silencer_ii",
-    "spaceport_container_storage_key",
-    "spaceport_control_tower_key",
-    "stella_montis_security_checkpoint_key",
+    "rope",
+    "rotary_encoder",
+    "rusted_shut_medical_kit",
+    "sensors",
+    "sentinel_firing_core",
+    "smoke_grenade",
+    "stable_stock_iii",
+    "sterilized_bandage",
     "surveyor_vault",
     "torrente_ii",
+    "torrente_iii",
     "trailblazer",
+    "zipline",
+    "anvil_iii",
+    "anvil_iv",
+    "arc_alloy",
+    "battery",
     "burletta_ii",
+    "crude_explosives",
     "dam_staff_room_key",
     "dam_surveillance_key",
-    "flame_spray",
+    "dockmasters_detector",
+    "durable_cloth",
+    "electrical_components",
+    "fireball_burner",
+    "light_shield",
+    "looting_mk1",
+    "magnet",
+    "mechanical_components",
+    "oil",
     "patrol_car_key",
+    "recorder",
+    "seeker_grenade",
     "shaker",
-    "spaceport_trench_tower_key",
-    "stella_montis_assembly_admin_key",
+    "shield_recharger",
+    "silencer_i",
+    "simple_gun_parts",
+    "stable_stock_ii",
     "white_flag",
-    "heavy_gun_parts_blueprint",
-    "prickly_pear",
+    "wires",
+    "adrenaline_shot",
+    "aphelion_blueprint",
+    "assorted_seeds",
+    "chemicals",
+    "deadline_blueprint",
+    "equalizer_blueprint",
+    "fabric",
+    "ferro_iv",
+    "metal_parts",
+    "plastic_parts",
     "rattler_i",
-    "rattler_ii",
     "riven_tides_hotel_keycard_no_107",
-    "seeker_grenade_blueprint",
-    "torrente_blueprint"
+    "rubber_parts",
+    "trigger_nade_blueprint",
+    "complex_gun_parts",
+    "lightweight_stock",
+    "rocketeer_driver",
+    "turbine_compressor",
+    "velocity_ship_model",
+    "advanced_arc_powercell",
+    "advanced_electrical_components",
+    "arc_synthetic_resin",
+    "arc_thermo_lining",
+    "extended_medium_mag_iii",
+    "hornet_driver",
+    "moss",
+    "motor",
+    "rusted_tools",
+    "shredder_gyro",
+    "surge_shield_recharger",
+    "synthesized_fuel",
+    "syringe",
+    "wasp_driver",
+    "water_filter",
+    "anvil_i",
+    "apricot",
+    "barricade_kit",
+    "burletta_i",
+    "canister",
+    "cat_bed",
+    "duct_tape",
+    "great_mullein",
+    "herbal_bandage",
+    "lemon",
+    "muzzle_brake_ii",
+    "olives",
+    "shrapnel_grenade",
+    "spotter_relay",
+    "steel_spring",
+    "arc_powercell",
+    "bandage",
+    "extended_light_mag_i",
+    "ferro_i",
+    "firecracker",
+    "heavy_ammo",
+    "lil_smoke_grenade",
+    "light_ammo",
+    "medium_ammo",
+    "prickly_pear",
+    "rattler_iii",
+    "red_light_stick",
+    "stitcher_iv",
+    "bicycle_pump",
+    "blaze_grenade",
+    "canto_i",
+    "dog_collar",
+    "osprey_i",
+    "trigger_nade",
+    "vita_shot",
+    "twilight_compass_ship_model",
+    "il_toro_i",
+    "light_bulb",
+    "ruined_baton",
+    "rusted_bolts",
+    "snap_blast_grenade",
+    "extended_shotgun_mag_i",
+    "shotgun_ammo",
+    "queen_reactor",
+    "bombardier_cell",
+    "exodus_modules",
+    "looting_mk3_safekeeper",
+    "arc_performance_steel",
+    "industrial_battery",
+    "mod_components",
+    "toaster"
   ],
   "stacks": {
+    "acoustic_guitar": [
+      1,
+      1,
+      1
+    ],
+    "anvil_splitter": [
+      1,
+      1
+    ],
+    "aphelion": [
+      1,
+      1
+    ],
+    "dolabra": [
+      1
+    ],
+    "equalizer": [
+      1,
+      1
+    ],
+    "jupiter": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "snap_hook": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
     "bastion_cell": [
+      3,
+      3,
+      2,
       2,
       3,
       3,
       3,
       3,
       3,
-      1
-    ],
-    "complex_gun_parts": [
-      1,
       3,
       1
     ],
+    "bettina_iv": [
+      1
+    ],
+    "bobcat_iv": [
+      1
+    ],
+    "breathtaking_snow_globe": [
+      1
+    ],
     "dam_control_tower_key": [
+      1,
+      1
+    ],
+    "deadline": [
+      1,
+      1,
       1,
       1,
       1
@@ -422,13 +455,7 @@
       15,
       15,
       15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
+      12,
       15,
       15,
       15,
@@ -508,65 +535,695 @@
       1,
       1,
       1,
-      1,
-      1,
-      1,
-      1,
+      1
+    ],
+    "hullcracker_iii": [
       1
     ],
     "hullcracker_iv": [
       1,
       1,
       1,
-      1,
-      1,
       1
     ],
-    "lightweight_stock": [
+    "ion_sputter": [
       1
+    ],
+    "leaper_pulse_unit": [
+      3,
+      3,
+      1,
+      3,
+      3,
+      2
     ],
     "magnetic_accelerator": [
       1,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      2,
-      2
-    ],
-    "power_rod": [
       1,
       3,
       3,
       3,
       3,
       3,
-      2
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "magnetron": [
+      1
+    ],
+    "photoelectric_cloak": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "power_rod": [
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
     ],
     "powered_descender": [
       1,
       1,
       1
     ],
-    "rocketeer_driver": [
-      3,
-      2
-    ],
-    "turbine_compressor": [
+    "tempest_iv": [
+      1,
       1
     ],
     "vaporizer_regulator": [
+      2,
+      1
+    ],
+    "vita_spray": [
       1,
+      1
+    ],
+    "wolfpack": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "advanced_mechanical_components": [
+      5,
+      3
+    ],
+    "antiseptic": [
+      5,
+      3,
+      2,
+      5,
+      3
+    ],
+    "arc_circuitry": [
+      5,
+      5,
+      5,
+      1,
+      5,
+      2,
+      5,
+      5
+    ],
+    "arc_flex_rubber": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    "arc_motion_core": [
+      5,
+      5,
+      4,
+      4,
+      5,
+      1,
+      5,
+      5,
+      4
+    ],
+    "blue_gate_communication_tower_key": [
+      1
+    ],
+    "buried_city_hospital_key": [
+      1
+    ],
+    "dam_testing_annex_key": [
+      1
+    ],
+    "defibrillator": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      1
+    ],
+    "explosive_compound": [
+      5,
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1
+    ],
+    "fireworks_box": [
+      1,
+      1,
+      1
+    ],
+    "heavy_gun_parts": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5,
+      1
+    ],
+    "launcher_ammo": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      1,
+      18,
+      22
+    ],
+    "light_gun_parts": [
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "looting_mk2": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "medium_gun_parts": [
+      1,
+      2,
+      5
+    ],
+    "medium_shield": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "osprey_ii": [
+      1
+    ],
+    "osprey_iii": [
+      1
+    ],
+    "osprey_iv": [
+      1
+    ],
+    "processor": [
+      3,
+      3,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3
+    ],
+    "raider_hatch_key": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "renegade_i": [
+      1
+    ],
+    "renegade_iv": [
+      1
+    ],
+    "rope": [
+      5
+    ],
+    "rotary_encoder": [
+      1
+    ],
+    "rusted_shut_medical_kit": [
+      2
+    ],
+    "sensors": [
+      2,
+      5
+    ],
+    "sentinel_firing_core": [
+      2
+    ],
+    "smoke_grenade": [
+      3,
+      1,
+      5,
+      1
+    ],
+    "stable_stock_iii": [
+      1
+    ],
+    "sterilized_bandage": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "surveyor_vault": [
+      1
+    ],
+    "torrente_ii": [
+      1
+    ],
+    "torrente_iii": [
+      1
+    ],
+    "trailblazer": [
+      3,
+      3
+    ],
+    "zipline": [
+      3,
+      3,
+      3,
+      1
+    ],
+    "anvil_iii": [
+      1,
+      1
+    ],
+    "anvil_iv": [
+      1,
+      1
+    ],
+    "arc_alloy": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      1,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      2,
+      15,
+      1
+    ],
+    "battery": [
+      10,
+      1,
+      9
+    ],
+    "burletta_ii": [
+      1
+    ],
+    "crude_explosives": [
+      5,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      3,
+      10,
+      2,
+      10,
+      10,
+      4
+    ],
+    "dam_staff_room_key": [
+      1
+    ],
+    "dam_surveillance_key": [
+      1
+    ],
+    "dockmasters_detector": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "durable_cloth": [
+      4,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      7,
+      10,
+      6,
+      2
+    ],
+    "electrical_components": [
+      10,
+      8,
+      10,
+      2
+    ],
+    "fireball_burner": [
+      3,
+      3,
+      1
+    ],
+    "light_shield": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "looting_mk1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "magnet": [
+      3,
+      4
+    ],
+    "mechanical_components": [
+      10,
+      10,
+      10,
+      1,
+      7,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      4
+    ],
+    "oil": [
+      4,
+      2,
+      1
+    ],
+    "patrol_car_key": [
+      1,
+      1
+    ],
+    "recorder": [
+      1,
+      1
+    ],
+    "seeker_grenade": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5,
+      5,
+      1
+    ],
+    "shaker": [
+      1,
+      1
+    ],
+    "shield_recharger": [
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4
+    ],
+    "silencer_i": [
+      1,
+      1
+    ],
+    "simple_gun_parts": [
+      7,
+      2,
+      1
+    ],
+    "stable_stock_ii": [
+      1
+    ],
+    "white_flag": [
+      1
+    ],
+    "wires": [
+      1,
+      15,
+      1,
+      15,
+      10
+    ],
+    "adrenaline_shot": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      1,
+      5,
+      3
+    ],
+    "aphelion_blueprint": [
+      1
+    ],
+    "assorted_seeds": [
+      100,
+      100,
+      100,
+      93,
+      100,
+      100,
+      100,
+      14,
+      18,
+      100,
+      100,
+      71
+    ],
+    "chemicals": [
+      50,
+      30,
+      50,
+      3,
+      35
+    ],
+    "deadline_blueprint": [
+      1,
+      1
+    ],
+    "equalizer_blueprint": [
+      1
+    ],
+    "fabric": [
+      50,
+      50,
+      3,
+      46,
+      10,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      31
+    ],
+    "ferro_iv": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "metal_parts": [
+      50,
+      50,
+      13,
+      50,
+      50,
+      16,
+      24,
+      1
+    ],
+    "plastic_parts": [
+      50,
+      50,
+      46,
+      50,
+      50,
+      44,
+      20,
+      7
+    ],
+    "rattler_i": [
+      1
+    ],
+    "riven_tides_hotel_keycard_no_107": [
+      1
+    ],
+    "rubber_parts": [
+      50,
+      50,
+      34,
+      50,
+      37,
+      45,
+      50,
+      50,
+      50,
+      30
+    ],
+    "trigger_nade_blueprint": [
+      1
+    ],
+    "complex_gun_parts": [
+      1,
+      2
+    ],
+    "lightweight_stock": [
+      1
+    ],
+    "rocketeer_driver": [
+      3
+    ],
+    "turbine_compressor": [
       1
     ],
     "velocity_ship_model": [
@@ -603,161 +1260,27 @@
       5,
       5,
       5,
-      4,
       1
-    ],
-    "arc_circuitry": [
-      5,
-      2,
-      5,
-      5,
-      5,
-      5,
-      2
-    ],
-    "arc_flex_rubber": [
-      3,
-      3,
-      3,
-      2,
-      3,
-      1
-    ],
-    "arc_motion_core": [
-      4,
-      5,
-      1,
-      5,
-      5,
-      5,
-      2
     ],
     "arc_synthetic_resin": [
       3,
       3
     ],
     "arc_thermo_lining": [
-      3,
       3
-    ],
-    "defibrillator": [
-      3,
-      3,
-      1,
-      3,
-      3,
-      1,
-      3,
-      3,
-      3,
-      2
-    ],
-    "explosive_compound": [
-      2,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      3,
-      2
     ],
     "extended_medium_mag_iii": [
       1,
       1
     ],
-    "heavy_gun_parts": [
-      4,
-      5,
-      5,
-      5,
-      5,
-      3,
-      2,
-      5
-    ],
     "hornet_driver": [
       1,
       3
-    ],
-    "launcher_ammo": [
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      1,
-      18,
-      22,
-      24,
-      24,
-      24,
-      11
-    ],
-    "looting_mk2": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "medium_gun_parts": [
-      2,
-      5,
-      5,
-      3
-    ],
-    "medium_shield": [
-      1,
-      1,
-      1,
-      1,
-      1
     ],
     "moss": [
       1
     ],
     "motor": [
-      1
-    ],
-    "processor": [
-      3,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      3,
-      2
-    ],
-    "raider_hatch_key": [
-      1,
-      1,
-      1,
-      1,
       1
     ],
     "rusted_tools": [
@@ -766,16 +1289,6 @@
     "shredder_gyro": [
       3,
       1
-    ],
-    "sterilized_bandage": [
-      3,
-      3,
-      3,
-      3,
-      3,
-      2,
-      3,
-      2
     ],
     "surge_shield_recharger": [
       3
@@ -796,116 +1309,33 @@
       1,
       3
     ],
-    "zipline": [
-      1,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3
-    ],
     "anvil_i": [
       1,
-      1
-    ],
-    "anvil_iv": [
       1,
       1
     ],
     "apricot": [
       5
     ],
-    "arc_alloy": [
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      15,
-      2,
-      15,
-      15,
-      15,
-      15,
-      6,
-      5,
-      15,
-      13
-    ],
     "barricade_kit": [
       3
     ],
-    "battery": [
-      1
-    ],
     "burletta_i": [
+      1,
       1
     ],
     "canister": [
-      1
+      1,
+      2
     ],
     "cat_bed": [
       1
     ],
-    "crude_explosives": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      3,
-      10,
-      2,
-      10,
-      10,
-      10,
-      10,
-      8,
-      6,
-      5,
-      10,
-      4
-    ],
-    "dockmasters_detector": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
     "duct_tape": [
-      1,
-      3
-    ],
-    "durable_cloth": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      7,
-      10,
-      6,
-      2
-    ],
-    "electrical_components": [
-      10,
-      2,
       1
     ],
     "great_mullein": [
-      3,
-      2
+      3
     ],
     "herbal_bandage": [
       5,
@@ -913,134 +1343,26 @@
       5,
       5,
       1,
-      5,
-      5,
       5
     ],
     "lemon": [
       8
     ],
-    "light_shield": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
+    "muzzle_brake_ii": [
       1
-    ],
-    "looting_mk1": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "mechanical_components": [
-      7,
-      10,
-      10,
-      10,
-      10,
-      10,
-      5
-    ],
-    "oil": [
-      2
     ],
     "olives": [
       6,
       8
     ],
-    "seeker_grenade": [
-      1,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5
-    ],
-    "shield_recharger": [
-      5,
-      5,
-      5,
-      5,
-      2,
-      5,
-      5,
-      5,
-      5,
-      1,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      4,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      4
-    ],
     "shrapnel_grenade": [
       3
-    ],
-    "simple_gun_parts": [
-      2,
-      3,
-      10,
-      10
     ],
     "spotter_relay": [
       2
     ],
     "steel_spring": [
-      2,
-      4
-    ],
-    "wires": [
-      15,
-      1,
-      5,
-      10
-    ],
-    "adrenaline_shot": [
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      1,
-      5,
-      3,
-      5,
-      5,
-      5
-    ],
-    "aphelion_blueprint": [
-      1
+      2
     ],
     "arc_powercell": [
       5,
@@ -1054,91 +1376,26 @@
       1,
       5,
       5,
+      4
+    ],
+    "bandage": [
+      5,
       5,
       5,
       5,
       4,
+      5,
+      5,
+      5,
+      5,
+      5,
       5,
       5
     ],
-    "assorted_seeds": [
-      100,
-      100,
-      100,
-      14,
-      18,
-      100,
-      100,
-      79,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      2
-    ],
-    "bandage": [
-      2,
-      5,
-      5,
-      4,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      5,
-      3
-    ],
-    "barricade_kit_blueprint": [
+    "extended_light_mag_i": [
       1
-    ],
-    "chemicals": [
-      50,
-      3,
-      35,
-      15,
-      50,
-      50,
-      50,
-      12
-    ],
-    "complex_gun_parts_blueprint": [
-      1
-    ],
-    "deadline_blueprint": [
-      1
-    ],
-    "fabric": [
-      46,
-      10,
-      50,
-      50,
-      50,
-      50,
-      50,
-      21,
-      50,
-      46
     ],
     "ferro_i": [
-      1
-    ],
-    "ferro_iv": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
       1
     ],
     "firecracker": [
@@ -1146,13 +1403,10 @@
     ],
     "heavy_ammo": [
       60,
-      10,
       60,
-      55,
-      19
-    ],
-    "jolt_mine_blueprint": [
-      1
+      12,
+      60,
+      55
     ],
     "lil_smoke_grenade": [
       5
@@ -1160,9 +1414,10 @@
     "light_ammo": [
       100,
       100,
-      88,
       100,
-      90
+      100,
+      100,
+      100
     ],
     "medium_ammo": [
       80,
@@ -1171,30 +1426,10 @@
       80,
       80,
       80,
-      22,
-      80,
-      40
+      22
     ],
-    "metal_parts": [
-      50,
-      50,
-      16,
-      24,
-      50,
-      50,
-      29,
-      50,
-      16
-    ],
-    "plastic_parts": [
-      50,
-      50,
-      44,
-      20,
-      18,
-      50,
-      50,
-      21
+    "prickly_pear": [
+      2
     ],
     "rattler_iii": [
       1,
@@ -1203,31 +1438,8 @@
     "red_light_stick": [
       5
     ],
-    "rubber_parts": [
-      50,
-      37,
-      45,
-      50,
-      50,
-      50,
-      50,
-      50,
-      3,
-      50,
-      50,
-      50,
-      14
-    ],
     "stitcher_iv": [
       1
-    ],
-    "trigger_nade_blueprint": [
-      1
-    ],
-    "antiseptic": [
-      2,
-      5,
-      3
     ],
     "bicycle_pump": [
       2
@@ -1243,11 +1455,6 @@
       1
     ],
     "osprey_i": [
-      1
-    ],
-    "smoke_grenade": [
-      5,
-      1,
       1
     ],
     "trigger_nade": [
@@ -1269,22 +1476,11 @@
       1,
       1
     ],
-    "anvil_iii": [
-      1,
-      1
-    ],
     "il_toro_i": [
-      1,
       1
     ],
     "light_bulb": [
       2
-    ],
-    "recorder": [
-      1,
-      1,
-      1,
-      1
     ],
     "ruined_baton": [
       1,
@@ -1292,7 +1488,6 @@
     ],
     "rusted_bolts": [
       2,
-      3,
       3
     ],
     "snap_blast_grenade": [
@@ -1304,28 +1499,14 @@
     "shotgun_ammo": [
       20
     ],
-    "matriarch_reactor": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
     "queen_reactor": [
+      1,
       1
     ],
     "bombardier_cell": [
-      3,
-      3,
       1
     ],
     "exodus_modules": [
-      3,
-      3
-    ],
-    "leaper_pulse_unit": [
-      3,
-      3,
       2
     ],
     "looting_mk3_safekeeper": [
@@ -1334,1233 +1515,20 @@
     "arc_performance_steel": [
       3,
       3,
-      3,
-      1,
-      1
-    ],
-    "cooling_fan": [
-      3,
-      2
-    ],
-    "cracked_bioscanner": [
       3
-    ],
-    "damaged_heat_sink": [
-      3
-    ],
-    "diving_goggles": [
-      1
-    ],
-    "humidifier": [
-      1
     ],
     "industrial_battery": [
       2
     ],
-    "light_gun_parts": [
-      1,
+    "mod_components": [
+      5,
       5
-    ],
-    "power_cable": [
-      3,
-      1
     ],
     "toaster": [
       3
-    ],
-    "turbo_pump": [
-      1
-    ],
-    "burned_arc_circuitry": [
-      1
-    ],
-    "fireball_burner": [
-      1,
-      3,
-      2
-    ],
-    "magnet": [
-      4
-    ],
-    "pop_trigger": [
-      1
-    ],
-    "shotgun_silencer_blueprint": [
-      1
-    ],
-    "acoustic_guitar": [
-      1
-    ],
-    "anvil_splitter": [
-      1
-    ],
-    "aphelion": [
-      1,
-      1,
-      1,
-      1
-    ],
-    "dolabra": [
-      1
-    ],
-    "equalizer": [
-      1
-    ],
-    "jupiter": [
-      1,
-      1,
-      1,
-      1
-    ],
-    "snap_hook": [
-      1,
-      1,
-      1
-    ],
-    "bettina_iv": [
-      1
-    ],
-    "bobcat_iv": [
-      1
-    ],
-    "breathtaking_snow_globe": [
-      1
-    ],
-    "deadline": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "hullcracker_iii": [
-      1
-    ],
-    "magnetron": [
-      1
-    ],
-    "photoelectric_cloak": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "tempest_iv": [
-      1,
-      1
-    ],
-    "vita_spray": [
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "vulcano_iv": [
-      1
-    ],
-    "wolfpack": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "blue_gate_communication_tower_key": [
-      1,
-      1
-    ],
-    "buried_city_hospital_key": [
-      1
-    ],
-    "dam_testing_annex_key": [
-      1
-    ],
-    "osprey_ii": [
-      1
-    ],
-    "osprey_iii": [
-      1
-    ],
-    "osprey_iv": [
-      1
-    ],
-    "renegade_iv": [
-      1
-    ],
-    "silencer_ii": [
-      1
-    ],
-    "spaceport_container_storage_key": [
-      1
-    ],
-    "spaceport_control_tower_key": [
-      1
-    ],
-    "stella_montis_security_checkpoint_key": [
-      1
-    ],
-    "surveyor_vault": [
-      1
-    ],
-    "torrente_ii": [
-      1
-    ],
-    "trailblazer": [
-      3,
-      3,
-      3
-    ],
-    "burletta_ii": [
-      1
-    ],
-    "dam_staff_room_key": [
-      1
-    ],
-    "dam_surveillance_key": [
-      1,
-      1,
-      1,
-      1
-    ],
-    "flame_spray": [
-      1,
-      1,
-      1
-    ],
-    "patrol_car_key": [
-      1,
-      1
-    ],
-    "shaker": [
-      1,
-      1
-    ],
-    "spaceport_trench_tower_key": [
-      1
-    ],
-    "stella_montis_assembly_admin_key": [
-      1,
-      1
-    ],
-    "white_flag": [
-      1
-    ],
-    "heavy_gun_parts_blueprint": [
-      1
-    ],
-    "prickly_pear": [
-      2
-    ],
-    "rattler_i": [
-      1
-    ],
-    "rattler_ii": [
-      1
-    ],
-    "riven_tides_hotel_keycard_no_107": [
-      1
-    ],
-    "seeker_grenade_blueprint": [
-      1
-    ],
-    "torrente_blueprint": [
-      1
     ]
   },
   "extractedCoreItems": {
-    "bastion_cell": {
-      "id": "bastion_cell",
-      "name": "Bastion Cell",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/bastion_cell.png"
-    },
-    "complex_gun_parts": {
-      "id": "complex_gun_parts",
-      "name": "Complex Gun Parts",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts.png"
-    },
-    "dam_control_tower_key": {
-      "id": "dam_control_tower_key",
-      "name": "Dam Control Tower Key",
-      "rarity": "Epic",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/dam_control_tower_key.png"
-    },
-    "familiar_duck": {
-      "id": "familiar_duck",
-      "name": "Familiar Duck",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/familiar_duck.png"
-    },
-    "hullcracker_i": {
-      "id": "hullcracker_i",
-      "name": "Hullcracker I",
-      "rarity": "Epic",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/hullcracker_i.png"
-    },
-    "hullcracker_iv": {
-      "id": "hullcracker_iv",
-      "name": "Hullcracker IV",
-      "rarity": "Epic",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/hullcracker_iv.png"
-    },
-    "lightweight_stock": {
-      "id": "lightweight_stock",
-      "name": "Lightweight Stock",
-      "rarity": "Epic",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/lightweight_stock.png"
-    },
-    "magnetic_accelerator": {
-      "id": "magnetic_accelerator",
-      "name": "Magnetic Accelerator",
-      "rarity": "Epic",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/magnetic_accelerator.png"
-    },
-    "power_rod": {
-      "id": "power_rod",
-      "name": "Power Rod",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/power_rod.png"
-    },
-    "powered_descender": {
-      "id": "powered_descender",
-      "name": "Powered Descender",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/powered_descender.png"
-    },
-    "rocketeer_driver": {
-      "id": "rocketeer_driver",
-      "name": "Rocketeer Driver",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rocketeer_driver.png"
-    },
-    "turbine_compressor": {
-      "id": "turbine_compressor",
-      "name": "Turbine Compressor",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/turbine_compressor.png"
-    },
-    "vaporizer_regulator": {
-      "id": "vaporizer_regulator",
-      "name": "Vaporizer Regulator",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/vaporizer_regulator.png"
-    },
-    "velocity_ship_model": {
-      "id": "velocity_ship_model",
-      "name": "\"Velocity\" Ship Model",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/velocity_ship_model.png"
-    },
-    "advanced_arc_powercell": {
-      "id": "advanced_arc_powercell",
-      "name": "Advanced ARC Powercell",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/advanced_arc_powercell.png"
-    },
-    "advanced_electrical_components": {
-      "id": "advanced_electrical_components",
-      "name": "Advanced Electrical Components",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/advanced_electrical_components.png"
-    },
-    "arc_circuitry": {
-      "id": "arc_circuitry",
-      "name": "ARC Circuitry",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_circuitry.png"
-    },
-    "arc_flex_rubber": {
-      "id": "arc_flex_rubber",
-      "name": "ARC Flex Rubber",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_flex_rubber.png"
-    },
-    "arc_motion_core": {
-      "id": "arc_motion_core",
-      "name": "ARC Motion Core",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_motion_core.png"
-    },
-    "arc_synthetic_resin": {
-      "id": "arc_synthetic_resin",
-      "name": "ARC Synthetic Resin",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_synthetic_resin.png"
-    },
-    "arc_thermo_lining": {
-      "id": "arc_thermo_lining",
-      "name": "ARC Thermo Lining",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_thermo_lining.png"
-    },
-    "defibrillator": {
-      "id": "defibrillator",
-      "name": "Defibrillator",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/defibrillator.png"
-    },
-    "explosive_compound": {
-      "id": "explosive_compound",
-      "name": "Explosive Compound",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/explosive_compound.png"
-    },
-    "extended_medium_mag_iii": {
-      "id": "extended_medium_mag_iii",
-      "name": "Extended Medium Mag III",
-      "rarity": "Rare",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/extended_medium_mag_iii.png"
-    },
-    "heavy_gun_parts": {
-      "id": "heavy_gun_parts",
-      "name": "Heavy Gun Parts",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/heavy_gun_parts.png"
-    },
-    "hornet_driver": {
-      "id": "hornet_driver",
-      "name": "Hornet Driver",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/hornet_driver.png"
-    },
-    "launcher_ammo": {
-      "id": "launcher_ammo",
-      "name": "Launcher Ammo",
-      "rarity": "Rare",
-      "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/launcher_ammo.png"
-    },
-    "looting_mk2": {
-      "id": "looting_mk2",
-      "name": "Looting Mk. 2",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/looting_mk2.png"
-    },
-    "medium_gun_parts": {
-      "id": "medium_gun_parts",
-      "name": "Medium Gun Parts",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/medium_gun_parts.png"
-    },
-    "medium_shield": {
-      "id": "medium_shield",
-      "name": "Medium Shield",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/medium_shield.png"
-    },
-    "moss": {
-      "id": "moss",
-      "name": "Moss",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/moss.png"
-    },
-    "motor": {
-      "id": "motor",
-      "name": "Motor",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/motor.png"
-    },
-    "processor": {
-      "id": "processor",
-      "name": "Processor",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/processor.png"
-    },
-    "raider_hatch_key": {
-      "id": "raider_hatch_key",
-      "name": "Raider Hatch Key",
-      "rarity": "Rare",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/raider_hatch_key.png"
-    },
-    "rusted_tools": {
-      "id": "rusted_tools",
-      "name": "Rusted Tools",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rusted_tools.png"
-    },
-    "shredder_gyro": {
-      "id": "shredder_gyro",
-      "name": "Shredder Gyro",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/shredder_gyro.png"
-    },
-    "sterilized_bandage": {
-      "id": "sterilized_bandage",
-      "name": "Sterilized Bandage",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/sterilized_bandage.png"
-    },
-    "surge_shield_recharger": {
-      "id": "surge_shield_recharger",
-      "name": "Surge Shield Recharger",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/surge_shield_recharger.png"
-    },
-    "synthesized_fuel": {
-      "id": "synthesized_fuel",
-      "name": "Synthesized Fuel",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/synthesized_fuel.png"
-    },
-    "syringe": {
-      "id": "syringe",
-      "name": "Syringe",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/syringe.png"
-    },
-    "wasp_driver": {
-      "id": "wasp_driver",
-      "name": "Wasp Driver",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/wasp_driver.png"
-    },
-    "water_filter": {
-      "id": "water_filter",
-      "name": "Water Filter",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/water_filter.png"
-    },
-    "zipline": {
-      "id": "zipline",
-      "name": "Zipline",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/zipline.png"
-    },
-    "anvil_i": {
-      "id": "anvil_i",
-      "name": "Anvil I",
-      "rarity": "Uncommon",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/anvil_i.png"
-    },
-    "anvil_iv": {
-      "id": "anvil_iv",
-      "name": "Anvil IV",
-      "rarity": "Uncommon",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/anvil_iv.png"
-    },
-    "apricot": {
-      "id": "apricot",
-      "name": "Apricot",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/apricot.png"
-    },
-    "arc_alloy": {
-      "id": "arc_alloy",
-      "name": "ARC Alloy",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_alloy.png"
-    },
-    "barricade_kit": {
-      "id": "barricade_kit",
-      "name": "Barricade Kit",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/barricade_kit.png"
-    },
-    "battery": {
-      "id": "battery",
-      "name": "Battery",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/battery.png"
-    },
-    "burletta_i": {
-      "id": "burletta_i",
-      "name": "Burletta I",
-      "rarity": "Uncommon",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/burletta_i.png"
-    },
-    "canister": {
-      "id": "canister",
-      "name": "Canister",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/canister.png"
-    },
-    "cat_bed": {
-      "id": "cat_bed",
-      "name": "Cat Bed",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/cat_bed.png"
-    },
-    "crude_explosives": {
-      "id": "crude_explosives",
-      "name": "Crude Explosives",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/crude_explosives.png"
-    },
-    "dockmasters_detector": {
-      "id": "dockmasters_detector",
-      "name": "Dockmaster's Detector",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/dockmasters_detector.png"
-    },
-    "duct_tape": {
-      "id": "duct_tape",
-      "name": "Duct Tape",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/duct_tape.png"
-    },
-    "durable_cloth": {
-      "id": "durable_cloth",
-      "name": "Durable Cloth",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/durable_cloth.png"
-    },
-    "electrical_components": {
-      "id": "electrical_components",
-      "name": "Electrical Components",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/electrical_components.png"
-    },
-    "great_mullein": {
-      "id": "great_mullein",
-      "name": "Great Mullein",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/great_mullein.png"
-    },
-    "herbal_bandage": {
-      "id": "herbal_bandage",
-      "name": "Herbal Bandage",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/herbal_bandage.png"
-    },
-    "lemon": {
-      "id": "lemon",
-      "name": "Lemon",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/lemon.png"
-    },
-    "light_shield": {
-      "id": "light_shield",
-      "name": "Light Shield",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/light_shield.png"
-    },
-    "looting_mk1": {
-      "id": "looting_mk1",
-      "name": "Looting Mk. 1",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/looting_mk1.png"
-    },
-    "mechanical_components": {
-      "id": "mechanical_components",
-      "name": "Mechanical Components",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/mechanical_components.png"
-    },
-    "oil": {
-      "id": "oil",
-      "name": "Oil",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/oil.png"
-    },
-    "olives": {
-      "id": "olives",
-      "name": "Olives",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/olives.png"
-    },
-    "seeker_grenade": {
-      "id": "seeker_grenade",
-      "name": "Seeker Grenade",
-      "rarity": "Uncommon",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/seeker_grenade.png"
-    },
-    "shield_recharger": {
-      "id": "shield_recharger",
-      "name": "Shield Recharger",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/shield_recharger.png"
-    },
-    "shrapnel_grenade": {
-      "id": "shrapnel_grenade",
-      "name": "Shrapnel Grenade",
-      "rarity": "Uncommon",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/shrapnel_grenade.png"
-    },
-    "simple_gun_parts": {
-      "id": "simple_gun_parts",
-      "name": "Simple Gun Parts",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/simple_gun_parts.png"
-    },
-    "spotter_relay": {
-      "id": "spotter_relay",
-      "name": "Spotter Relay",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/spotter_relay.png"
-    },
-    "steel_spring": {
-      "id": "steel_spring",
-      "name": "Steel Spring",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/steel_spring.png"
-    },
-    "wires": {
-      "id": "wires",
-      "name": "Wires",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/wires.png"
-    },
-    "adrenaline_shot": {
-      "id": "adrenaline_shot",
-      "name": "Adrenaline Shot",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png"
-    },
-    "aphelion_blueprint": {
-      "id": "aphelion_blueprint",
-      "name": "Aphelion Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/aphelion_blueprint.png"
-    },
-    "arc_powercell": {
-      "id": "arc_powercell",
-      "name": "ARC Powercell",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_powercell.png"
-    },
-    "assorted_seeds": {
-      "id": "assorted_seeds",
-      "name": "Assorted Seeds",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/assorted_seeds.png"
-    },
-    "bandage": {
-      "id": "bandage",
-      "name": "Bandage",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/bandage.png"
-    },
-    "barricade_kit_blueprint": {
-      "id": "barricade_kit_blueprint",
-      "name": "Barricade Kit Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/barricade_kit_blueprint.png"
-    },
-    "chemicals": {
-      "id": "chemicals",
-      "name": "Chemicals",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/chemicals.png"
-    },
-    "complex_gun_parts_blueprint": {
-      "id": "complex_gun_parts_blueprint",
-      "name": "Complex Gun Parts Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts_blueprint.png"
-    },
-    "deadline_blueprint": {
-      "id": "deadline_blueprint",
-      "name": "Deadline Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/deadline_blueprint.png"
-    },
-    "fabric": {
-      "id": "fabric",
-      "name": "Fabric",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/fabric.png"
-    },
-    "ferro_i": {
-      "id": "ferro_i",
-      "name": "Ferro I",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/ferro_i.png"
-    },
-    "ferro_iv": {
-      "id": "ferro_iv",
-      "name": "Ferro IV",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/ferro_iv.png"
-    },
-    "firecracker": {
-      "id": "firecracker",
-      "name": "Firecracker",
-      "rarity": "Common",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/firecracker.png"
-    },
-    "heavy_ammo": {
-      "id": "heavy_ammo",
-      "name": "Heavy Ammo",
-      "rarity": "Common",
-      "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/heavy_ammo.png"
-    },
-    "jolt_mine_blueprint": {
-      "id": "jolt_mine_blueprint",
-      "name": "Jolt Mine Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/jolt_mine_blueprint.png"
-    },
-    "lil_smoke_grenade": {
-      "id": "lil_smoke_grenade",
-      "name": "Li'l Smoke Grenade",
-      "rarity": "Common",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/lil_smoke_grenade.png"
-    },
-    "light_ammo": {
-      "id": "light_ammo",
-      "name": "Light Ammo",
-      "rarity": "Common",
-      "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/light_ammo.png"
-    },
-    "medium_ammo": {
-      "id": "medium_ammo",
-      "name": "Medium Ammo",
-      "rarity": "Common",
-      "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/medium_ammo.png"
-    },
-    "metal_parts": {
-      "id": "metal_parts",
-      "name": "Metal Parts",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/metal_parts.png"
-    },
-    "plastic_parts": {
-      "id": "plastic_parts",
-      "name": "Plastic Parts",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/plastic_parts.png"
-    },
-    "rattler_iii": {
-      "id": "rattler_iii",
-      "name": "Rattler III",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rattler_iii.png"
-    },
-    "red_light_stick": {
-      "id": "red_light_stick",
-      "name": "Red Light Stick",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/red_light_stick.png"
-    },
-    "rubber_parts": {
-      "id": "rubber_parts",
-      "name": "Rubber Parts",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rubber_parts.png"
-    },
-    "stitcher_iv": {
-      "id": "stitcher_iv",
-      "name": "Stitcher IV",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/stitcher_iv.png"
-    },
-    "trigger_nade_blueprint": {
-      "id": "trigger_nade_blueprint",
-      "name": "Trigger Nade Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/trigger_nade_blueprint.png"
-    },
-    "antiseptic": {
-      "id": "antiseptic",
-      "name": "Antiseptic",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/antiseptic.png"
-    },
-    "bicycle_pump": {
-      "id": "bicycle_pump",
-      "name": "Bicycle Pump",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/bicycle_pump.png"
-    },
-    "blaze_grenade": {
-      "id": "blaze_grenade",
-      "name": "Blaze Grenade",
-      "rarity": "Rare",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/blaze_grenade.png"
-    },
-    "canto_i": {
-      "id": "canto_i",
-      "name": "Canto I",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/canto_i.png"
-    },
-    "dog_collar": {
-      "id": "dog_collar",
-      "name": "Dog Collar",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/dog_collar.png"
-    },
-    "osprey_i": {
-      "id": "osprey_i",
-      "name": "Osprey I",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/osprey_i.png"
-    },
-    "smoke_grenade": {
-      "id": "smoke_grenade",
-      "name": "Smoke Grenade",
-      "rarity": "Rare",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/smoke_grenade.png"
-    },
-    "trigger_nade": {
-      "id": "trigger_nade",
-      "name": "Trigger 'Nade",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/trigger_nade.png"
-    },
-    "vita_shot": {
-      "id": "vita_shot",
-      "name": "Vita Shot",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/vita_shot.png"
-    },
-    "twilight_compass_ship_model": {
-      "id": "twilight_compass_ship_model",
-      "name": "\"Twilight Compass\" Ship Model",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/twilight_compass_ship_model.png"
-    },
-    "anvil_iii": {
-      "id": "anvil_iii",
-      "name": "Anvil III",
-      "rarity": "Uncommon",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/anvil_iii.png"
-    },
-    "il_toro_i": {
-      "id": "il_toro_i",
-      "name": "Il Toro I",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/il_toro_i.png"
-    },
-    "light_bulb": {
-      "id": "light_bulb",
-      "name": "Light Bulb",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/light_bulb.png"
-    },
-    "recorder": {
-      "id": "recorder",
-      "name": "Recorder",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/recorder.png"
-    },
-    "ruined_baton": {
-      "id": "ruined_baton",
-      "name": "Ruined Baton",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/ruined_baton.png"
-    },
-    "rusted_bolts": {
-      "id": "rusted_bolts",
-      "name": "Rusted Bolts",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rusted_bolts.png"
-    },
-    "snap_blast_grenade": {
-      "id": "snap_blast_grenade",
-      "name": "Snap Blast Grenade",
-      "rarity": "Uncommon",
-      "category": "Throwable",
-      "image": "https://cdn.arctracker.io/items/v2/snap_blast_grenade.png"
-    },
-    "extended_shotgun_mag_i": {
-      "id": "extended_shotgun_mag_i",
-      "name": "Extended Shotgun Mag I",
-      "rarity": "Common",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/extended_shotgun_mag_i.png"
-    },
-    "shotgun_ammo": {
-      "id": "shotgun_ammo",
-      "name": "Shotgun Ammo",
-      "rarity": "Common",
-      "category": "Ammunition",
-      "image": "https://cdn.arctracker.io/items/v2/shotgun_ammo.png"
-    },
-    "matriarch_reactor": {
-      "id": "matriarch_reactor",
-      "name": "Matriarch Reactor",
-      "rarity": "Legendary",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/matriarch_reactor.png"
-    },
-    "queen_reactor": {
-      "id": "queen_reactor",
-      "name": "Queen Reactor",
-      "rarity": "Legendary",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/queen_reactor.png"
-    },
-    "bombardier_cell": {
-      "id": "bombardier_cell",
-      "name": "Bombardier Cell",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/bombardier_cell.png"
-    },
-    "exodus_modules": {
-      "id": "exodus_modules",
-      "name": "Exodus Modules",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/exodus_modules.png"
-    },
-    "leaper_pulse_unit": {
-      "id": "leaper_pulse_unit",
-      "name": "Leaper Pulse Unit",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/leaper_pulse_unit.png"
-    },
-    "looting_mk3_safekeeper": {
-      "id": "looting_mk3_safekeeper",
-      "name": "Looting Mk. 3 (Safekeeper)",
-      "rarity": "Epic",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper.png"
-    },
-    "arc_performance_steel": {
-      "id": "arc_performance_steel",
-      "name": "ARC Performance Steel",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/arc_performance_steel.png"
-    },
-    "cooling_fan": {
-      "id": "cooling_fan",
-      "name": "Cooling Fan",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/cooling_fan.png"
-    },
-    "cracked_bioscanner": {
-      "id": "cracked_bioscanner",
-      "name": "Cracked Bioscanner",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/cracked_bioscanner.png"
-    },
-    "damaged_heat_sink": {
-      "id": "damaged_heat_sink",
-      "name": "Damaged Heat Sink",
-      "rarity": "Rare",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/damaged_heat_sink.png"
-    },
-    "diving_goggles": {
-      "id": "diving_goggles",
-      "name": "Diving Goggles",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/diving_goggles.png"
-    },
-    "humidifier": {
-      "id": "humidifier",
-      "name": "Humidifier",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/humidifier.png"
-    },
-    "industrial_battery": {
-      "id": "industrial_battery",
-      "name": "Industrial Battery",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/industrial_battery.png"
-    },
-    "light_gun_parts": {
-      "id": "light_gun_parts",
-      "name": "Light Gun Parts",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/light_gun_parts.png"
-    },
-    "power_cable": {
-      "id": "power_cable",
-      "name": "Power Cable",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/power_cable.png"
-    },
-    "toaster": {
-      "id": "toaster",
-      "name": "Toaster",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/toaster.png"
-    },
-    "turbo_pump": {
-      "id": "turbo_pump",
-      "name": "Turbo Pump",
-      "rarity": "Rare",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/turbo_pump.png"
-    },
-    "burned_arc_circuitry": {
-      "id": "burned_arc_circuitry",
-      "name": "Burned Arc Circuitry",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/burned_arc_circuitry.png"
-    },
-    "fireball_burner": {
-      "id": "fireball_burner",
-      "name": "Fireball Burner",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/fireball_burner.png"
-    },
-    "magnet": {
-      "id": "magnet",
-      "name": "Magnet",
-      "rarity": "Uncommon",
-      "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/magnet.png"
-    },
-    "pop_trigger": {
-      "id": "pop_trigger",
-      "name": "Pop Trigger",
-      "rarity": "Uncommon",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/pop_trigger.png"
-    },
-    "shotgun_silencer_blueprint": {
-      "id": "shotgun_silencer_blueprint",
-      "name": "Shotgun Silencer Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/shotgun_silencer_blueprint.png"
-    },
     "acoustic_guitar": {
       "id": "acoustic_guitar",
       "name": "Acoustic Guitar",
@@ -2610,6 +1578,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/snap_hook.png"
     },
+    "bastion_cell": {
+      "id": "bastion_cell",
+      "name": "Bastion Cell",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bastion_cell.png"
+    },
     "bettina_iv": {
       "id": "bettina_iv",
       "name": "Bettina IV",
@@ -2631,6 +1606,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/breathtaking_snow_globe.png"
     },
+    "dam_control_tower_key": {
+      "id": "dam_control_tower_key",
+      "name": "Dam Control Tower Key",
+      "rarity": "Epic",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/dam_control_tower_key.png"
+    },
     "deadline": {
       "id": "deadline",
       "name": "Deadline",
@@ -2638,12 +1620,54 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/deadline.png"
     },
+    "familiar_duck": {
+      "id": "familiar_duck",
+      "name": "Familiar Duck",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/familiar_duck.png"
+    },
+    "hullcracker_i": {
+      "id": "hullcracker_i",
+      "name": "Hullcracker I",
+      "rarity": "Epic",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/hullcracker_i.png"
+    },
     "hullcracker_iii": {
       "id": "hullcracker_iii",
       "name": "Hullcracker III",
       "rarity": "Epic",
       "category": "Weapon",
       "image": "https://cdn.arctracker.io/items/v2/hullcracker_iii.png"
+    },
+    "hullcracker_iv": {
+      "id": "hullcracker_iv",
+      "name": "Hullcracker IV",
+      "rarity": "Epic",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/hullcracker_iv.png"
+    },
+    "ion_sputter": {
+      "id": "ion_sputter",
+      "name": "Ion Sputter",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ion_sputter.png"
+    },
+    "leaper_pulse_unit": {
+      "id": "leaper_pulse_unit",
+      "name": "Leaper Pulse Unit",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/leaper_pulse_unit.png"
+    },
+    "magnetic_accelerator": {
+      "id": "magnetic_accelerator",
+      "name": "Magnetic Accelerator",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/magnetic_accelerator.png"
     },
     "magnetron": {
       "id": "magnetron",
@@ -2659,12 +1683,33 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/photoelectric_cloak.png"
     },
+    "power_rod": {
+      "id": "power_rod",
+      "name": "Power Rod",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/power_rod.png"
+    },
+    "powered_descender": {
+      "id": "powered_descender",
+      "name": "Powered Descender",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/powered_descender.png"
+    },
     "tempest_iv": {
       "id": "tempest_iv",
       "name": "Tempest IV",
       "rarity": "Epic",
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/tempest_iv.png"
+    },
+    "vaporizer_regulator": {
+      "id": "vaporizer_regulator",
+      "name": "Vaporizer Regulator",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/vaporizer_regulator.png"
     },
     "vita_spray": {
       "id": "vita_spray",
@@ -2673,19 +1718,47 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/vita_spray.png"
     },
-    "vulcano_iv": {
-      "id": "vulcano_iv",
-      "name": "Vulcano IV",
-      "rarity": "Epic",
-      "category": "Weapon",
-      "image": "https://cdn.arctracker.io/items/v2/vulcano_iv.png"
-    },
     "wolfpack": {
       "id": "wolfpack",
       "name": "Wolfpack",
       "rarity": "Epic",
       "category": "Throwable",
       "image": "https://cdn.arctracker.io/items/v2/wolfpack.png"
+    },
+    "advanced_mechanical_components": {
+      "id": "advanced_mechanical_components",
+      "name": "Advanced Mechanical Components",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/advanced_mechanical_components.png"
+    },
+    "antiseptic": {
+      "id": "antiseptic",
+      "name": "Antiseptic",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/antiseptic.png"
+    },
+    "arc_circuitry": {
+      "id": "arc_circuitry",
+      "name": "ARC Circuitry",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_circuitry.png"
+    },
+    "arc_flex_rubber": {
+      "id": "arc_flex_rubber",
+      "name": "ARC Flex Rubber",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_flex_rubber.png"
+    },
+    "arc_motion_core": {
+      "id": "arc_motion_core",
+      "name": "ARC Motion Core",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_motion_core.png"
     },
     "blue_gate_communication_tower_key": {
       "id": "blue_gate_communication_tower_key",
@@ -2708,6 +1781,69 @@
       "category": "Key",
       "image": "https://cdn.arctracker.io/items/v2/dam_testing_annex_key.png"
     },
+    "defibrillator": {
+      "id": "defibrillator",
+      "name": "Defibrillator",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/defibrillator.png"
+    },
+    "explosive_compound": {
+      "id": "explosive_compound",
+      "name": "Explosive Compound",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/explosive_compound.png"
+    },
+    "fireworks_box": {
+      "id": "fireworks_box",
+      "name": "Fireworks Box",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/fireworks_box.png"
+    },
+    "heavy_gun_parts": {
+      "id": "heavy_gun_parts",
+      "name": "Heavy Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/heavy_gun_parts.png"
+    },
+    "launcher_ammo": {
+      "id": "launcher_ammo",
+      "name": "Launcher Ammo",
+      "rarity": "Rare",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/launcher_ammo.png"
+    },
+    "light_gun_parts": {
+      "id": "light_gun_parts",
+      "name": "Light Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/light_gun_parts.png"
+    },
+    "looting_mk2": {
+      "id": "looting_mk2",
+      "name": "Looting Mk. 2",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk2.png"
+    },
+    "medium_gun_parts": {
+      "id": "medium_gun_parts",
+      "name": "Medium Gun Parts",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/medium_gun_parts.png"
+    },
+    "medium_shield": {
+      "id": "medium_shield",
+      "name": "Medium Shield",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/medium_shield.png"
+    },
     "osprey_ii": {
       "id": "osprey_ii",
       "name": "Osprey II",
@@ -2729,6 +1865,27 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/osprey_iv.png"
     },
+    "processor": {
+      "id": "processor",
+      "name": "Processor",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/processor.png"
+    },
+    "raider_hatch_key": {
+      "id": "raider_hatch_key",
+      "name": "Raider Hatch Key",
+      "rarity": "Rare",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/raider_hatch_key.png"
+    },
+    "renegade_i": {
+      "id": "renegade_i",
+      "name": "Renegade I",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/renegade_i.png"
+    },
     "renegade_iv": {
       "id": "renegade_iv",
       "name": "Renegade IV",
@@ -2736,33 +1893,61 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/renegade_iv.png"
     },
-    "silencer_ii": {
-      "id": "silencer_ii",
-      "name": "Silencer II",
+    "rope": {
+      "id": "rope",
+      "name": "Rope",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rope.png"
+    },
+    "rotary_encoder": {
+      "id": "rotary_encoder",
+      "name": "Rotary Encoder",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rotary_encoder.png"
+    },
+    "rusted_shut_medical_kit": {
+      "id": "rusted_shut_medical_kit",
+      "name": "Rusted Shut Medical Kit",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rusted_shut_medical_kit.png"
+    },
+    "sensors": {
+      "id": "sensors",
+      "name": "Sensors",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/sensors.png"
+    },
+    "sentinel_firing_core": {
+      "id": "sentinel_firing_core",
+      "name": "Sentinel Firing Core",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/sentinel_firing_core.png"
+    },
+    "smoke_grenade": {
+      "id": "smoke_grenade",
+      "name": "Smoke Grenade",
+      "rarity": "Rare",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/smoke_grenade.png"
+    },
+    "stable_stock_iii": {
+      "id": "stable_stock_iii",
+      "name": "Stable Stock III",
       "rarity": "Rare",
       "category": "Weapon Mod",
-      "image": "https://cdn.arctracker.io/items/v2/silencer_ii.png"
+      "image": "https://cdn.arctracker.io/items/v2/stable_stock_iii.png"
     },
-    "spaceport_container_storage_key": {
-      "id": "spaceport_container_storage_key",
-      "name": "Spaceport Container Storage Key",
+    "sterilized_bandage": {
+      "id": "sterilized_bandage",
+      "name": "Sterilized Bandage",
       "rarity": "Rare",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/spaceport_container_storage_key.png"
-    },
-    "spaceport_control_tower_key": {
-      "id": "spaceport_control_tower_key",
-      "name": "Spaceport Control Tower Key",
-      "rarity": "Rare",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/spaceport_control_tower_key.png"
-    },
-    "stella_montis_security_checkpoint_key": {
-      "id": "stella_montis_security_checkpoint_key",
-      "name": "Stella Montis Security Checkpoint Key",
-      "rarity": "Rare",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/stella_montis_security_checkpoint_key.png"
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/sterilized_bandage.png"
     },
     "surveyor_vault": {
       "id": "surveyor_vault",
@@ -2778,6 +1963,13 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/torrente_ii.png"
     },
+    "torrente_iii": {
+      "id": "torrente_iii",
+      "name": "Torrente III",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/torrente_iii.png"
+    },
     "trailblazer": {
       "id": "trailblazer",
       "name": "Trailblazer",
@@ -2785,12 +1977,54 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/trailblazer.png"
     },
+    "zipline": {
+      "id": "zipline",
+      "name": "Zipline",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/zipline.png"
+    },
+    "anvil_iii": {
+      "id": "anvil_iii",
+      "name": "Anvil III",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_iii.png"
+    },
+    "anvil_iv": {
+      "id": "anvil_iv",
+      "name": "Anvil IV",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_iv.png"
+    },
+    "arc_alloy": {
+      "id": "arc_alloy",
+      "name": "ARC Alloy",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_alloy.png"
+    },
+    "battery": {
+      "id": "battery",
+      "name": "Battery",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/battery.png"
+    },
     "burletta_ii": {
       "id": "burletta_ii",
       "name": "Burletta II",
       "rarity": "Uncommon",
       "category": "Weapon",
       "image": "https://cdn.arctracker.io/items/v2/burletta_ii.png"
+    },
+    "crude_explosives": {
+      "id": "crude_explosives",
+      "name": "Crude Explosives",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/crude_explosives.png"
     },
     "dam_staff_room_key": {
       "id": "dam_staff_room_key",
@@ -2806,12 +2040,68 @@
       "category": "Key",
       "image": "https://cdn.arctracker.io/items/v2/dam_surveillance_key.png"
     },
-    "flame_spray": {
-      "id": "flame_spray",
-      "name": "Flame Spray",
+    "dockmasters_detector": {
+      "id": "dockmasters_detector",
+      "name": "Dockmaster's Detector",
       "rarity": "Uncommon",
       "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/flame_spray.png"
+      "image": "https://cdn.arctracker.io/items/v2/dockmasters_detector.png"
+    },
+    "durable_cloth": {
+      "id": "durable_cloth",
+      "name": "Durable Cloth",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/durable_cloth.png"
+    },
+    "electrical_components": {
+      "id": "electrical_components",
+      "name": "Electrical Components",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/electrical_components.png"
+    },
+    "fireball_burner": {
+      "id": "fireball_burner",
+      "name": "Fireball Burner",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/fireball_burner.png"
+    },
+    "light_shield": {
+      "id": "light_shield",
+      "name": "Light Shield",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/light_shield.png"
+    },
+    "looting_mk1": {
+      "id": "looting_mk1",
+      "name": "Looting Mk. 1",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk1.png"
+    },
+    "magnet": {
+      "id": "magnet",
+      "name": "Magnet",
+      "rarity": "Uncommon",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/magnet.png"
+    },
+    "mechanical_components": {
+      "id": "mechanical_components",
+      "name": "Mechanical Components",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/mechanical_components.png"
+    },
+    "oil": {
+      "id": "oil",
+      "name": "Oil",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/oil.png"
     },
     "patrol_car_key": {
       "id": "patrol_car_key",
@@ -2820,6 +2110,20 @@
       "category": "Key",
       "image": "https://cdn.arctracker.io/items/v2/patrol_car_key.png"
     },
+    "recorder": {
+      "id": "recorder",
+      "name": "Recorder",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/recorder.png"
+    },
+    "seeker_grenade": {
+      "id": "seeker_grenade",
+      "name": "Seeker Grenade",
+      "rarity": "Uncommon",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/seeker_grenade.png"
+    },
     "shaker": {
       "id": "shaker",
       "name": "Shaker",
@@ -2827,19 +2131,33 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/shaker.png"
     },
-    "spaceport_trench_tower_key": {
-      "id": "spaceport_trench_tower_key",
-      "name": "Spaceport Trench Tower Key",
+    "shield_recharger": {
+      "id": "shield_recharger",
+      "name": "Shield Recharger",
       "rarity": "Uncommon",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/spaceport_trench_tower_key.png"
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/shield_recharger.png"
     },
-    "stella_montis_assembly_admin_key": {
-      "id": "stella_montis_assembly_admin_key",
-      "name": "Stella Montis Assembly Admin Key",
+    "silencer_i": {
+      "id": "silencer_i",
+      "name": "Silencer I",
       "rarity": "Uncommon",
-      "category": "Key",
-      "image": "https://cdn.arctracker.io/items/v2/stella_montis_assembly_admin_key.png"
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/silencer_i.png"
+    },
+    "simple_gun_parts": {
+      "id": "simple_gun_parts",
+      "name": "Simple Gun Parts",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/simple_gun_parts.png"
+    },
+    "stable_stock_ii": {
+      "id": "stable_stock_ii",
+      "name": "Stable Stock II",
+      "rarity": "Uncommon",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/stable_stock_ii.png"
     },
     "white_flag": {
       "id": "white_flag",
@@ -2848,19 +2166,82 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/white_flag.png"
     },
-    "heavy_gun_parts_blueprint": {
-      "id": "heavy_gun_parts_blueprint",
-      "name": "Heavy Gun Parts Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/heavy_gun_parts_blueprint.png"
+    "wires": {
+      "id": "wires",
+      "name": "Wires",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/wires.png"
     },
-    "prickly_pear": {
-      "id": "prickly_pear",
-      "name": "Prickly Pear",
+    "adrenaline_shot": {
+      "id": "adrenaline_shot",
+      "name": "Adrenaline Shot",
       "rarity": "Common",
       "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/prickly_pear.png"
+      "image": "https://cdn.arctracker.io/items/v2/adrenaline_shot.png"
+    },
+    "aphelion_blueprint": {
+      "id": "aphelion_blueprint",
+      "name": "Aphelion Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/aphelion_blueprint.png"
+    },
+    "assorted_seeds": {
+      "id": "assorted_seeds",
+      "name": "Assorted Seeds",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/assorted_seeds.png"
+    },
+    "chemicals": {
+      "id": "chemicals",
+      "name": "Chemicals",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/chemicals.png"
+    },
+    "deadline_blueprint": {
+      "id": "deadline_blueprint",
+      "name": "Deadline Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/deadline_blueprint.png"
+    },
+    "equalizer_blueprint": {
+      "id": "equalizer_blueprint",
+      "name": "Equalizer Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/equalizer_blueprint.png"
+    },
+    "fabric": {
+      "id": "fabric",
+      "name": "Fabric",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/fabric.png"
+    },
+    "ferro_iv": {
+      "id": "ferro_iv",
+      "name": "Ferro IV",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ferro_iv.png"
+    },
+    "metal_parts": {
+      "id": "metal_parts",
+      "name": "Metal Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/metal_parts.png"
+    },
+    "plastic_parts": {
+      "id": "plastic_parts",
+      "name": "Plastic Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/plastic_parts.png"
     },
     "rattler_i": {
       "id": "rattler_i",
@@ -2869,13 +2250,6 @@
       "category": "Other",
       "image": "https://cdn.arctracker.io/items/v2/rattler_i.png"
     },
-    "rattler_ii": {
-      "id": "rattler_ii",
-      "name": "Rattler II",
-      "rarity": "Common",
-      "category": "Other",
-      "image": "https://cdn.arctracker.io/items/v2/rattler_ii.png"
-    },
     "riven_tides_hotel_keycard_no_107": {
       "id": "riven_tides_hotel_keycard_no_107",
       "name": "Riven Tides Hotel Keycard No. 107",
@@ -2883,19 +2257,516 @@
       "category": "Key",
       "image": "https://cdn.arctracker.io/items/v2/riven_tides_hotel_keycard_no_107.png"
     },
-    "seeker_grenade_blueprint": {
-      "id": "seeker_grenade_blueprint",
-      "name": "Seeker Grenade Blueprint",
-      "rarity": "Unknown",
-      "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/seeker_grenade_blueprint.png"
+    "rubber_parts": {
+      "id": "rubber_parts",
+      "name": "Rubber Parts",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rubber_parts.png"
     },
-    "torrente_blueprint": {
-      "id": "torrente_blueprint",
-      "name": "Torrente Blueprint",
+    "trigger_nade_blueprint": {
+      "id": "trigger_nade_blueprint",
+      "name": "Trigger Nade Blueprint",
       "rarity": "Unknown",
       "category": "Blueprint",
-      "image": "https://cdn.arctracker.io/items/v2/torrente_blueprint.png"
+      "image": "https://cdn.arctracker.io/items/v2/trigger_nade_blueprint.png"
+    },
+    "complex_gun_parts": {
+      "id": "complex_gun_parts",
+      "name": "Complex Gun Parts",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/complex_gun_parts.png"
+    },
+    "lightweight_stock": {
+      "id": "lightweight_stock",
+      "name": "Lightweight Stock",
+      "rarity": "Epic",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/lightweight_stock.png"
+    },
+    "rocketeer_driver": {
+      "id": "rocketeer_driver",
+      "name": "Rocketeer Driver",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rocketeer_driver.png"
+    },
+    "turbine_compressor": {
+      "id": "turbine_compressor",
+      "name": "Turbine Compressor",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/turbine_compressor.png"
+    },
+    "velocity_ship_model": {
+      "id": "velocity_ship_model",
+      "name": "\"Velocity\" Ship Model",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/velocity_ship_model.png"
+    },
+    "advanced_arc_powercell": {
+      "id": "advanced_arc_powercell",
+      "name": "Advanced ARC Powercell",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/advanced_arc_powercell.png"
+    },
+    "advanced_electrical_components": {
+      "id": "advanced_electrical_components",
+      "name": "Advanced Electrical Components",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/advanced_electrical_components.png"
+    },
+    "arc_synthetic_resin": {
+      "id": "arc_synthetic_resin",
+      "name": "ARC Synthetic Resin",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_synthetic_resin.png"
+    },
+    "arc_thermo_lining": {
+      "id": "arc_thermo_lining",
+      "name": "ARC Thermo Lining",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_thermo_lining.png"
+    },
+    "extended_medium_mag_iii": {
+      "id": "extended_medium_mag_iii",
+      "name": "Extended Medium Mag III",
+      "rarity": "Rare",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_medium_mag_iii.png"
+    },
+    "hornet_driver": {
+      "id": "hornet_driver",
+      "name": "Hornet Driver",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/hornet_driver.png"
+    },
+    "moss": {
+      "id": "moss",
+      "name": "Moss",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/moss.png"
+    },
+    "motor": {
+      "id": "motor",
+      "name": "Motor",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/motor.png"
+    },
+    "rusted_tools": {
+      "id": "rusted_tools",
+      "name": "Rusted Tools",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rusted_tools.png"
+    },
+    "shredder_gyro": {
+      "id": "shredder_gyro",
+      "name": "Shredder Gyro",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/shredder_gyro.png"
+    },
+    "surge_shield_recharger": {
+      "id": "surge_shield_recharger",
+      "name": "Surge Shield Recharger",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/surge_shield_recharger.png"
+    },
+    "synthesized_fuel": {
+      "id": "synthesized_fuel",
+      "name": "Synthesized Fuel",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/synthesized_fuel.png"
+    },
+    "syringe": {
+      "id": "syringe",
+      "name": "Syringe",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/syringe.png"
+    },
+    "wasp_driver": {
+      "id": "wasp_driver",
+      "name": "Wasp Driver",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/wasp_driver.png"
+    },
+    "water_filter": {
+      "id": "water_filter",
+      "name": "Water Filter",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/water_filter.png"
+    },
+    "anvil_i": {
+      "id": "anvil_i",
+      "name": "Anvil I",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/anvil_i.png"
+    },
+    "apricot": {
+      "id": "apricot",
+      "name": "Apricot",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/apricot.png"
+    },
+    "barricade_kit": {
+      "id": "barricade_kit",
+      "name": "Barricade Kit",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/barricade_kit.png"
+    },
+    "burletta_i": {
+      "id": "burletta_i",
+      "name": "Burletta I",
+      "rarity": "Uncommon",
+      "category": "Weapon",
+      "image": "https://cdn.arctracker.io/items/v2/burletta_i.png"
+    },
+    "canister": {
+      "id": "canister",
+      "name": "Canister",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/canister.png"
+    },
+    "cat_bed": {
+      "id": "cat_bed",
+      "name": "Cat Bed",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/cat_bed.png"
+    },
+    "duct_tape": {
+      "id": "duct_tape",
+      "name": "Duct Tape",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/duct_tape.png"
+    },
+    "great_mullein": {
+      "id": "great_mullein",
+      "name": "Great Mullein",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/great_mullein.png"
+    },
+    "herbal_bandage": {
+      "id": "herbal_bandage",
+      "name": "Herbal Bandage",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/herbal_bandage.png"
+    },
+    "lemon": {
+      "id": "lemon",
+      "name": "Lemon",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/lemon.png"
+    },
+    "muzzle_brake_ii": {
+      "id": "muzzle_brake_ii",
+      "name": "Muzzle Brake II",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/muzzle_brake_ii.png"
+    },
+    "olives": {
+      "id": "olives",
+      "name": "Olives",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/olives.png"
+    },
+    "shrapnel_grenade": {
+      "id": "shrapnel_grenade",
+      "name": "Shrapnel Grenade",
+      "rarity": "Uncommon",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/shrapnel_grenade.png"
+    },
+    "spotter_relay": {
+      "id": "spotter_relay",
+      "name": "Spotter Relay",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/spotter_relay.png"
+    },
+    "steel_spring": {
+      "id": "steel_spring",
+      "name": "Steel Spring",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/steel_spring.png"
+    },
+    "arc_powercell": {
+      "id": "arc_powercell",
+      "name": "ARC Powercell",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_powercell.png"
+    },
+    "bandage": {
+      "id": "bandage",
+      "name": "Bandage",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bandage.png"
+    },
+    "extended_light_mag_i": {
+      "id": "extended_light_mag_i",
+      "name": "Extended Light Mag I",
+      "rarity": "Common",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_light_mag_i.png"
+    },
+    "ferro_i": {
+      "id": "ferro_i",
+      "name": "Ferro I",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ferro_i.png"
+    },
+    "firecracker": {
+      "id": "firecracker",
+      "name": "Firecracker",
+      "rarity": "Common",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/firecracker.png"
+    },
+    "heavy_ammo": {
+      "id": "heavy_ammo",
+      "name": "Heavy Ammo",
+      "rarity": "Common",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/heavy_ammo.png"
+    },
+    "lil_smoke_grenade": {
+      "id": "lil_smoke_grenade",
+      "name": "Li'l Smoke Grenade",
+      "rarity": "Common",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/lil_smoke_grenade.png"
+    },
+    "light_ammo": {
+      "id": "light_ammo",
+      "name": "Light Ammo",
+      "rarity": "Common",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/light_ammo.png"
+    },
+    "medium_ammo": {
+      "id": "medium_ammo",
+      "name": "Medium Ammo",
+      "rarity": "Common",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/medium_ammo.png"
+    },
+    "prickly_pear": {
+      "id": "prickly_pear",
+      "name": "Prickly Pear",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/prickly_pear.png"
+    },
+    "rattler_iii": {
+      "id": "rattler_iii",
+      "name": "Rattler III",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rattler_iii.png"
+    },
+    "red_light_stick": {
+      "id": "red_light_stick",
+      "name": "Red Light Stick",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/red_light_stick.png"
+    },
+    "stitcher_iv": {
+      "id": "stitcher_iv",
+      "name": "Stitcher IV",
+      "rarity": "Common",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/stitcher_iv.png"
+    },
+    "bicycle_pump": {
+      "id": "bicycle_pump",
+      "name": "Bicycle Pump",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bicycle_pump.png"
+    },
+    "blaze_grenade": {
+      "id": "blaze_grenade",
+      "name": "Blaze Grenade",
+      "rarity": "Rare",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/blaze_grenade.png"
+    },
+    "canto_i": {
+      "id": "canto_i",
+      "name": "Canto I",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/canto_i.png"
+    },
+    "dog_collar": {
+      "id": "dog_collar",
+      "name": "Dog Collar",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/dog_collar.png"
+    },
+    "osprey_i": {
+      "id": "osprey_i",
+      "name": "Osprey I",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/osprey_i.png"
+    },
+    "trigger_nade": {
+      "id": "trigger_nade",
+      "name": "Trigger 'Nade",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/trigger_nade.png"
+    },
+    "vita_shot": {
+      "id": "vita_shot",
+      "name": "Vita Shot",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/vita_shot.png"
+    },
+    "twilight_compass_ship_model": {
+      "id": "twilight_compass_ship_model",
+      "name": "\"Twilight Compass\" Ship Model",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/twilight_compass_ship_model.png"
+    },
+    "il_toro_i": {
+      "id": "il_toro_i",
+      "name": "Il Toro I",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/il_toro_i.png"
+    },
+    "light_bulb": {
+      "id": "light_bulb",
+      "name": "Light Bulb",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/light_bulb.png"
+    },
+    "ruined_baton": {
+      "id": "ruined_baton",
+      "name": "Ruined Baton",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/ruined_baton.png"
+    },
+    "rusted_bolts": {
+      "id": "rusted_bolts",
+      "name": "Rusted Bolts",
+      "rarity": "Uncommon",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rusted_bolts.png"
+    },
+    "snap_blast_grenade": {
+      "id": "snap_blast_grenade",
+      "name": "Snap Blast Grenade",
+      "rarity": "Uncommon",
+      "category": "Throwable",
+      "image": "https://cdn.arctracker.io/items/v2/snap_blast_grenade.png"
+    },
+    "extended_shotgun_mag_i": {
+      "id": "extended_shotgun_mag_i",
+      "name": "Extended Shotgun Mag I",
+      "rarity": "Common",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_shotgun_mag_i.png"
+    },
+    "shotgun_ammo": {
+      "id": "shotgun_ammo",
+      "name": "Shotgun Ammo",
+      "rarity": "Common",
+      "category": "Ammunition",
+      "image": "https://cdn.arctracker.io/items/v2/shotgun_ammo.png"
+    },
+    "queen_reactor": {
+      "id": "queen_reactor",
+      "name": "Queen Reactor",
+      "rarity": "Legendary",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/queen_reactor.png"
+    },
+    "bombardier_cell": {
+      "id": "bombardier_cell",
+      "name": "Bombardier Cell",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bombardier_cell.png"
+    },
+    "exodus_modules": {
+      "id": "exodus_modules",
+      "name": "Exodus Modules",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/exodus_modules.png"
+    },
+    "looting_mk3_safekeeper": {
+      "id": "looting_mk3_safekeeper",
+      "name": "Looting Mk. 3 (Safekeeper)",
+      "rarity": "Epic",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/looting_mk3_safekeeper.png"
+    },
+    "arc_performance_steel": {
+      "id": "arc_performance_steel",
+      "name": "ARC Performance Steel",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/arc_performance_steel.png"
+    },
+    "industrial_battery": {
+      "id": "industrial_battery",
+      "name": "Industrial Battery",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/industrial_battery.png"
+    },
+    "mod_components": {
+      "id": "mod_components",
+      "name": "Mod Components",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/mod_components.png"
+    },
+    "toaster": {
+      "id": "toaster",
+      "name": "Toaster",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/toaster.png"
     }
   }
 }

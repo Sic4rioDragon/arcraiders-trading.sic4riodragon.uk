@@ -281,7 +281,7 @@ function renderLookingCard(item) {
     <article class="lf-card ${priorityClass(item.priority)}">
       <div class="resource-name">
         ${icon}
-        <strong>LF ${escapeHtml(item.name || meta.name)}</strong>
+        <strong>${escapeHtml(item.name || meta.name)}</strong>
       </div>
       ${high}
     </article>

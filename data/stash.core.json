@@ -385,7 +385,7 @@
       "id": "extended_light_mag_i",
       "name": "Extended Light Mag I",
       "rarity": "Common",
-      "category": "Other",
+      "category": "Weapon Mod",
       "image": "https://cdn.arctracker.io/items/v2/extended_light_mag_i.png"
     },
     "extended_medium_mag_ii_blueprint": {
@@ -2077,6 +2077,27 @@
       "rarity": "Unknown",
       "category": "Blueprint",
       "image": "https://cdn.arctracker.io/items/v2/torrente_blueprint.png"
+    },
+    "rotary_encoder": {
+      "id": "rotary_encoder",
+      "name": "Rotary Encoder",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/rotary_encoder.png"
+    },
+    "torrente_iii": {
+      "id": "torrente_iii",
+      "name": "Torrente III",
+      "rarity": "Rare",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/torrente_iii.png"
+    },
+    "equalizer_blueprint": {
+      "id": "equalizer_blueprint",
+      "name": "Equalizer Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/equalizer_blueprint.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"
