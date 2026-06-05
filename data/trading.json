@@ -52,44 +52,20 @@
       "category": "Rare ARC / high value"
     },
     {
-      "id": "turbine_compressor",
-      "name": "Turbine Compressor",
+      "id": "arc_motion_core",
+      "name": "ARC Motion Core",
       "priority": "high",
-      "category": "Rare parts"
+      "category": "Rare ARC / high value"
     },
     {
-      "id": "advanced_mechanical_components",
-      "name": "Advanced Mechanical Components",
+      "id": "geiger_counter",
+      "name": "Geiger Counter",
       "priority": "normal",
-      "category": "Advanced materials"
-    },
-    {
-      "id": "advanced_electrical_components",
-      "name": "Advanced Electrical Components",
-      "priority": "normal",
-      "category": "Advanced materials"
-    },
-    {
-      "id": "heavy_gun_parts",
-      "name": "Heavy Gun Parts",
-      "priority": "normal",
-      "category": "Gun parts"
-    },
-    {
-      "id": "simple_gun_parts",
-      "name": "Simple Gun Parts",
-      "priority": "normal",
-      "category": "Gun parts"
+      "category": "Rare ARC / high value"
     },
     {
       "id": "speaker_component",
       "name": "Speaker Component",
-      "priority": "normal",
-      "category": "Components"
-    },
-    {
-      "id": "sensors",
-      "name": "Sensors",
       "priority": "normal",
       "category": "Components"
     },
@@ -100,22 +76,238 @@
       "category": "Components"
     },
     {
+      "id": "steel_spring",
+      "name": "Steel Spring",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
+      "id": "prickly_pear",
+      "name": "Prickly Pear",
+      "priority": "normal",
+      "category": "Project / misc"
+    },
+    {
+      "id": "cat_bed",
+      "name": "Cat Bed",
+      "priority": "normal",
+      "category": "Project / misc"
+    },
+    {
+      "id": "pop_trigger",
+      "name": "Pop Trigger",
+      "priority": "normal",
+      "category": "ARC parts"
+    },
+    {
+      "id": "tick_pod",
+      "name": "Tick Pod",
+      "priority": "normal",
+      "category": "ARC parts"
+    },
+    {
+      "id": "surveyor_vault",
+      "name": "Surveyor Vault",
+      "priority": "normal",
+      "category": "ARC parts"
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "priority": "normal",
+      "category": "Components"
+    },
+    {
       "id": "arc_alloy",
       "name": "ARC Alloy",
       "priority": "normal",
       "category": "Materials"
     },
     {
-      "id": "explosive_compound",
-      "name": "Explosive Compound",
+      "id": "canto_blueprint",
+      "name": "Canto Blueprint",
       "priority": "normal",
-      "category": "Explosives"
+      "category": "Blueprints"
     },
     {
-      "id": "electrical_components",
-      "name": "Electrical Components",
+      "id": "dolabra_blueprint",
+      "name": "Dolabra Blueprint",
       "priority": "normal",
-      "category": "Basic materials"
+      "category": "Blueprints"
+    },
+    {
+      "id": "il_toro_blueprint",
+      "name": "Il Toro Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "venator_blueprint",
+      "name": "Venator Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "vulcano_blueprint",
+      "name": "Vulcano Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "angled_grip_ii_blueprint",
+      "name": "Angled Grip II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "angled_grip_iii_blueprint",
+      "name": "Angled Grip III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "compensator_ii_blueprint",
+      "name": "Compensator II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "compensator_iii_blueprint",
+      "name": "Compensator III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_barrel_ii_blueprint",
+      "name": "Extended Barrel II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_barrel_iii_blueprint",
+      "name": "Extended Barrel III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_light_mag_ii_blueprint",
+      "name": "Extended Light Mag II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_light_mag_iii_blueprint",
+      "name": "Extended Light Mag III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_medium_mag_iii_blueprint",
+      "name": "Extended Medium Mag III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_shotgun_mag_ii_blueprint",
+      "name": "Extended Shotgun Mag II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "extended_shotgun_mag_iii_blueprint",
+      "name": "Extended Shotgun Mag III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "lightweight_stock_blueprint",
+      "name": "Lightweight Stock Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "muzzle_brake_iii_blueprint",
+      "name": "Muzzle Brake III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "padded_stock_blueprint",
+      "name": "Padded Stock Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "shotgun_choke_ii_blueprint",
+      "name": "Shotgun Choke II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "shotgun_choke_iii_blueprint",
+      "name": "Shotgun Choke III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "silencer_i_blueprint",
+      "name": "Silencer I Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "stable_stock_ii_blueprint",
+      "name": "Stable Stock II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "stable_stock_iii_blueprint",
+      "name": "Stable Stock III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "vertical_grip_ii_blueprint",
+      "name": "Vertical Grip II Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "vertical_grip_iii_blueprint",
+      "name": "Vertical Grip III Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "blaze_grenade_blueprint",
+      "name": "Blaze Grenade Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "gas_mine_blueprint",
+      "name": "Gas Mine Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "jolt_mine_blueprint",
+      "name": "Jolt Mine Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "showstopper_blueprint",
+      "name": "Showstopper Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
+    },
+    {
+      "id": "vita_spray_blueprint",
+      "name": "Vita Spray Blueprint",
+      "priority": "normal",
+      "category": "Blueprints"
     }
   ],
   "manualHave": [

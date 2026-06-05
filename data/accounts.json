@@ -1,0 +1,9 @@
+{
+  "alts": {
+    "label": "Alts",
+    "title": "Alts Tracker",
+    "subtitle": "all alt accounts together",
+    "basePath": "/alts",
+    "hasAchievements": false
+  }
+}

@@ -2124,6 +2124,41 @@
       "rarity": "Unknown",
       "category": "Blueprint",
       "image": "https://cdn.arctracker.io/items/v2/equalizer_blueprint.png"
+    },
+    "extended_shotgun_mag_iii": {
+      "id": "extended_shotgun_mag_iii",
+      "name": "Extended Shotgun Mag III",
+      "rarity": "Unknown",
+      "category": "Weapon Mod",
+      "image": "https://cdn.arctracker.io/items/v2/extended_shotgun_mag_iii.png"
+    },
+    "bobcat_iii": {
+      "id": "bobcat_iii",
+      "name": "Bobcat III",
+      "rarity": "Unknown",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/bobcat_iii.png"
+    },
+    "stella_montis_archives_key": {
+      "id": "stella_montis_archives_key",
+      "name": "Stella Montis Archives Key",
+      "rarity": "Unknown",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/stella_montis_archives_key.png"
+    },
+    "dam_controlled_access_zone_key": {
+      "id": "dam_controlled_access_zone_key",
+      "name": "Dam Controlled Access Zone Key",
+      "rarity": "Unknown",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/dam_controlled_access_zone_key.png"
+    },
+    "spaceport_warehouse_key": {
+      "id": "spaceport_warehouse_key",
+      "name": "Spaceport Warehouse Key",
+      "rarity": "Unknown",
+      "category": "Key",
+      "image": "https://cdn.arctracker.io/items/v2/spaceport_warehouse_key.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"
