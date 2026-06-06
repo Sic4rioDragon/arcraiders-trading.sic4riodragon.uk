@@ -2140,6 +2140,27 @@
       "rarity": "Unknown",
       "category": "Key",
       "image": "https://cdn.arctracker.io/items/v2/spaceport_warehouse_key.png"
+    },
+    "geiger_counter": {
+      "id": "geiger_counter",
+      "name": "Geiger Counter",
+      "rarity": "Unknown",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/geiger_counter.png"
+    },
+    "expired_respirator": {
+      "id": "expired_respirator",
+      "name": "Expired Respirator",
+      "rarity": "Unknown",
+      "category": "Other",
+      "image": "https://cdn.arctracker.io/items/v2/expired_respirator.png"
+    },
+    "canto_blueprint": {
+      "id": "canto_blueprint",
+      "name": "Canto Blueprint",
+      "rarity": "Unknown",
+      "category": "Blueprint",
+      "image": "https://cdn.arctracker.io/items/v2/canto_blueprint.png"
     }
   },
   "weaponAmmoUpdatedAt": "2026-05-15T14:05:32.377676"
